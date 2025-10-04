@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigma Recharge - Sistema de Recarga de Créditos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            animation: slideUp 0.5s ease-out;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo h1 {
+            color: #667eea;
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
+
+        .logo p {
+            color: #888;
+            font-size: 14px;
+        }
+
+        .step {
+            display: none;
+        }
+
+        .step.active {
+            display: block;
+            animation: fadeIn 0.3s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            color: #333;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        input:focus, select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .error-message {
+            background: #fee;
+            color: #c33;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            display: none;
+        }
+
+        .error-message.show {
+            display: block;
+        }
+
+        .success-message {
+            background: #efe;
+            color: #3c3;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            display: none;
+        }
+
+        .success-message.show {
+            display: block;
+        }
+
+        .package-card {
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .package-card:hover {
+            border-color: #667eea;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+        }
+
+        .package-card.selected {
+            border-color: #667eea;
+            background: #f8f9ff;
+        }
+
+        .package-card h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .package-card .price {
+            font-size: 24px;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .package-card .unit-price {
+            font-size: 14px;
+            color: #888;
+        }
+
+        .qr-code-container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .qr-code-container img {
+            max-width: 300px;
+            width: 100%;
+            border: 3px solid #667eea;
+            border-radius: 10px;
+            padding: 10px;
+            background: white;
+        }
+
+        .pix-code {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            word-break: break-all;
+            font-family: monospace;
+            font-size: 12px;
+        }
+
+        .copy-button {
+            background: #4caf50;
+            margin-top: 10px;
+        }
+
+        .copy-button:hover {
+            background: #45a049;
+        }
+
+        .timer {
+            text-align: center;
+            font-size: 18px;
+            color: #667eea;
+            margin: 15px 0;
+            font-weight: 600;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .loading::after {
+            content: "⏳";
+            font-size: 48px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .admin-link {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .admin-link a {
+            color: #667eea;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .admin-link a:hover {
+            text-decoration: underline;
+        }
+
+        .info-box {
+            background: #f8f9ff;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .info-box strong {
+            color: #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>Sigma Recharge</h1>
+            <p>Sistema de Recarga de Créditos</p>
+        </div>
+
+        <div id="error" class="error-message"></div>
+        <div id="success" class="success-message"></div>
+
+        <!-- STEP 1: Verificação de Acesso -->
+        <div id="step1" class="step active">
+            <div class="form-group">
+                <label id="accessQuestion">Carregando...</label>
+                <input type="text" id="accessAnswer" placeholder="Digite a resposta">
+            </div>
+            <button onclick="verifyAccess()">Verificar Acesso</button>
+        </div>
+
+        <!-- STEP 2: Login do Revendedor -->
+        <div id="step2" class="step">
+            <div class="form-group">
+                <label>Username do Revendedor</label>
+                <input type="text" id="resellerUsername" placeholder="Digite seu username">
+            </div>
+            <button onclick="resellerLogin()">Entrar</button>
+            <button onclick="goToStep(1)" style="background: #ccc; margin-top: 10px;">Voltar</button>
+        </div>
+
+        <!-- STEP 3: Seleção de Pacote -->
+        <div id="step3" class="step">
+            <div class="info-box">
+                <strong>Bem-vindo, <span id="welcomeUsername"></span>!</strong><br>
+                Painel: <span id="welcomePanel"></span>
+            </div>
+
+            <label>Selecione o Pacote de Créditos:</label>
+            <div id="packagesList"></div>
+
+            <button onclick="proceedToPayment()" id="selectPackageBtn" disabled>Continuar para Pagamento</button>
+            <button onclick="goToDashboard()" style="background: #4caf50; margin-top: 10px;">Ver Dashboard</button>
+            <button onclick="logout()" style="background: #ccc; margin-top: 10px;">Sair</button>
+        </div>
+
+        <!-- STEP 4: Pagamento -->
+        <div id="step4" class="step">
+            <h2 style="text-align: center; color: #333; margin-bottom: 20px;">Pagamento PIX</h2>
+            
+            <div class="info-box">
+                <strong>Pacote:</strong> <span id="paymentCredits"></span> créditos<br>
+                <strong>Valor:</strong> R$ <span id="paymentAmount"></span>
+            </div>
+
+            <div class="qr-code-container">
+                <img id="qrCodeImage" src="" alt="QR Code PIX">
+                <div class="timer">Aguardando pagamento...</div>
+                <div id="paymentTimer" class="timer"></div>
+            </div>
+
+            <div class="pix-code">
+                <small>Código PIX Copia e Cola:</small><br>
+                <span id="pixCode"></span>
+            </div>
+
+            <button onclick="copyPixCode()" class="copy-button">Copiar Código PIX</button>
+            <button onclick="cancelPayment()" style="background: #f44336; margin-top: 10px;">Cancelar</button>
+        </div>
+
+        <!-- STEP 5: Pagamento Confirmado -->
+        <div id="step5" class="step">
+            <div style="text-align: center; padding: 40px 0;">
+                <div style="font-size: 72px; margin-bottom: 20px;">✅</div>
+                <h2 style="color: #4caf50; margin-bottom: 15px;">Pagamento Confirmado!</h2>
+                <p style="color: #666; margin-bottom: 30px;">
+                    Seus créditos foram adicionados com sucesso!
+                </p>
+                <button onclick="goToDashboard()">Ver Dashboard</button>
+                <button onclick="resetSystem()" style="background: #667eea; margin-top: 10px;">Nova Compra</button>
+            </div>
+        </div>
+
+        <!-- STEP 6: Dashboard -->
+        <div id="step6" class="step">
+            <h2 style="text-align: center; color: #333; margin-bottom: 20px;">Dashboard</h2>
+            
+            <div id="dashboardStats" style="margin-bottom: 30px;"></div>
+            
+            <h3 style="color: #333; margin-bottom: 15px;">Últimas Compras</h3>
+            <div id="dashboardPayments"></div>
+
+            <button onclick="goToStep(3)" style="margin-top: 20px;">Nova Compra</button>
+            <button onclick="logout()" style="background: #ccc; margin-top: 10px;">Sair</button>
+        </div>
+
+        <div class="admin-link">
+            <a href="/admin.html">Área Administrativa</a>
+        </div>
+    </div>
+
+    <script>
+        let currentReseller = null;
+        let selectedPackage = null;
+        let currentPayment = null;
+        let paymentCheckInterval = null;
+
+        // Carregar pergunta de acesso ao iniciar
+        window.onload = async () => {
+            try {
+                const response = await fetch('/api/public/access-question');
+                const data = await response.json();
+                document.getElementById('accessQuestion').textContent = data.question;
+            } catch (error) {
+                showError('Erro ao carregar configurações');
+            }
+        };
+
+        function showError(message) {
+            const errorDiv = document.getElementById('error');
+            errorDiv.textContent = message;
+            errorDiv.classList.add('show');
+            setTimeout(() => errorDiv.classList.remove('show'), 5000);
+        }
+
+        function showSuccess(message) {
+            const successDiv = document.getElementById('success');
+            successDiv.textContent = message;
+            successDiv.classList.add('show');
+            setTimeout(() => successDiv.classList.remove('show'), 5000);
+        }
+
+        function goToStep(step) {
+            document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
+            document.getElementById(`step${step}`).classList.add('active');
+        }
+
+        async function verifyAccess() {
+            const answer = document.getElementById('accessAnswer').value;
+            
+            if (!answer) {
+                showError('Digite a resposta');
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/public/verify-access', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ answer })
+                });
+
+                const data = await response.json();
+
+                if (data.valid) {
+                    goToStep(2);
+                } else {
+                    showError('Resposta incorreta');
+                }
+            } catch (error) {
+                showError('Erro ao verificar acesso');
+            }
+        }
+
+        async function resellerLogin() {
+            const username = document.getElementById('resellerUsername').value;
+            
+            if (!username) {
+                showError('Digite o username');
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/public/login', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username })
+                });
+
+                if (!response.ok) {
+                    showError('Revendedor não encontrado');
+                    return;
+                }
+
+                const data = await response.json();
+                currentReseller = data;
+
+                document.getElementById('welcomeUsername').textContent = data.username;
+                document.getElementById('welcomePanel').textContent = data.panel_name;
+
+                await loadPackages();
+                goToStep(3);
+
+            } catch (error) {
+                showError('Erro ao fazer login');
+            }
+        }
+
+        async function loadPackages() {
+            try {
+                const response = await fetch(`/api/public/packages/${currentReseller.id}`);
+                const packages = await response.json();
+
+                const container = document.getElementById('packagesList');
+                container.innerHTML = '';
+
+                if (packages.length === 0) {
+                    container.innerHTML = '<p style="text-align: center; color: #888;">Nenhum pacote disponível</p>';
+                    return;
+                }
+
+                packages.forEach(pkg => {
+                    const unitPrice = (pkg.price / pkg.credits).toFixed(2);
+                    const card = document.createElement('div');
+                    card.className = 'package-card';
+                    card.onclick = () => selectPackage(pkg, card);
+                    card.innerHTML = `
+                        <h3>${pkg.credits} Créditos</h3>
+                        <div class="price">R$ ${pkg.price.toFixed(2)}</div>
+                        <div class="unit-price">R$ ${unitPrice} por crédito</div>
+                    `;
+                    container.appendChild(card);
+                });
+
+            } catch (error) {
+                showError('Erro ao carregar pacotes');
+            }
+        }
+
+        function selectPackage(pkg, cardElement) {
+            document.querySelectorAll('.package-card').forEach(c => c.classList.remove('selected'));
+            cardElement.classList.add('selected');
+            selectedPackage = pkg;
+            document.getElementById('selectPackageBtn').disabled = false;
+        }
+
+        async function proceedToPayment() {
+            if (!selectedPackage) {
+                showError('Selecione um pacote');
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/public/create-payment', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        resellerId: currentReseller.id,
+                        packageId: selectedPackage.id
+                    })
+                });
+
+                if (!response.ok) {
+                    const error = await response.json();
+                    showError(error.error || 'Erro ao criar pagamento');
+                    return;
+                }
+
+                const payment = await response.json();
+                currentPayment = payment;
+
+                document.getElementById('paymentCredits').textContent = payment.credits;
+                document.getElementById('paymentAmount').textContent = payment.amount.toFixed(2);
+                document.getElementById('qrCodeImage').src = `data:image/png;base64,${payment.qr_code_base64}`;
+                document.getElementById('pixCode').textContent = payment.qr_code;
+
+                goToStep(4);
+                startPaymentCheck();
+
+            } catch (error) {
+                showError('Erro ao criar pagamento');
+            }
+        }
+
+        function startPaymentCheck() {
+            if (paymentCheckInterval) {
+                clearInterval(paymentCheckInterval);
+            }
+
+            paymentCheckInterval = setInterval(async () => {
+                try {
+                    const response = await fetch(`/api/public/payment-status/${currentPayment.payment_id}`);
+                    const data = await response.json();
+
+                    if (data.status === 'paid') {
+                        clearInterval(paymentCheckInterval);
+                        goToStep(5);
+                    } else if (data.status === 'expired') {
+                        clearInterval(paymentCheckInterval);
+                        showError('Pagamento expirado');
+                        goToStep(3);
+                    }
+                } catch (error) {
+                    console.error('Erro ao verificar pagamento:', error);
+                }
+            }, 10000); // 10 segundos
+        }
+
+        function copyPixCode() {
+            const code = document.getElementById('pixCode').textContent;
+            
+            // Tentar clipboard API primeiro
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(code).then(() => {
+                    showSuccess('Código copiado!');
+                }).catch(err => {
+                    // Fallback para método antigo
+                    fallbackCopyText(code);
+                });
+            } else {
+                // Fallback para método antigo
+                fallbackCopyText(code);
+            }
+        }
+
+        function fallbackCopyText(text) {
+            const textArea = document.createElement('textarea');
+            textArea.value = text;
+            textArea.style.position = 'fixed';
+            textArea.style.left = '-999999px';
+            document.body.appendChild(textArea);
+            textArea.select();
+            
+            try {
+                document.execCommand('copy');
+                showSuccess('Código copiado!');
+            } catch (err) {
+                showError('Erro ao copiar. Copie manualmente.');
+            }
+            
+            document.body.removeChild(textArea);
+        }
+
+        function cancelPayment() {
+            if (paymentCheckInterval) {
+                clearInterval(paymentCheckInterval);
+            }
+            goToStep(3);
+        }
+
+        async function goToDashboard() {
+            try {
+                const response = await fetch(`/api/public/dashboard/${currentReseller.id}`);
+                const data = await response.json();
+
+                // Estatísticas
+                const statsHtml = `
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
+                        <div style="background: #f8f9ff; padding: 20px; border-radius: 10px; text-align: center;">
+                            <div style="font-size: 32px; color: #667eea; font-weight: bold;">${data.stats.total_credits || 0}</div>
+                            <div style="color: #888; margin-top: 5px;">Créditos Comprados</div>
+                        </div>
+                        <div style="background: #f8f9ff; padding: 20px; border-radius: 10px; text-align: center;">
+                            <div style="font-size: 32px; color: #4caf50; font-weight: bold;">R$ ${(data.stats.total_spent || 0).toFixed(2)}</div>
+                            <div style="color: #888; margin-top: 5px;">Total Gasto</div>
+                        </div>
+                    </div>
+                `;
+                document.getElementById('dashboardStats').innerHTML = statsHtml;
+
+                // Pagamentos
+                const paymentsContainer = document.getElementById('dashboardPayments');
+                paymentsContainer.innerHTML = '';
+
+                if (data.payments.length === 0) {
+                    paymentsContainer.innerHTML = '<p style="text-align: center; color: #888;">Nenhuma compra realizada</p>';
+                } else {
+                    data.payments.forEach(payment => {
+                        const date = new Date(payment.created_at).toLocaleString('pt-BR');
+                        const statusColor = payment.status === 'paid' ? '#4caf50' : payment.status === 'pending' ? '#ff9800' : '#f44336';
+                        const statusText = payment.status === 'paid' ? 'Pago' : payment.status === 'pending' ? 'Pendente' : 'Expirado';
+                        
+                        const paymentCard = document.createElement('div');
+                        paymentCard.style.cssText = 'background: #f8f9ff; padding: 15px; border-radius: 8px; margin-bottom: 10px;';
+                        paymentCard.innerHTML = `
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <div>
+                                    <strong>${payment.credits} créditos</strong><br>
+                                    <small style="color: #888;">${date}</small>
+                                </div>
+                                <div style="text-align: right;">
+                                    <div style="color: ${statusColor}; font-weight: bold;">${statusText}</div>
+                                    <div>R$ ${payment.amount.toFixed(2)}</div>
+                                    ${payment.status === 'pending' ? `
+                                        <button onclick="checkPaymentManually(${payment.id})" style="margin-top: 5px; padding: 5px 10px; font-size: 12px; background: #4caf50;">
+                                            Verificar Pagamento
+                                        </button>
+                                    ` : ''}
+                                </div>
+                            </div>
+                        `;
+                        paymentsContainer.appendChild(paymentCard);
+                    });
+                }
+
+                goToStep(6);
+
+            } catch (error) {
+                showError('Erro ao carregar dashboard');
+            }
+        }
+
+        function logout() {
+            currentReseller = null;
+            selectedPackage = null;
+            currentPayment = null;
+            if (paymentCheckInterval) {
+                clearInterval(paymentCheckInterval);
+            }
+            goToStep(1);
+        }
+
+        function resetSystem() {
+            selectedPackage = null;
+            currentPayment = null;
+            if (paymentCheckInterval) {
+                clearInterval(paymentCheckInterval);
+            }
+            goToStep(3);
+        }
+
+        async function checkPaymentManually(paymentId) {
+            try {
+                const button = event.target;
+                button.disabled = true;
+                button.textContent = 'Verificando...';
+
+                const response = await fetch(`/api/public/check-payment/${paymentId}`, {
+                    method: 'POST'
+                });
+
+                const data = await response.json();
+
+                if (data.status === 'paid') {
+                    showSuccess(data.message);
+                    setTimeout(() => {
+                        goToDashboard();
+                    }, 2000);
+                } else {
+                    showError(data.message);
+                    button.disabled = false;
+                    button.textContent = 'Verificar Pagamento';
+                }
+
+            } catch (error) {
+                showError('Erro ao verificar pagamento');
+                event.target.disabled = false;
+                event.target.textContent = 'Verificar Pagamento';
+            }
+        }
+    </script>
+</body>
+</html>
