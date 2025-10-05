@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Sigma Recharge</title>
+    
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/admin.css">
+    <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+    <!-- Login -->
+    <div id="loginContainer" class="login-container">
+        <div class="login-box">
+            <h1>Admin Login</h1>
+            <div id="loginAlert"></div>
+            <div class="form-group">
+                <label>Usuário</label>
+                <input type="text" id="adminUsername" placeholder="Digite o usuário">
+            </div>
+            <div class="form-group">
+                <label>Senha</label>
+                <input type="password" id="adminPassword" placeholder="Digite a senha">
+            </div>
+            <button id="adminLoginBtn">Entrar</button>
+        </div>
+    </div>
+
+    <!-- Painel Admin -->
+    <div id="adminPanel" class="admin-panel">
+        <div class="header">
+            <div class="header-content">
+                <h1>🔄 Sigma Recharge - Admin (Sigma + Koffice)</h1>
+                <button class="logout-btn" id="adminLogoutBtn">Sair</button>
+            </div>
+        </div>
+
+        <div class="container" style="max-width: 1400px; margin: 30px auto; padding: 0 20px;">
+            <!-- Tabs -->
+            <div class="tabs" id="adminTabs">
+                <button class="tab active" data-tab="dashboard">Dashboard</button>
+                <button class="tab" data-tab="config">Configurações</button>
+                <button class="tab" data-tab="panels">Painéis Sigma</button>
+                <button class="tab" data-tab="resellers">Revendedores Sigma</button>
+                <button class="tab" data-tab="koffice-panels">🟣 Painéis Koffice</button>
+                <button class="tab" data-tab="koffice-resellers">🟣 Revendedores Koffice</button>
+                <button class="tab" data-tab="payments">Pagamentos</button>
+                <button class="tab" data-tab="transactions">Transações</button>
+            </div>
+
+            <!-- Dashboard -->
+            <div id="tabDashboard" class="tab-content active">
+                <div class="stats-grid" id="statsGrid"></div>
+                <div class="card">
+                    <h2>Últimas Transações</h2>
+                    <div id="recentTransactions"></div>
+                </div>
+            </div>
+
+            <!-- Configurações -->
+            <div id="tabConfig" class="tab-content">
+                <div class="card">
+                    <h2>Configurações do Sistema</h2>
+                    <div id="configForm">
+                        <div class="form-group">
+                            <label>Pergunta de Acesso</label>
+                            <input type="text" id="accessQuestion" placeholder="Ex: Com quantos paus se faz uma canoa?">
+                        </div>
+                        <div class="form-group">
+                            <label>Resposta de Acesso</label>
+                            <input type="text" id="accessAnswer" placeholder="Digite nova resposta (deixe vazio para não alterar)">
+                        </div>
+                        <div class="form-group">
+                            <label>Access Token Mercado Pago</label>
+                            <textarea id="mpAccessToken" rows="3" placeholder="Cole aqui seu Access Token"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>🔑 API Key Anti-Captcha (para painéis Koffice)</label>
+                            <input type="text" id="anticaptchaApiKey" placeholder="Cole aqui sua API Key do Anti-Captcha">
+                            <small style="color: #888; display: block; margin-top: 5px;">
+                                Necessário apenas para painéis Koffice com Captcha. 
+                                <a href="https://anti-captcha.com" target="_blank">Obter chave</a>
+                            </small>
+                        </div>
+                        <button id="saveConfigBtn">Salvar Configurações</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Painéis Sigma -->
+            <div id="tabPanels" class="tab-content">
+                <div class="card">
+                    <h2>
+                        Painéis Sigma
+                        <button class="btn-success" id="addPanelBtn">Adicionar Painel</button>
+                    </h2>
+                    <div class="table-container">
+                        <table id="panelsTable">
+                            <thead>
+                                <tr>
+                                    <th>Nome</th>
+                                    <th>URL</th>
+                                    <th>Usuário Admin</th>
+                                    <th>Status</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody id="panelsTableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Revendedores Sigma -->
+            <div id="tabResellers" class="tab-content">
+                <div class="card">
+                    <h2>
+                        Revendedores Sigma
+                        <button class="btn-success" id="addResellerBtn">Adicionar Revendedor</button>
+                    </h2>
+                    <table id="resellersTable">
+                        <thead>
+                            <tr>
+                                <th>Username</th>
+                                <th>Painel</th>
+                                <th>Pacotes</th>
+                                <th>Status</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody id="resellersTableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Painéis Koffice (NOVO) -->
+            <div id="tabKoffice-panels" class="tab-content">
+                <div class="card">
+                    <h2>
+                        🟣 Painéis Koffice
+                        <button class="btn-success" id="addKofficePanelBtn">Adicionar Painel Koffice</button>
+                    </h2>
+                    <table id="kofficePanelsTable">
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>URL</th>
+                                <th>Usuário Admin</th>
+                                <th>Captcha</th>
+                                <th>Status</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody id="kofficePanelsTableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Revendedores Koffice (NOVO) -->
+            <div id="tabKoffice-resellers" class="tab-content">
+                <div class="card">
+                    <h2>
+                        🟣 Revendedores Koffice
+                        <button class="btn-success" id="addKofficeResellerBtn">Adicionar Revendedor Koffice</button>
+                    </h2>
+                    <table id="kofficeResellersTable">
+                        <thead>
+                            <tr>
+                                <th>Username</th>
+                                <th>ID Koffice</th>
+                                <th>Painel</th>
+                                <th>Pacotes</th>
+                                <th>Status</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody id="kofficeResellersTableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Pagamentos -->
+            <div id="tabPayments" class="tab-content">
+                <div class="card">
+                    <h2>
+                        Gerenciar Pagamentos
+                        <button class="btn-danger" id="deleteAllPendingBtn">Excluir Todos Pendentes</button>
+                    </h2>
+                    <table id="paymentsTable">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Revendedor</th>
+                                <th>Tipo</th>
+                                <th>Créditos</th>
+                                <th>Valor</th>
+                                <th>Status</th>
+                                <th>Data</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody id="paymentsTableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Transações -->
+            <div id="tabTransactions" class="tab-content">
+                <div class="card">
+                    <h2>Histórico de Transações</h2>
+                    <table id="transactionsTable">
+                        <thead>
+                            <tr>
+                                <th>Data</th>
+                                <th>Revendedor</th>
+                                <th>Tipo</th>
+                                <th>Créditos</th>
+                                <th>Valor</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="transactionsTableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals -->
+    <div id="panelModal" class="modal"></div>
+    <div id="resellerModal" class="modal"></div>
+    <div id="packagesModal" class="modal"></div>
+    <div id="kofficePanelModal" class="modal"></div>
+    <div id="kofficeResellerModal" class="modal"></div>
+    <div id="kofficePackagesModal" class="modal"></div>
+
+    <!-- JS -->
+    <script src="/js/shared/utils.js"></script>
+    <script src="/js/shared/api.js"></script>
+    <script src="/js/shared/components.js"></script>
+    <script src="/js/admin/auth.js"></script>
+    <script src="/js/admin/dashboard.js"></script>
+    <script src="/js/admin/panels.js"></script>
+    <script src="/js/admin/resellers.js"></script>
+    <script src="/js/admin/packages.js"></script>
+    <script src="/js/admin/koffice-panels.js"></script>
+    <script src="/js/admin/koffice-resellers.js"></script>
+    <script src="/js/admin/koffice-packages.js"></script>
+    <script src="/js/admin/payments.js"></script>
+    <script src="/js/admin/app.js"></script>
+</body>
+</html>
