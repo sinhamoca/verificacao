@@ -1,0 +1,2829 @@
+2025-10-04T11:38:53: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-04T11:38:53: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-04T11:38:54: Criando/verificando tabelas...
+2025-10-04T11:38:54: Tabelas verificadas/criadas com sucesso!
+2025-10-04T11:38:54: 
+2025-10-04T11:38:54: ============================================================
+2025-10-04T11:38:54: SIGMA RECHARGE - SISTEMA DE VENDA DE CREDITOS
+2025-10-04T11:38:54: ============================================================
+2025-10-04T11:38:54: Servidor: http://localhost:3010
+2025-10-04T11:38:54: Porta: 3010
+2025-10-04T11:38:54: Banco: sigma_recharge.db
+2025-10-04T11:38:54: ============================================================
+2025-10-04T11:38:54: Admin padrao: admin / admin123
+2025-10-04T11:38:54: Senha acesso: eusouandroid2029
+2025-10-04T11:38:54: ============================================================
+2025-10-04T11:38:54: 
+2025-10-04T11:38:54: [Monitor] Iniciado - verificando pagamentos a cada 10 segundos
+2025-10-04T11:38:54: Conectado ao banco de dados SQLite
+2025-10-04T11:38:54: Configurações padrão criadas
+2025-10-04T11:38:54: Usuario admin criado: admin/admin123
+2025-10-04T11:39:04: [API] GET /public/access-question - 11:39:04 AM
+2025-10-04T11:39:17: [API] POST /admin/login - 11:39:17 AM
+2025-10-04T11:39:17: [API] GET /admin/stats - 11:39:17 AM
+2025-10-04T11:39:17: [API] GET /admin/transactions - 11:39:17 AM
+2025-10-04T11:39:22: [API] GET /admin/config - 11:39:22 AM
+2025-10-04T11:39:29: [API] GET /admin/panels - 11:39:29 AM
+2025-10-04T11:39:31: [API] GET /admin/resellers - 11:39:31 AM
+2025-10-04T11:39:32: [API] GET /admin/config - 11:39:32 AM
+2025-10-04T11:39:33: [API] GET /admin/stats - 11:39:33 AM
+2025-10-04T11:39:33: [API] GET /admin/transactions - 11:39:33 AM
+2025-10-04T12:45:52: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-04T12:45:52: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-04T12:45:52: Criando/verificando tabelas...
+2025-10-04T12:45:53: 
+2025-10-04T12:45:53: ============================================================
+2025-10-04T12:45:53: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-04T12:45:53: ============================================================
+2025-10-04T12:45:53: Servidor: http://localhost:3010
+2025-10-04T12:45:53: Porta: 3010
+2025-10-04T12:45:53: Versao: 2.0.0-modular
+2025-10-04T12:45:53: ============================================================
+2025-10-04T12:45:53: Estrutura:
+2025-10-04T12:45:53:   - models/Database.js
+2025-10-04T12:45:53:   - services/SigmaService.js
+2025-10-04T12:45:53:   - services/PaymentService.js
+2025-10-04T12:45:53:   - services/MonitorService.js
+2025-10-04T12:45:53:   - routes/public.js
+2025-10-04T12:45:53:   - routes/admin.js
+2025-10-04T12:45:53: ============================================================
+2025-10-04T12:45:53: 
+2025-10-04T12:45:53: [Monitor] Iniciado - verificando a cada 10s
+2025-10-04T12:45:53: Conectado ao banco de dados SQLite
+2025-10-04T12:46:10: [API] POST /admin/login - 12:46:10 PM
+2025-10-04T12:46:10: [API] GET /admin/stats - 12:46:10 PM
+2025-10-04T12:46:10: [API] GET /admin/transactions - 12:46:10 PM
+2025-10-04T12:46:15: [API] GET /admin/config - 12:46:15 PM
+2025-10-04T12:46:17: [API] GET /admin/panels - 12:46:17 PM
+2025-10-04T12:53:37: [API] GET /admin/stats - 12:53:37 PM
+2025-10-04T12:53:37: [API] GET /admin/transactions - 12:53:37 PM
+2025-10-04T12:53:38: [API] GET /admin/config - 12:53:38 PM
+2025-10-04T12:54:08: 
+2025-10-04T12:54:08: Encerrando servidor...
+2025-10-04T12:54:08: [Monitor] Parado
+2025-10-04T12:55:48: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-04T12:55:48: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-04T12:55:48: Criando/verificando tabelas...
+2025-10-04T12:55:48: 
+2025-10-04T12:55:48: ============================================================
+2025-10-04T12:55:48: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-04T12:55:48: ============================================================
+2025-10-04T12:55:48: Servidor: http://localhost:3010
+2025-10-04T12:55:48: Porta: 3010
+2025-10-04T12:55:48: Versao: 2.0.0-modular
+2025-10-04T12:55:48: ============================================================
+2025-10-04T12:55:48: Estrutura:
+2025-10-04T12:55:48:   - models/Database.js
+2025-10-04T12:55:48:   - services/SigmaService.js
+2025-10-04T12:55:48:   - services/PaymentService.js
+2025-10-04T12:55:48:   - services/MonitorService.js
+2025-10-04T12:55:48:   - routes/public.js
+2025-10-04T12:55:48:   - routes/admin.js
+2025-10-04T12:55:48: ============================================================
+2025-10-04T12:55:48: 
+2025-10-04T12:55:48: [Monitor] Iniciado - verificando a cada 10s
+2025-10-04T12:55:48: Conectado ao banco de dados SQLite
+2025-10-04T12:55:55: [API] POST /admin/login - 12:55:55 PM
+2025-10-04T12:55:55: [API] GET /admin/stats - 12:55:55 PM
+2025-10-04T12:55:55: [API] GET /admin/transactions - 12:55:55 PM
+2025-10-04T12:55:59: [API] GET /admin/config - 12:55:59 PM
+2025-10-04T12:56:07: [API] PUT /admin/config/access_question - 12:56:07 PM
+2025-10-04T12:56:07: [API] PUT /admin/config/mp_access_token - 12:56:07 PM
+2025-10-04T12:56:17: [API] POST /admin/login - 12:56:17 PM
+2025-10-04T12:56:17: [API] GET /admin/stats - 12:56:17 PM
+2025-10-04T12:56:17: [API] GET /admin/transactions - 12:56:17 PM
+2025-10-04T12:56:22: [API] GET /admin/config - 12:56:22 PM
+2025-10-04T12:56:24: [API] GET /admin/panels - 12:56:24 PM
+2025-10-04T12:57:12: [API] POST /admin/panels - 12:57:12 PM
+2025-10-04T12:57:12: [API] GET /admin/panels - 12:57:12 PM
+2025-10-04T12:57:16: [API] GET /admin/resellers - 12:57:16 PM
+2025-10-04T12:57:19: [API] GET /admin/panels - 12:57:19 PM
+2025-10-04T12:57:31: [API] POST /admin/resellers - 12:57:31 PM
+2025-10-04T12:57:31: [API] GET /admin/resellers - 12:57:31 PM
+2025-10-04T12:57:31: [API] GET /admin/packages/1 - 12:57:31 PM
+2025-10-04T12:57:35: [API] GET /admin/packages/1 - 12:57:35 PM
+2025-10-04T12:57:37: [API] POST /admin/packages - 12:57:37 PM
+2025-10-04T12:57:37: [API] GET /admin/packages/1 - 12:57:37 PM
+2025-10-04T12:57:42: [API] GET /public/access-question - 12:57:42 PM
+2025-10-04T12:57:46: [API] POST /public/verify-access - 12:57:46 PM
+2025-10-04T12:57:50: [API] POST /public/login - 12:57:50 PM
+2025-10-04T12:57:50: [API] GET /public/packages/1 - 12:57:50 PM
+2025-10-04T12:57:52: [API] POST /public/create-payment - 12:57:52 PM
+2025-10-04T12:58:08: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-04T12:58:10: [API] GET /public/payment-status/1 - 12:58:10 PM
+2025-10-04T12:58:18: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-04T12:58:20: [Monitor] Pagamento 1 aprovado!
+2025-10-04T12:58:20: [Sigma] Tentativa 1/3
+2025-10-04T12:58:20: [Sigma] Acessando: starpainel.site
+2025-10-04T12:58:20: [Sigma] Erro no login: Invalid URL
+2025-10-04T12:58:20: [Sigma] Tentativa 1 falhou: Invalid URL
+2025-10-04T12:58:21: [API] GET /public/payment-status/1 - 12:58:21 PM
+2025-10-04T12:58:28: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-04T12:58:30: [Sigma] Tentativa 2/3
+2025-10-04T12:58:30: [Sigma] Acessando: starpainel.site
+2025-10-04T12:58:30: [Sigma] Erro no login: Invalid URL
+2025-10-04T12:58:30: [Sigma] Tentativa 2 falhou: Invalid URL
+2025-10-04T12:58:31: [API] GET /public/payment-status/1 - 12:58:31 PM
+2025-10-04T12:58:38: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-04T12:58:40: [API] GET /public/payment-status/1 - 12:58:40 PM
+2025-10-04T12:58:40: [Sigma] Tentativa 3/3
+2025-10-04T12:58:40: [Sigma] Acessando: starpainel.site
+2025-10-04T12:58:40: [Sigma] Erro no login: Invalid URL
+2025-10-04T12:58:40: [Sigma] Tentativa 3 falhou: Invalid URL
+2025-10-04T12:58:40: [Monitor] Erro ao processar recarga: Invalid URL
+2025-10-04T12:58:51: [API] GET /public/payment-status/1 - 12:58:51 PM
+2025-10-04T12:58:52: [API] POST /admin/login - 12:58:52 PM
+2025-10-04T12:58:56: [API] POST /admin/login - 12:58:56 PM
+2025-10-04T12:59:00: [API] POST /admin/login - 12:59:00 PM
+2025-10-04T12:59:00: [API] GET /admin/stats - 12:59:00 PM
+2025-10-04T12:59:01: [API] GET /admin/transactions - 12:59:01 PM
+2025-10-04T12:59:01: [API] GET /public/payment-status/1 - 12:59:01 PM
+2025-10-04T12:59:06: [API] GET /admin/payments - 12:59:06 PM
+2025-10-04T12:59:07: [API] GET /admin/transactions - 12:59:07 PM
+2025-10-04T12:59:08: [API] GET /admin/payments - 12:59:08 PM
+2025-10-04T12:59:09: [API] GET /admin/resellers - 12:59:09 PM
+2025-10-04T12:59:09: [API] GET /admin/packages/1 - 12:59:09 PM
+2025-10-04T12:59:10: [API] GET /public/payment-status/1 - 12:59:10 PM
+2025-10-04T12:59:10: [API] GET /admin/panels - 12:59:10 PM
+2025-10-04T12:59:12: [API] GET /admin/config - 12:59:12 PM
+2025-10-04T12:59:13: [API] GET /admin/panels - 12:59:13 PM
+2025-10-04T12:59:15: [API] GET /admin/panels - 12:59:15 PM
+2025-10-04T12:59:21: [API] GET /public/payment-status/1 - 12:59:21 PM
+2025-10-04T12:59:30: [API] GET /public/payment-status/1 - 12:59:30 PM
+2025-10-04T12:59:40: [API] GET /public/payment-status/1 - 12:59:40 PM
+2025-10-04T12:59:43: [API] PUT /admin/panels/1 - 12:59:43 PM
+2025-10-04T12:59:43: [API] GET /admin/panels - 12:59:43 PM
+2025-10-04T12:59:50: [API] GET /public/payment-status/1 - 12:59:50 PM
+2025-10-04T12:59:51: [API] GET /admin/resellers - 12:59:51 PM
+2025-10-04T12:59:51: [API] GET /admin/packages/1 - 12:59:51 PM
+2025-10-04T12:59:53: [API] GET /admin/payments - 12:59:53 PM
+2025-10-04T12:59:54: [API] GET /admin/transactions - 12:59:54 PM
+2025-10-04T12:59:54: [API] GET /admin/payments - 12:59:54 PM
+2025-10-04T13:00:00: [API] GET /public/payment-status/1 - 1:00:00 PM
+2025-10-04T13:00:02: [API] POST /admin/login - 1:00:02 PM
+2025-10-04T13:00:02: [API] GET /admin/stats - 1:00:02 PM
+2025-10-04T13:00:02: [API] GET /admin/transactions - 1:00:02 PM
+2025-10-04T13:00:05: [API] GET /admin/payments - 1:00:05 PM
+2025-10-04T13:00:10: [API] GET /public/payment-status/1 - 1:00:10 PM
+2025-10-04T13:00:12: [API] GET /public/access-question - 1:00:12 PM
+2025-10-04T13:00:14: [API] POST /public/verify-access - 1:00:14 PM
+2025-10-04T13:00:17: [API] POST /public/login - 1:00:17 PM
+2025-10-04T13:00:17: [API] GET /public/packages/1 - 1:00:17 PM
+2025-10-04T13:00:19: [API] GET /public/dashboard/1 - 1:00:19 PM
+2025-10-04T13:00:23: [API] POST /public/create-payment - 1:00:23 PM
+2025-10-04T13:00:28: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-04T13:00:36: [API] GET /public/payment-status/2 - 1:00:36 PM
+2025-10-04T13:00:38: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-04T13:00:41: [Monitor] Pagamento 2 aprovado!
+2025-10-04T13:00:41: [Sigma] Tentativa 1/3
+2025-10-04T13:00:41: [Sigma] Acessando: https://starplay.sigma.st
+2025-10-04T13:00:46: [API] GET /public/payment-status/2 - 1:00:46 PM
+2025-10-04T13:00:47: [Sigma] Erro no login: Client network socket disconnected before secure TLS connection was established
+2025-10-04T13:00:47: [Sigma] Tentativa 1 falhou: Client network socket disconnected before secure TLS connection was established
+2025-10-04T13:00:48: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-04T13:00:57: [Sigma] Tentativa 2/3
+2025-10-04T13:00:57: [Sigma] Acessando: https://starplay.sigma.st
+2025-10-04T13:00:57: [API] GET /public/payment-status/2 - 1:00:57 PM
+2025-10-04T13:00:58: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-04T13:01:02: [Sigma] Erro no login: Client network socket disconnected before secure TLS connection was established
+2025-10-04T13:01:02: [Sigma] Tentativa 2 falhou: Client network socket disconnected before secure TLS connection was established
+2025-10-04T13:01:07: [API] GET /public/payment-status/2 - 1:01:07 PM
+2025-10-04T13:01:08: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-04T13:01:12: [Sigma] Tentativa 3/3
+2025-10-04T13:01:12: [Sigma] Acessando: https://starplay.sigma.st
+2025-10-04T13:01:17: [API] GET /public/payment-status/2 - 1:01:17 PM
+2025-10-04T13:01:18: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-04T13:01:18: [Sigma] Erro no login: Client network socket disconnected before secure TLS connection was established
+2025-10-04T13:01:18: [Sigma] Tentativa 3 falhou: Client network socket disconnected before secure TLS connection was established
+2025-10-04T13:01:18: [Monitor] Erro ao processar recarga: Client network socket disconnected before secure TLS connection was established
+2025-10-04T13:01:24: [API] GET /admin/panels - 1:01:24 PM
+2025-10-04T13:01:26: [API] GET /admin/panels - 1:01:26 PM
+2025-10-04T13:01:27: [API] GET /public/payment-status/2 - 1:01:27 PM
+2025-10-04T13:01:37: [API] GET /public/payment-status/2 - 1:01:37 PM
+2025-10-04T13:01:43: [API] PUT /admin/panels/1 - 1:01:43 PM
+2025-10-04T13:01:44: [API] GET /admin/panels - 1:01:44 PM
+2025-10-04T13:01:46: [API] GET /public/payment-status/2 - 1:01:46 PM
+2025-10-04T13:01:51: [API] GET /public/access-question - 1:01:51 PM
+2025-10-04T13:01:53: [API] POST /public/verify-access - 1:01:53 PM
+2025-10-04T13:01:56: [API] POST /public/login - 1:01:56 PM
+2025-10-04T13:01:57: [API] GET /public/packages/1 - 1:01:57 PM
+2025-10-04T13:01:58: [API] GET /public/dashboard/1 - 1:01:58 PM
+2025-10-04T13:02:02: [API] POST /public/create-payment - 1:02:02 PM
+2025-10-04T13:02:04: [API] POST /public/create-payment - 1:02:04 PM
+2025-10-04T13:02:08: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-04T13:02:17: [API] GET /public/payment-status/4 - 1:02:17 PM
+2025-10-04T13:02:18: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-04T13:02:28: [API] GET /public/payment-status/4 - 1:02:28 PM
+2025-10-04T13:02:28: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-04T13:02:31: [Monitor] Pagamento 4 aprovado!
+2025-10-04T13:02:31: [Sigma] Tentativa 1/3
+2025-10-04T13:02:31: [Sigma] Acessando: https://starpainel.site
+2025-10-04T13:02:35: [Sigma] Login: isaac2022
+2025-10-04T13:02:36: [Sigma] Login OK
+2025-10-04T13:02:38: [Sigma] Adicionando 10 créditos para KADdZ2X1lr
+2025-10-04T13:02:38: [API] GET /public/payment-status/4 - 1:02:38 PM
+2025-10-04T13:02:38: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-04T13:02:39: [Sigma] Créditos adicionados
+2025-10-04T13:02:39: [Monitor] Recarga OK: 10 créditos para ostenes
+2025-10-04T13:02:48: [API] GET /public/payment-status/4 - 1:02:48 PM
+2025-10-04T13:02:48: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-04T13:02:58: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-04T13:03:01: [API] GET /public/dashboard/1 - 1:03:01 PM
+2025-10-04T13:03:07: [API] GET /admin/payments - 1:03:07 PM
+2025-10-04T13:03:08: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-04T13:03:11: [API] DELETE /admin/payments/pending - 1:03:11 PM
+2025-10-04T13:03:11: [API] GET /admin/payments - 1:03:11 PM
+2025-10-04T22:57:53: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-04T22:57:53: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-04T22:57:54: Criando/verificando tabelas...
+2025-10-04T22:57:54: 
+2025-10-04T22:57:54: ============================================================
+2025-10-04T22:57:54: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-04T22:57:54: ============================================================
+2025-10-04T22:57:54: Servidor: http://localhost:3010
+2025-10-04T22:57:54: Porta: 3010
+2025-10-04T22:57:54: Versao: 2.0.0-modular
+2025-10-04T22:57:54: ============================================================
+2025-10-04T22:57:54: Estrutura:
+2025-10-04T22:57:54:   - models/Database.js
+2025-10-04T22:57:54:   - services/SigmaService.js
+2025-10-04T22:57:54:   - services/PaymentService.js
+2025-10-04T22:57:54:   - services/MonitorService.js
+2025-10-04T22:57:54:   - routes/public.js
+2025-10-04T22:57:54:   - routes/admin.js
+2025-10-04T22:57:54: ============================================================
+2025-10-04T22:57:54: 
+2025-10-04T22:57:54: [Monitor] Iniciado - verificando a cada 10s
+2025-10-04T22:57:54: Conectado ao banco de dados SQLite
+2025-10-04T22:58:16: [API] POST /admin/login - 10:58:16 PM
+2025-10-04T23:00:41: [API] GET /public/access-question - 11:00:41 PM
+2025-10-04T23:00:44: [API] POST /public/verify-access - 11:00:44 PM
+2025-10-04T23:00:48: [API] POST /public/login - 11:00:48 PM
+2025-10-04T23:00:48: [API] GET /public/packages/1 - 11:00:48 PM
+2025-10-04T23:00:59: [API] GET /admin/config - 11:00:59 PM
+2025-10-04T23:01:02: [API] GET /admin/payments - 11:01:02 PM
+2025-10-04T23:01:07: [API] GET /admin/stats - 11:01:07 PM
+2025-10-04T23:01:07: [API] GET /admin/transactions - 11:01:07 PM
+2025-10-04T23:06:05: 
+2025-10-04T23:06:05: Encerrando servidor...
+2025-10-04T23:06:05: [Monitor] Parado
+2025-10-04T23:06:06: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-04T23:06:06: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-04T23:06:06: Criando/verificando tabelas...
+2025-10-04T23:06:06: 
+2025-10-04T23:06:06: ============================================================
+2025-10-04T23:06:06: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-04T23:06:06: ============================================================
+2025-10-04T23:06:06: Servidor: http://localhost:3010
+2025-10-04T23:06:06: Porta: 3010
+2025-10-04T23:06:06: Versao: 2.0.0-modular
+2025-10-04T23:06:06: ============================================================
+2025-10-04T23:06:06: Estrutura:
+2025-10-04T23:06:06:   - models/Database.js
+2025-10-04T23:06:06:   - services/SigmaService.js
+2025-10-04T23:06:06:   - services/PaymentService.js
+2025-10-04T23:06:06:   - services/MonitorService.js
+2025-10-04T23:06:06:   - routes/public.js
+2025-10-04T23:06:06:   - routes/admin.js
+2025-10-04T23:06:06: ============================================================
+2025-10-04T23:06:06: 
+2025-10-04T23:06:06: [Monitor] Iniciado - verificando a cada 10s
+2025-10-04T23:06:06: Conectado ao banco de dados SQLite
+2025-10-04T23:06:11: [API] POST /admin/login - 11:06:11 PM
+2025-10-04T23:06:16: [API] POST /admin/login - 11:06:16 PM
+2025-10-04T23:06:21: [API] POST /admin/login - 11:06:21 PM
+2025-10-04T23:06:21: [API] GET /admin/stats - 11:06:21 PM
+2025-10-04T23:06:21: [API] GET /admin/transactions - 11:06:21 PM
+2025-10-04T23:06:29: [API] GET /admin/config - 11:06:29 PM
+2025-10-04T23:06:31: [API] GET /admin/stats - 11:06:31 PM
+2025-10-04T23:06:31: [API] GET /admin/transactions - 11:06:31 PM
+2025-10-04T23:06:32: [API] GET /admin/panels - 11:06:32 PM
+2025-10-04T23:06:33: [API] GET /admin/resellers - 11:06:33 PM
+2025-10-04T23:06:33: [API] GET /admin/packages/1 - 11:06:33 PM
+2025-10-04T23:06:34: [API] GET /admin/payments - 11:06:34 PM
+2025-10-04T23:06:37: [API] GET /admin/transactions - 11:06:37 PM
+2025-10-04T23:06:38: [API] GET /admin/stats - 11:06:38 PM
+2025-10-04T23:06:38: [API] GET /admin/transactions - 11:06:38 PM
+2025-10-04T23:06:43: [API] GET /admin/stats - 11:06:43 PM
+2025-10-04T23:06:43: [API] GET /admin/transactions - 11:06:43 PM
+2025-10-04T23:06:48: [API] GET /public/access-question - 11:06:48 PM
+2025-10-04T23:06:51: [API] POST /public/verify-access - 11:06:51 PM
+2025-10-04T23:06:55: [API] POST /public/login - 11:06:55 PM
+2025-10-04T23:06:55: [API] GET /public/packages/1 - 11:06:55 PM
+2025-10-04T23:07:03: [API] POST /public/create-payment - 11:07:03 PM
+2025-10-04T23:07:18: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-04T23:07:21: [API] GET /public/payment-status/5 - 11:07:21 PM
+2025-10-04T23:07:28: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-04T23:07:31: [API] GET /public/payment-status/5 - 11:07:31 PM
+2025-10-04T23:07:32: [Monitor] Pagamento 5 aprovado!
+2025-10-04T23:07:32: [Sigma] Tentativa 1/3
+2025-10-04T23:07:32: [Sigma] Acessando: https://starpainel.site
+2025-10-04T23:07:36: [Sigma] Login: isaac2022
+2025-10-04T23:07:37: [Sigma] Login OK
+2025-10-04T23:07:37: [Sigma] Adicionando 10 créditos para KADdZ2X1lr
+2025-10-04T23:07:38: [Sigma] Créditos adicionados
+2025-10-04T23:07:38: [Monitor] Recarga OK: 10 créditos para ostenes
+2025-10-04T23:07:41: [API] GET /public/payment-status/5 - 11:07:41 PM
+2025-10-04T23:37:55: [API] GET /public/dashboard/1 - 11:37:55 PM
+2025-10-04T23:49:02: 
+2025-10-04T23:49:02: Encerrando servidor...
+2025-10-04T23:49:02: [Monitor] Parado
+2025-10-04T23:49:02: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-04T23:49:02: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-04T23:49:03: Criando/verificando tabelas...
+2025-10-04T23:49:03: 
+2025-10-04T23:49:03: ============================================================
+2025-10-04T23:49:03: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-04T23:49:03: ============================================================
+2025-10-04T23:49:03: Servidor: http://localhost:3010
+2025-10-04T23:49:03: Porta: 3010
+2025-10-04T23:49:03: Versao: 2.0.0-modular
+2025-10-04T23:49:03: ============================================================
+2025-10-04T23:49:03: Estrutura:
+2025-10-04T23:49:03:   - models/Database.js
+2025-10-04T23:49:03:   - services/SigmaService.js
+2025-10-04T23:49:03:   - services/PaymentService.js
+2025-10-04T23:49:03:   - services/MonitorService.js
+2025-10-04T23:49:03:   - routes/public.js
+2025-10-04T23:49:03:   - routes/admin.js
+2025-10-04T23:49:03: ============================================================
+2025-10-04T23:49:03: 
+2025-10-04T23:49:03: [Monitor] Iniciado - verificando a cada 10s
+2025-10-04T23:49:03: Conectado ao banco de dados SQLite
+2025-10-04T23:49:13: [API] GET /public/access-question - 11:49:13 PM
+2025-10-04T23:49:18: [API] GET /admin/stats - 11:49:18 PM
+2025-10-04T23:49:18: [API] GET /admin/transactions - 11:49:18 PM
+2025-10-04T23:49:19: [API] GET /admin/config - 11:49:19 PM
+2025-10-04T23:49:21: [API] GET /admin/panels - 11:49:21 PM
+2025-10-04T23:49:23: [API] GET /admin/panels - 11:49:23 PM
+2025-10-04T23:49:36: [API] PUT /admin/panels/1 - 11:49:36 PM
+2025-10-04T23:49:36: [API] GET /admin/panels - 11:49:36 PM
+2025-10-04T23:49:48: [API] POST /public/verify-access - 11:49:48 PM
+2025-10-04T23:49:51: [API] POST /public/login - 11:49:51 PM
+2025-10-04T23:49:51: [API] GET /public/packages/1 - 11:49:51 PM
+2025-10-04T23:50:03: [API] POST /public/create-payment - 11:50:03 PM
+2025-10-04T23:50:13: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-04T23:50:21: [API] GET /public/payment-status/6 - 11:50:21 PM
+2025-10-04T23:50:23: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-04T23:50:31: [API] GET /public/payment-status/6 - 11:50:31 PM
+2025-10-04T23:50:33: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-04T23:50:41: [API] GET /public/payment-status/6 - 11:50:41 PM
+2025-10-04T23:50:43: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-04T23:50:45: [Monitor] Pagamento 6 aprovado!
+2025-10-04T23:50:45: [Sigma] Tentativa 1/3
+2025-10-04T23:50:45: [Sigma] Acessando: https://starplay.sigma.st
+2025-10-04T23:50:47: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-04T23:50:47: [Sigma] Tentativa 1 falhou: Página inicial falhou: 403
+2025-10-04T23:50:51: [API] GET /public/payment-status/6 - 11:50:51 PM
+2025-10-04T23:50:53: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-04T23:50:57: [Sigma] Tentativa 2/3
+2025-10-04T23:50:57: [Sigma] Acessando: https://starplay.sigma.st
+2025-10-04T23:50:59: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-04T23:50:59: [Sigma] Tentativa 2 falhou: Página inicial falhou: 403
+2025-10-04T23:51:01: [API] GET /public/payment-status/6 - 11:51:01 PM
+2025-10-04T23:51:03: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-04T23:51:09: [Sigma] Tentativa 3/3
+2025-10-04T23:51:09: [Sigma] Acessando: https://starplay.sigma.st
+2025-10-04T23:51:11: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-04T23:51:11: [Sigma] Tentativa 3 falhou: Página inicial falhou: 403
+2025-10-04T23:51:11: [Monitor] Erro ao processar recarga: Página inicial falhou: 403
+2025-10-04T23:51:11: [API] GET /public/payment-status/6 - 11:51:11 PM
+2025-10-04T23:51:18: [API] GET /public/access-question - 11:51:18 PM
+2025-10-04T23:51:21: [API] POST /public/verify-access - 11:51:21 PM
+2025-10-04T23:51:25: [API] POST /public/login - 11:51:25 PM
+2025-10-04T23:51:25: [API] GET /public/packages/1 - 11:51:25 PM
+2025-10-04T23:51:28: [API] GET /public/dashboard/1 - 11:51:28 PM
+2025-10-04T23:51:45: [API] GET /admin/stats - 11:51:45 PM
+2025-10-04T23:51:45: [API] GET /admin/transactions - 11:51:45 PM
+2025-10-04T23:51:47: [API] GET /admin/payments - 11:51:47 PM
+2025-10-04T23:51:53: [API] GET /public/access-question - 11:51:53 PM
+2025-10-04T23:51:57: [API] POST /public/verify-access - 11:51:57 PM
+2025-10-04T23:52:00: [API] POST /public/login - 11:52:00 PM
+2025-10-04T23:52:00: [API] GET /public/packages/1 - 11:52:00 PM
+2025-10-04T23:52:02: [API] GET /public/dashboard/1 - 11:52:02 PM
+2025-10-04T23:52:10: [API] POST /admin/retry-recharge/6 - 11:52:10 PM
+2025-10-04T23:52:10: [Retry] Tentando reprocessar pagamento 6
+2025-10-04T23:52:10: [Sigma] Tentativa 1/3
+2025-10-04T23:52:10: [Sigma] Acessando: https://starplay.sigma.st
+2025-10-04T23:52:12: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-04T23:52:12: [Sigma] Tentativa 1 falhou: Página inicial falhou: 403
+2025-10-04T23:52:22: [Sigma] Tentativa 2/3
+2025-10-04T23:52:22: [Sigma] Acessando: https://starplay.sigma.st
+2025-10-04T23:52:24: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-04T23:52:24: [Sigma] Tentativa 2 falhou: Página inicial falhou: 403
+2025-10-04T23:52:34: [Sigma] Tentativa 3/3
+2025-10-04T23:52:34: [Sigma] Acessando: https://starplay.sigma.st
+2025-10-04T23:52:36: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-04T23:52:36: [Sigma] Tentativa 3 falhou: Página inicial falhou: 403
+2025-10-04T23:52:36: [Monitor] Erro ao processar recarga: Página inicial falhou: 403
+2025-10-04T23:52:39: [API] GET /admin/panels - 11:52:39 PM
+2025-10-04T23:52:41: [API] GET /admin/panels - 11:52:41 PM
+2025-10-04T23:52:48: [API] PUT /admin/panels/1 - 11:52:48 PM
+2025-10-04T23:52:48: [API] GET /admin/panels - 11:52:48 PM
+2025-10-04T23:52:51: [API] GET /admin/resellers - 11:52:51 PM
+2025-10-04T23:52:51: [API] GET /admin/packages/1 - 11:52:51 PM
+2025-10-04T23:52:53: [API] GET /admin/payments - 11:52:53 PM
+2025-10-04T23:52:57: [API] POST /admin/retry-recharge/6 - 11:52:57 PM
+2025-10-04T23:52:57: [Retry] Tentando reprocessar pagamento 6
+2025-10-04T23:52:57: [Sigma] Tentativa 1/3
+2025-10-04T23:52:57: [Sigma] Acessando: https://starpainel.site
+2025-10-04T23:53:01: [Sigma] Login: isaac2022
+2025-10-04T23:53:02: [Sigma] Login OK
+2025-10-04T23:53:02: [Sigma] Adicionando 10 créditos para KADdZ2X1lr
+2025-10-04T23:53:03: [Sigma] Créditos adicionados
+2025-10-04T23:53:03: [Retry] Recarga OK: 10 créditos para ostenes
+2025-10-04T23:53:08: [API] GET /admin/payments - 11:53:08 PM
+2025-10-04T23:53:39: [API] GET /public/access-question - 11:53:39 PM
+2025-10-04T23:53:42: [API] POST /public/verify-access - 11:53:42 PM
+2025-10-04T23:53:45: [API] POST /public/login - 11:53:45 PM
+2025-10-04T23:53:45: [API] GET /public/packages/1 - 11:53:45 PM
+2025-10-04T23:53:46: [API] GET /public/dashboard/1 - 11:53:46 PM
+2025-10-04T23:54:35: [API] GET /admin/stats - 11:54:35 PM
+2025-10-04T23:54:35: [API] GET /admin/transactions - 11:54:35 PM
+2025-10-04T23:54:36: [API] GET /admin/payments - 11:54:36 PM
+2025-10-04T23:54:43: [API] DELETE /admin/payments/pending - 11:54:43 PM
+2025-10-04T23:54:44: [API] GET /admin/payments - 11:54:44 PM
+2025-10-04T23:54:46: [API] GET /admin/stats - 11:54:46 PM
+2025-10-04T23:54:46: [API] GET /admin/transactions - 11:54:46 PM
+2025-10-04T23:54:47: [API] GET /admin/resellers - 11:54:47 PM
+2025-10-04T23:54:47: [API] GET /admin/packages/1 - 11:54:47 PM
+2025-10-04T23:54:48: [API] GET /admin/payments - 11:54:48 PM
+2025-10-05T00:04:00: 
+2025-10-05T00:04:00: Encerrando servidor...
+2025-10-05T00:04:00: [Monitor] Parado
+2025-10-05T00:04:00: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T00:04:00: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T00:04:00: Criando/verificando tabelas...
+2025-10-05T00:04:00: 
+2025-10-05T00:04:00: ============================================================
+2025-10-05T00:04:00: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T00:04:00: ============================================================
+2025-10-05T00:04:00: Servidor: http://localhost:3010
+2025-10-05T00:04:00: Porta: 3010
+2025-10-05T00:04:00: Versao: 2.0.0-modular
+2025-10-05T00:04:00: ============================================================
+2025-10-05T00:04:00: Estrutura:
+2025-10-05T00:04:00:   - models/Database.js
+2025-10-05T00:04:00:   - services/SigmaService.js
+2025-10-05T00:04:00:   - services/PaymentService.js
+2025-10-05T00:04:00:   - services/MonitorService.js
+2025-10-05T00:04:00:   - routes/public.js
+2025-10-05T00:04:00:   - routes/admin.js
+2025-10-05T00:04:00: ============================================================
+2025-10-05T00:04:00: 
+2025-10-05T00:04:00: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T00:04:00: Conectado ao banco de dados SQLite
+2025-10-05T00:04:04: [API] GET /public/access-question - 12:04:04 AM
+2025-10-05T00:04:07: [API] GET /admin/stats - 12:04:07 AM
+2025-10-05T00:04:07: [API] GET /admin/transactions - 12:04:07 AM
+2025-10-05T00:04:08: [API] GET /admin/payments - 12:04:08 AM
+2025-10-05T00:04:28: [API] POST /public/verify-access - 12:04:28 AM
+2025-10-05T00:04:30: [API] POST /public/login - 12:04:30 AM
+2025-10-05T00:04:30: [API] GET /public/packages/1 - 12:04:30 AM
+2025-10-05T00:04:33: [API] GET /public/dashboard/1 - 12:04:33 AM
+2025-10-05T00:19:03: 
+2025-10-05T00:19:03: Encerrando servidor...
+2025-10-05T00:19:03: [Monitor] Parado
+2025-10-05T00:19:03: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T00:19:03: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T00:19:03: Criando/verificando tabelas...
+2025-10-05T00:19:03: 
+2025-10-05T00:19:03: ============================================================
+2025-10-05T00:19:03: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T00:19:03: ============================================================
+2025-10-05T00:19:03: Servidor: http://localhost:3010
+2025-10-05T00:19:03: Porta: 3010
+2025-10-05T00:19:03: Versao: 2.0.0-modular
+2025-10-05T00:19:03: ============================================================
+2025-10-05T00:19:03: Estrutura:
+2025-10-05T00:19:03:   - models/Database.js
+2025-10-05T00:19:03:   - services/SigmaService.js
+2025-10-05T00:19:03:   - services/PaymentService.js
+2025-10-05T00:19:03:   - services/MonitorService.js
+2025-10-05T00:19:03:   - routes/public.js
+2025-10-05T00:19:03:   - routes/admin.js
+2025-10-05T00:19:03: ============================================================
+2025-10-05T00:19:03: 
+2025-10-05T00:19:03: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T00:19:03: Conectado ao banco de dados SQLite
+2025-10-05T00:19:05: [API] GET /public/access-question - 12:19:05 AM
+2025-10-05T00:19:10: [API] POST /public/verify-access - 12:19:10 AM
+2025-10-05T00:19:15: [API] POST /public/login - 12:19:15 AM
+2025-10-05T00:19:15: [API] GET /public/packages/1 - 12:19:15 AM
+2025-10-05T00:19:17: [API] GET /public/dashboard/1 - 12:19:17 AM
+2025-10-05T00:20:19: [API] GET /admin/stats - 12:20:19 AM
+2025-10-05T00:20:19: [API] GET /admin/transactions - 12:20:19 AM
+2025-10-05T00:20:20: [API] GET /admin/resellers - 12:20:20 AM
+2025-10-05T00:20:20: [API] GET /admin/packages/1 - 12:20:20 AM
+2025-10-05T00:20:22: [API] GET /admin/payments - 12:20:22 AM
+2025-10-05T00:20:24: [API] GET /admin/panels - 12:20:24 AM
+2025-10-05T00:20:25: [API] GET /admin/panels - 12:20:25 AM
+2025-10-05T00:20:32: [API] PUT /admin/panels/1 - 12:20:32 AM
+2025-10-05T00:20:32: [API] GET /admin/panels - 12:20:32 AM
+2025-10-05T00:20:38: [API] GET /public/dashboard/1 - 12:20:38 AM
+2025-10-05T00:20:43: [API] POST /public/create-payment - 12:20:43 AM
+2025-10-05T00:20:53: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T00:21:01: [API] GET /public/payment-status/7 - 12:21:01 AM
+2025-10-05T00:21:03: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T00:21:06: [Monitor] Pagamento 7 aprovado!
+2025-10-05T00:21:06: [Sigma] Tentativa 1/3
+2025-10-05T00:21:06: [Sigma] Acessando: https://starplay.sigma.st
+2025-10-05T00:21:08: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-05T00:21:08: [Sigma] Tentativa 1 falhou: Página inicial falhou: 403
+2025-10-05T00:21:11: [API] GET /public/payment-status/7 - 12:21:11 AM
+2025-10-05T00:21:13: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T00:21:18: [Sigma] Tentativa 2/3
+2025-10-05T00:21:18: [Sigma] Acessando: https://starplay.sigma.st
+2025-10-05T00:21:20: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-05T00:21:20: [Sigma] Tentativa 2 falhou: Página inicial falhou: 403
+2025-10-05T00:21:21: [API] GET /public/payment-status/7 - 12:21:21 AM
+2025-10-05T00:21:23: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T00:21:30: [Sigma] Tentativa 3/3
+2025-10-05T00:21:30: [Sigma] Acessando: https://starplay.sigma.st
+2025-10-05T00:21:31: [API] GET /public/payment-status/7 - 12:21:31 AM
+2025-10-05T00:21:32: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-05T00:21:32: [Sigma] Tentativa 3 falhou: Página inicial falhou: 403
+2025-10-05T00:21:32: [Monitor] Erro ao processar recarga: Página inicial falhou: 403
+2025-10-05T00:21:41: [API] GET /public/payment-status/7 - 12:21:41 AM
+2025-10-05T00:21:51: [API] GET /public/payment-status/7 - 12:21:51 AM
+2025-10-05T00:21:53: [API] GET /public/access-question - 12:21:53 AM
+2025-10-05T00:21:56: [API] POST /public/verify-access - 12:21:56 AM
+2025-10-05T00:21:59: [API] POST /public/login - 12:21:59 AM
+2025-10-05T00:21:59: [API] GET /public/packages/1 - 12:21:59 AM
+2025-10-05T00:22:00: [API] GET /public/dashboard/1 - 12:22:00 AM
+2025-10-05T00:26:41: 
+2025-10-05T00:26:41: Encerrando servidor...
+2025-10-05T00:26:41: [Monitor] Parado
+2025-10-05T00:26:41: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T00:26:41: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T00:26:42: Criando/verificando tabelas...
+2025-10-05T00:26:42: 
+2025-10-05T00:26:42: ============================================================
+2025-10-05T00:26:42: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T00:26:42: ============================================================
+2025-10-05T00:26:42: Servidor: http://localhost:3010
+2025-10-05T00:26:42: Porta: 3010
+2025-10-05T00:26:42: Versao: 2.0.0-modular
+2025-10-05T00:26:42: ============================================================
+2025-10-05T00:26:42: Estrutura:
+2025-10-05T00:26:42:   - models/Database.js
+2025-10-05T00:26:42:   - services/SigmaService.js
+2025-10-05T00:26:42:   - services/PaymentService.js
+2025-10-05T00:26:42:   - services/MonitorService.js
+2025-10-05T00:26:42:   - routes/public.js
+2025-10-05T00:26:42:   - routes/admin.js
+2025-10-05T00:26:42: ============================================================
+2025-10-05T00:26:42: 
+2025-10-05T00:26:42: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T00:26:42: Conectado ao banco de dados SQLite
+2025-10-05T00:26:45: [API] GET /public/access-question - 12:26:45 AM
+2025-10-05T00:26:48: [API] POST /public/verify-access - 12:26:48 AM
+2025-10-05T00:26:50: [API] POST /public/login - 12:26:50 AM
+2025-10-05T00:26:50: [API] GET /public/packages/1 - 12:26:50 AM
+2025-10-05T00:26:52: [API] GET /public/dashboard/1 - 12:26:52 AM
+2025-10-05T00:26:59: [API] GET /admin/stats - 12:26:59 AM
+2025-10-05T00:26:59: [API] GET /admin/transactions - 12:26:59 AM
+2025-10-05T00:27:00: [API] GET /admin/payments - 12:27:00 AM
+2025-10-05T00:27:07: [API] GET /public/access-question - 12:27:07 AM
+2025-10-05T00:27:13: [API] POST /public/verify-access - 12:27:13 AM
+2025-10-05T00:27:15: [API] POST /public/login - 12:27:15 AM
+2025-10-05T00:27:15: [API] GET /public/packages/1 - 12:27:15 AM
+2025-10-05T00:27:18: [API] GET /public/dashboard/1 - 12:27:18 AM
+2025-10-05T00:33:06: 
+2025-10-05T00:33:06: Encerrando servidor...
+2025-10-05T00:33:06: [Monitor] Parado
+2025-10-05T00:33:06: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T00:33:06: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T00:33:07: Criando/verificando tabelas...
+2025-10-05T00:33:07: 
+2025-10-05T00:33:07: ============================================================
+2025-10-05T00:33:07: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T00:33:07: ============================================================
+2025-10-05T00:33:07: Servidor: http://localhost:3010
+2025-10-05T00:33:07: Porta: 3010
+2025-10-05T00:33:07: Versao: 2.0.0-modular
+2025-10-05T00:33:07: ============================================================
+2025-10-05T00:33:07: Estrutura:
+2025-10-05T00:33:07:   - models/Database.js
+2025-10-05T00:33:07:   - services/SigmaService.js
+2025-10-05T00:33:07:   - services/PaymentService.js
+2025-10-05T00:33:07:   - services/MonitorService.js
+2025-10-05T00:33:07:   - routes/public.js
+2025-10-05T00:33:07:   - routes/admin.js
+2025-10-05T00:33:07: ============================================================
+2025-10-05T00:33:07: 
+2025-10-05T00:33:07: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T00:33:07: Conectado ao banco de dados SQLite
+2025-10-05T00:33:15: [API] GET /public/access-question - 12:33:15 AM
+2025-10-05T00:33:18: [API] POST /public/verify-access - 12:33:18 AM
+2025-10-05T00:33:20: [API] POST /public/login - 12:33:20 AM
+2025-10-05T00:33:20: [API] GET /public/packages/1 - 12:33:20 AM
+2025-10-05T00:33:22: [API] GET /public/dashboard/1 - 12:33:22 AM
+2025-10-05T00:33:44: [API] GET /public/access-question - 12:33:44 AM
+2025-10-05T00:33:48: [API] POST /public/verify-access - 12:33:48 AM
+2025-10-05T00:33:50: [API] POST /public/login - 12:33:50 AM
+2025-10-05T00:33:50: [API] GET /public/packages/1 - 12:33:50 AM
+2025-10-05T00:33:52: [API] GET /public/dashboard/1 - 12:33:52 AM
+2025-10-05T00:40:32: 
+2025-10-05T00:40:32: Encerrando servidor...
+2025-10-05T00:40:32: [Monitor] Parado
+2025-10-05T00:40:32: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T00:40:32: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T00:40:33: Criando/verificando tabelas...
+2025-10-05T00:40:33: 
+2025-10-05T00:40:33: ============================================================
+2025-10-05T00:40:33: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T00:40:33: ============================================================
+2025-10-05T00:40:33: Servidor: http://localhost:3010
+2025-10-05T00:40:33: Porta: 3010
+2025-10-05T00:40:33: Versao: 2.0.0-modular
+2025-10-05T00:40:33: ============================================================
+2025-10-05T00:40:33: Estrutura:
+2025-10-05T00:40:33:   - models/Database.js
+2025-10-05T00:40:33:   - services/SigmaService.js
+2025-10-05T00:40:33:   - services/PaymentService.js
+2025-10-05T00:40:33:   - services/MonitorService.js
+2025-10-05T00:40:33:   - routes/public.js
+2025-10-05T00:40:33:   - routes/admin.js
+2025-10-05T00:40:33: ============================================================
+2025-10-05T00:40:33: 
+2025-10-05T00:40:33: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T00:40:33: Conectado ao banco de dados SQLite
+2025-10-05T00:40:40: [API] GET /public/access-question - 12:40:40 AM
+2025-10-05T00:40:43: [API] POST /public/verify-access - 12:40:43 AM
+2025-10-05T00:40:45: [API] POST /public/login - 12:40:45 AM
+2025-10-05T00:40:45: [API] GET /public/packages/1 - 12:40:45 AM
+2025-10-05T00:40:47: [API] GET /public/dashboard/1 - 12:40:47 AM
+2025-10-05T00:48:41: 
+2025-10-05T00:48:41: Encerrando servidor...
+2025-10-05T00:48:41: [Monitor] Parado
+2025-10-05T00:48:41: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T00:48:41: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T00:48:42: Criando/verificando tabelas...
+2025-10-05T00:48:42: 
+2025-10-05T00:48:42: ============================================================
+2025-10-05T00:48:42: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T00:48:42: ============================================================
+2025-10-05T00:48:42: Servidor: http://localhost:3010
+2025-10-05T00:48:42: Porta: 3010
+2025-10-05T00:48:42: Versao: 2.0.0-modular
+2025-10-05T00:48:42: ============================================================
+2025-10-05T00:48:42: Estrutura:
+2025-10-05T00:48:42:   - models/Database.js
+2025-10-05T00:48:42:   - services/SigmaService.js
+2025-10-05T00:48:42:   - services/PaymentService.js
+2025-10-05T00:48:42:   - services/MonitorService.js
+2025-10-05T00:48:42:   - routes/public.js
+2025-10-05T00:48:42:   - routes/admin.js
+2025-10-05T00:48:42: ============================================================
+2025-10-05T00:48:42: 
+2025-10-05T00:48:42: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T00:48:42: Conectado ao banco de dados SQLite
+2025-10-05T00:48:44: [API] GET /public/access-question - 12:48:44 AM
+2025-10-05T00:48:47: [API] POST /public/verify-access - 12:48:47 AM
+2025-10-05T00:48:48: [API] POST /public/login - 12:48:48 AM
+2025-10-05T00:48:48: [API] GET /public/packages/1 - 12:48:48 AM
+2025-10-05T00:48:51: [API] GET /public/dashboard/1 - 12:48:51 AM
+2025-10-05T00:48:56: [API] GET /admin/stats - 12:48:56 AM
+2025-10-05T00:48:56: [API] GET /admin/transactions - 12:48:56 AM
+2025-10-05T00:48:57: [API] GET /admin/resellers - 12:48:57 AM
+2025-10-05T00:48:57: [API] GET /admin/packages/1 - 12:48:57 AM
+2025-10-05T00:48:58: [API] GET /admin/payments - 12:48:58 AM
+2025-10-05T00:59:14: 
+2025-10-05T00:59:14: Encerrando servidor...
+2025-10-05T00:59:14: [Monitor] Parado
+2025-10-05T00:59:14: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T00:59:14: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T00:59:15: Criando/verificando tabelas...
+2025-10-05T00:59:15: 
+2025-10-05T00:59:15: ============================================================
+2025-10-05T00:59:15: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T00:59:15: ============================================================
+2025-10-05T00:59:15: Servidor: http://localhost:3010
+2025-10-05T00:59:15: Porta: 3010
+2025-10-05T00:59:15: Versao: 2.0.0-modular
+2025-10-05T00:59:15: ============================================================
+2025-10-05T00:59:15: Estrutura:
+2025-10-05T00:59:15:   - models/Database.js
+2025-10-05T00:59:15:   - services/SigmaService.js
+2025-10-05T00:59:15:   - services/PaymentService.js
+2025-10-05T00:59:15:   - services/MonitorService.js
+2025-10-05T00:59:15:   - routes/public.js
+2025-10-05T00:59:15:   - routes/admin.js
+2025-10-05T00:59:15: ============================================================
+2025-10-05T00:59:15: 
+2025-10-05T00:59:15: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T00:59:15: Conectado ao banco de dados SQLite
+2025-10-05T00:59:20: [API] GET /public/access-question - 12:59:20 AM
+2025-10-05T00:59:23: [API] POST /public/verify-access - 12:59:23 AM
+2025-10-05T00:59:25: [API] POST /public/login - 12:59:25 AM
+2025-10-05T00:59:25: [API] GET /public/packages/1 - 12:59:25 AM
+2025-10-05T00:59:27: [API] GET /public/access-question - 12:59:27 AM
+2025-10-05T01:00:01: [API] POST /admin/login - 1:00:01 AM
+2025-10-05T01:00:02: [API] POST /admin/login - 1:00:02 AM
+2025-10-05T01:00:05: [API] POST /admin/login - 1:00:05 AM
+2025-10-05T01:02:15: [API] POST /admin/login - 1:02:15 AM
+2025-10-05T01:02:15: [Auth] Login: admin | Token: 74b2d692...
+2025-10-05T01:02:15: [API] GET /admin/stats - 1:02:15 AM
+2025-10-05T01:02:15: [API] GET /admin/transactions - 1:02:15 AM
+2025-10-05T01:02:43: [API] GET /admin/verify-session - 1:02:43 AM
+2025-10-05T01:02:51: [API] POST /admin/login - 1:02:51 AM
+2025-10-05T01:02:51: [Auth] Login: admin | Token: d4175a2c...
+2025-10-05T01:02:51: [API] GET /admin/stats - 1:02:51 AM
+2025-10-05T01:02:51: [API] GET /admin/transactions - 1:02:51 AM
+2025-10-05T01:03:05: [API] POST /admin/logout - 1:03:05 AM
+2025-10-05T01:03:05: [Auth] Logout: admin
+2025-10-05T01:03:07: [API] GET /admin/resellers - 1:03:07 AM
+2025-10-05T01:03:22: [API] GET /public/access-question - 1:03:22 AM
+2025-10-05T01:04:23: [API] POST /public/verify-access - 1:04:23 AM
+2025-10-05T01:04:25: [API] POST /public/login - 1:04:25 AM
+2025-10-05T01:04:25: [API] GET /public/packages/1 - 1:04:25 AM
+2025-10-05T01:04:28: [API] GET /public/dashboard/1 - 1:04:28 AM
+2025-10-05T01:04:31: [API] GET /public/access-question - 1:04:31 AM
+2025-10-05T01:07:33: 
+2025-10-05T01:07:33: Encerrando servidor...
+2025-10-05T01:07:33: [Monitor] Parado
+2025-10-05T01:07:33: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T01:07:33: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T01:07:34: Criando/verificando tabelas...
+2025-10-05T01:07:34: 
+2025-10-05T01:07:34: ============================================================
+2025-10-05T01:07:34: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T01:07:34: ============================================================
+2025-10-05T01:07:34: Servidor: http://localhost:3010
+2025-10-05T01:07:34: Porta: 3010
+2025-10-05T01:07:34: Versao: 2.0.0-modular
+2025-10-05T01:07:34: ============================================================
+2025-10-05T01:07:34: Estrutura:
+2025-10-05T01:07:34:   - models/Database.js
+2025-10-05T01:07:34:   - services/SigmaService.js
+2025-10-05T01:07:34:   - services/PaymentService.js
+2025-10-05T01:07:34:   - services/MonitorService.js
+2025-10-05T01:07:34:   - routes/public.js
+2025-10-05T01:07:34:   - routes/admin.js
+2025-10-05T01:07:34: ============================================================
+2025-10-05T01:07:34: 
+2025-10-05T01:07:34: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T01:07:34: Conectado ao banco de dados SQLite
+2025-10-05T01:07:36: [API] GET /public/access-question - 1:07:36 AM
+2025-10-05T01:07:45: [API] POST /public/verify-access - 1:07:45 AM
+2025-10-05T01:07:46: [API] POST /public/login - 1:07:46 AM
+2025-10-05T01:07:46: [API] GET /public/packages/1 - 1:07:46 AM
+2025-10-05T01:07:49: [API] GET /public/access-question - 1:07:49 AM
+2025-10-05T01:08:05: [API] POST /public/verify-access - 1:08:05 AM
+2025-10-05T01:08:07: [API] POST /public/login - 1:08:07 AM
+2025-10-05T01:08:07: [API] GET /public/packages/1 - 1:08:07 AM
+2025-10-05T01:10:25: [API] GET /public/access-question - 1:10:25 AM
+2025-10-05T01:13:07: 
+2025-10-05T01:13:07: Encerrando servidor...
+2025-10-05T01:13:07: [Monitor] Parado
+2025-10-05T01:13:08: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T01:13:08: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T01:13:08: Criando/verificando tabelas...
+2025-10-05T01:13:08: 
+2025-10-05T01:13:08: ============================================================
+2025-10-05T01:13:08: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T01:13:08: ============================================================
+2025-10-05T01:13:08: Servidor: http://localhost:3010
+2025-10-05T01:13:08: Porta: 3010
+2025-10-05T01:13:08: Versao: 2.0.0-modular
+2025-10-05T01:13:08: ============================================================
+2025-10-05T01:13:08: Estrutura:
+2025-10-05T01:13:08:   - models/Database.js
+2025-10-05T01:13:08:   - services/SigmaService.js
+2025-10-05T01:13:08:   - services/PaymentService.js
+2025-10-05T01:13:08:   - services/MonitorService.js
+2025-10-05T01:13:08:   - routes/public.js
+2025-10-05T01:13:08:   - routes/admin.js
+2025-10-05T01:13:08: ============================================================
+2025-10-05T01:13:08: 
+2025-10-05T01:13:08: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T01:13:08: Conectado ao banco de dados SQLite
+2025-10-05T01:13:27: [API] GET /public/access-question - 1:13:27 AM
+2025-10-05T01:13:44: [API] POST /public/verify-access - 1:13:44 AM
+2025-10-05T01:13:46: [API] POST /public/login - 1:13:46 AM
+2025-10-05T01:13:46: [API] GET /public/packages/1 - 1:13:46 AM
+2025-10-05T01:13:49: [API] GET /public/access-question - 1:13:49 AM
+2025-10-05T01:14:12: [API] GET /public/access-question - 1:14:12 AM
+2025-10-05T01:14:14: [API] POST /public/verify-access - 1:14:14 AM
+2025-10-05T01:14:16: [API] POST /public/login - 1:14:16 AM
+2025-10-05T01:14:16: [API] GET /public/packages/1 - 1:14:16 AM
+2025-10-05T01:14:35: [API] GET /public/access-question - 1:14:35 AM
+2025-10-05T01:15:01: [API] POST /admin/login - 1:15:01 AM
+2025-10-05T01:15:01: [Auth] Login: admin | Token: 5b3e2879...
+2025-10-05T01:15:01: [API] GET /admin/stats - 1:15:01 AM
+2025-10-05T01:15:01: [API] GET /admin/transactions - 1:15:01 AM
+2025-10-05T01:15:05: [API] GET /admin/resellers - 1:15:05 AM
+2025-10-05T01:15:05: [API] GET /admin/packages/1 - 1:15:05 AM
+2025-10-05T01:15:06: [API] GET /admin/panels - 1:15:06 AM
+2025-10-05T01:15:06: [API] GET /admin/panels - 1:15:06 AM
+2025-10-05T01:15:07: [API] GET /admin/config - 1:15:07 AM
+2025-10-05T01:16:33: 
+2025-10-05T01:16:33: Encerrando servidor...
+2025-10-05T01:16:33: [Monitor] Parado
+2025-10-05T01:16:39: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T01:16:39: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T01:16:40: Criando/verificando tabelas...
+2025-10-05T01:16:40: 
+2025-10-05T01:16:40: ============================================================
+2025-10-05T01:16:40: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T01:16:40: ============================================================
+2025-10-05T01:16:40: Servidor: http://localhost:3010
+2025-10-05T01:16:40: Porta: 3010
+2025-10-05T01:16:40: Versao: 2.0.0-modular
+2025-10-05T01:16:40: ============================================================
+2025-10-05T01:16:40: Estrutura:
+2025-10-05T01:16:40:   - models/Database.js
+2025-10-05T01:16:40:   - services/SigmaService.js
+2025-10-05T01:16:40:   - services/PaymentService.js
+2025-10-05T01:16:40:   - services/MonitorService.js
+2025-10-05T01:16:40:   - routes/public.js
+2025-10-05T01:16:40:   - routes/admin.js
+2025-10-05T01:16:40: ============================================================
+2025-10-05T01:16:40: 
+2025-10-05T01:16:40: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T01:16:40: Conectado ao banco de dados SQLite
+2025-10-05T01:16:43: [API] GET /public/access-question - 1:16:43 AM
+2025-10-05T01:16:45: [API] POST /public/verify-access - 1:16:45 AM
+2025-10-05T01:16:47: [API] POST /public/login - 1:16:47 AM
+2025-10-05T01:16:47: [API] GET /public/packages/1 - 1:16:47 AM
+2025-10-05T01:16:50: [API] GET /public/access-question - 1:16:50 AM
+2025-10-05T01:19:22: [API] GET /public/packages/1 - 1:19:22 AM
+2025-10-05T01:19:31: [API] GET /public/packages/1 - 1:19:31 AM
+2025-10-05T01:20:15: [API] GET /public/packages/1 - 1:20:15 AM
+2025-10-05T01:20:34: [API] GET /public/packages/1 - 1:20:34 AM
+2025-10-05T01:21:48: 
+2025-10-05T01:21:48: Encerrando servidor...
+2025-10-05T01:21:48: [Monitor] Parado
+2025-10-05T01:21:48: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T01:21:48: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T01:21:49: Criando/verificando tabelas...
+2025-10-05T01:21:49: 
+2025-10-05T01:21:49: ============================================================
+2025-10-05T01:21:49: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T01:21:49: ============================================================
+2025-10-05T01:21:49: Servidor: http://localhost:3010
+2025-10-05T01:21:49: Porta: 3010
+2025-10-05T01:21:49: Versao: 2.0.0-modular
+2025-10-05T01:21:49: ============================================================
+2025-10-05T01:21:49: Estrutura:
+2025-10-05T01:21:49:   - models/Database.js
+2025-10-05T01:21:49:   - services/SigmaService.js
+2025-10-05T01:21:49:   - services/PaymentService.js
+2025-10-05T01:21:49:   - services/MonitorService.js
+2025-10-05T01:21:49:   - routes/public.js
+2025-10-05T01:21:49:   - routes/admin.js
+2025-10-05T01:21:49: ============================================================
+2025-10-05T01:21:49: 
+2025-10-05T01:21:49: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T01:21:49: Conectado ao banco de dados SQLite
+2025-10-05T01:21:53: [API] GET /public/packages/1 - 1:21:53 AM
+2025-10-05T01:21:53: [API] GET /public/access-question - 1:21:53 AM
+2025-10-05T01:21:57: [API] POST /public/verify-access - 1:21:57 AM
+2025-10-05T01:22:00: [API] POST /public/login - 1:22:00 AM
+2025-10-05T01:22:00: [API] GET /public/packages/1 - 1:22:00 AM
+2025-10-05T01:22:03: [API] GET /public/packages/1 - 1:22:03 AM
+2025-10-05T01:22:03: [API] GET /public/access-question - 1:22:03 AM
+2025-10-05T01:22:59: [API] POST /public/verify-access - 1:22:59 AM
+2025-10-05T01:23:01: [API] POST /public/login - 1:23:01 AM
+2025-10-05T01:23:01: [API] GET /public/packages/1 - 1:23:01 AM
+2025-10-05T01:23:04: [API] POST /public/create-payment - 1:23:04 AM
+2025-10-05T01:23:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:23:22: [API] GET /public/payment-status/8 - 1:23:22 AM
+2025-10-05T01:23:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:23:32: [API] GET /public/payment-status/8 - 1:23:32 AM
+2025-10-05T01:23:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:23:42: [API] GET /public/payment-status/8 - 1:23:42 AM
+2025-10-05T01:23:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:23:52: [API] GET /public/payment-status/8 - 1:23:52 AM
+2025-10-05T01:23:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:24:02: [API] GET /public/payment-status/8 - 1:24:02 AM
+2025-10-05T01:24:02: [Monitor] Pagamento 8 aprovado!
+2025-10-05T01:24:02: [Sigma] Tentativa 1/3
+2025-10-05T01:24:02: [Sigma] Acessando: https://starplay.sigma.st
+2025-10-05T01:24:05: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-05T01:24:05: [Sigma] Tentativa 1 falhou: Página inicial falhou: 403
+2025-10-05T01:24:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:24:12: [API] GET /public/payment-status/8 - 1:24:12 AM
+2025-10-05T01:24:15: [Sigma] Tentativa 2/3
+2025-10-05T01:24:15: [Sigma] Acessando: https://starplay.sigma.st
+2025-10-05T01:24:17: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-05T01:24:17: [Sigma] Tentativa 2 falhou: Página inicial falhou: 403
+2025-10-05T01:24:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:24:22: [API] GET /public/payment-status/8 - 1:24:22 AM
+2025-10-05T01:24:23: [API] GET /public/packages/1 - 1:24:23 AM
+2025-10-05T01:24:23: [API] GET /public/access-question - 1:24:23 AM
+2025-10-05T01:24:25: [API] GET /public/dashboard/1 - 1:24:25 AM
+2025-10-05T01:24:27: [Sigma] Tentativa 3/3
+2025-10-05T01:24:27: [Sigma] Acessando: https://starplay.sigma.st
+2025-10-05T01:24:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:24:29: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-05T01:24:29: [Sigma] Tentativa 3 falhou: Página inicial falhou: 403
+2025-10-05T01:24:29: [Monitor] Erro ao processar recarga: Página inicial falhou: 403
+2025-10-05T01:24:39: [API] GET /public/access-question - 1:24:39 AM
+2025-10-05T01:24:39: [API] GET /public/packages/1 - 1:24:39 AM
+2025-10-05T01:24:41: [API] GET /public/dashboard/1 - 1:24:41 AM
+2025-10-05T01:24:55: [API] GET /admin/verify-session - 1:24:55 AM
+2025-10-05T01:25:01: [API] POST /admin/login - 1:25:01 AM
+2025-10-05T01:25:01: [Auth] Login: admin | Token: b56bc22f...
+2025-10-05T01:25:01: [API] GET /admin/stats - 1:25:01 AM
+2025-10-05T01:25:01: [API] GET /admin/transactions - 1:25:01 AM
+2025-10-05T01:25:03: [API] GET /admin/resellers - 1:25:03 AM
+2025-10-05T01:25:03: [API] GET /admin/packages/1 - 1:25:03 AM
+2025-10-05T01:25:04: [API] GET /admin/payments - 1:25:04 AM
+2025-10-05T01:25:29: [API] POST /public/verify-access - 1:25:29 AM
+2025-10-05T01:25:31: [API] POST /public/login - 1:25:31 AM
+2025-10-05T01:25:31: [API] GET /public/packages/1 - 1:25:31 AM
+2025-10-05T01:25:33: [API] POST /public/create-payment - 1:25:33 AM
+2025-10-05T01:25:36: [API] GET /public/dashboard/1 - 1:25:36 AM
+2025-10-05T01:25:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:25:40: [API] POST /public/check-payment/9 - 1:25:40 AM
+2025-10-05T01:25:46: [API] GET /public/payment-status/9 - 1:25:46 AM
+2025-10-05T01:25:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:25:56: [API] GET /public/payment-status/9 - 1:25:56 AM
+2025-10-05T01:25:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:26:06: [API] GET /public/payment-status/9 - 1:26:06 AM
+2025-10-05T01:26:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:26:16: [API] GET /public/payment-status/9 - 1:26:16 AM
+2025-10-05T01:26:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:26:26: [API] GET /public/payment-status/9 - 1:26:26 AM
+2025-10-05T01:26:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:26:36: [API] GET /public/payment-status/9 - 1:26:36 AM
+2025-10-05T01:26:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:26:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:26:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:27:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:27:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:27:25: [API] GET /public/payment-status/9 - 1:27:25 AM
+2025-10-05T01:27:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:27:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:27:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:27:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:28:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:28:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:28:25: [API] GET /public/payment-status/9 - 1:28:25 AM
+2025-10-05T01:28:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:28:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:28:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:28:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:29:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:29:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:29:25: [API] GET /public/payment-status/9 - 1:29:25 AM
+2025-10-05T01:29:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:29:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:29:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:29:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:30:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:30:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:30:25: [API] GET /public/payment-status/9 - 1:30:25 AM
+2025-10-05T01:30:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:30:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:30:40: [API] GET /public/payment-status/9 - 1:30:40 AM
+2025-10-05T01:30:41: [API] GET /public/access-question - 1:30:41 AM
+2025-10-05T01:30:41: [API] GET /public/packages/1 - 1:30:41 AM
+2025-10-05T01:30:43: [API] GET /public/dashboard/1 - 1:30:43 AM
+2025-10-05T01:30:49: [API] GET /admin/verify-session - 1:30:49 AM
+2025-10-05T01:30:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:30:50: [API] GET /admin/stats - 1:30:50 AM
+2025-10-05T01:30:50: [API] GET /admin/transactions - 1:30:50 AM
+2025-10-05T01:30:53: [API] GET /admin/payments - 1:30:53 AM
+2025-10-05T01:30:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:31:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:31:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:31:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:31:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:31:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:31:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:32:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:32:10: [API] POST /public/retry-recharge/1 - 1:32:10 AM
+2025-10-05T01:32:10: [Retry] Tentando reprocessar pagamento 1
+2025-10-05T01:32:10: [Sigma] Tentativa 1/3
+2025-10-05T01:32:10: [Sigma] Acessando: https://starplay.sigma.st
+2025-10-05T01:32:12: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-05T01:32:12: [Sigma] Tentativa 1 falhou: Página inicial falhou: 403
+2025-10-05T01:32:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:32:21: [API] GET /admin/resellers - 1:32:21 AM
+2025-10-05T01:32:21: [API] GET /admin/packages/1 - 1:32:21 AM
+2025-10-05T01:32:22: [Sigma] Tentativa 2/3
+2025-10-05T01:32:22: [Sigma] Acessando: https://starplay.sigma.st
+2025-10-05T01:32:24: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-05T01:32:24: [Sigma] Tentativa 2 falhou: Página inicial falhou: 403
+2025-10-05T01:32:24: [API] GET /admin/resellers - 1:32:24 AM
+2025-10-05T01:32:24: [API] GET /admin/panels - 1:32:24 AM
+2025-10-05T01:32:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:32:32: [API] GET /admin/panels - 1:32:32 AM
+2025-10-05T01:32:33: [API] GET /admin/panels - 1:32:33 AM
+2025-10-05T01:32:34: [Sigma] Tentativa 3/3
+2025-10-05T01:32:34: [Sigma] Acessando: https://starplay.sigma.st
+2025-10-05T01:32:36: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-05T01:32:36: [Sigma] Tentativa 3 falhou: Página inicial falhou: 403
+2025-10-05T01:32:36: [Monitor] Erro ao processar recarga: Página inicial falhou: 403
+2025-10-05T01:32:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:32:40: [API] PUT /admin/panels/1 - 1:32:40 AM
+2025-10-05T01:32:40: [API] GET /admin/panels - 1:32:40 AM
+2025-10-05T01:32:42: [API] GET /admin/resellers - 1:32:42 AM
+2025-10-05T01:32:42: [API] GET /admin/packages/1 - 1:32:42 AM
+2025-10-05T01:32:43: [API] GET /admin/payments - 1:32:43 AM
+2025-10-05T01:32:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:32:50: [API] POST /admin/retry-recharge/2 - 1:32:50 AM
+2025-10-05T01:32:50: [Retry] Tentando reprocessar pagamento 2
+2025-10-05T01:32:50: [Sigma] Tentativa 1/3
+2025-10-05T01:32:50: [Sigma] Acessando: https://starpainel.site
+2025-10-05T01:32:55: [Sigma] Login: isaac2022
+2025-10-05T01:32:56: [Sigma] Login OK
+2025-10-05T01:32:56: [Sigma] Adicionando 10 créditos para KADdZ2X1lr
+2025-10-05T01:32:57: [Sigma] Créditos adicionados
+2025-10-05T01:32:57: [Retry] Recarga OK: 10 créditos para ostenes
+2025-10-05T01:32:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:33:03: [API] GET /admin/payments - 1:33:03 AM
+2025-10-05T01:33:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:33:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:33:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:33:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:33:49: [API] GET /admin/resellers - 1:33:49 AM
+2025-10-05T01:33:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:33:50: [API] GET /admin/packages/1 - 1:33:50 AM
+2025-10-05T01:33:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:34:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:34:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:34:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:34:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:34:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:34:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:35:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:35:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:35:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:35:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:35:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:35:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:36:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:36:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:36:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:36:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:36:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:36:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:37:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:37:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:37:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:37:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:37:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:37:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:38:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:38:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:38:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:38:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:38:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:38:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:39:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:39:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:39:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:39:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:39:46: [API] GET /admin/stats - 1:39:46 AM
+2025-10-05T01:39:46: [API] GET /admin/transactions - 1:39:46 AM
+2025-10-05T01:39:47: [API] GET /admin/config - 1:39:47 AM
+2025-10-05T01:39:48: [API] GET /admin/panels - 1:39:48 AM
+2025-10-05T01:39:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:39:51: [API] GET /admin/resellers - 1:39:51 AM
+2025-10-05T01:39:52: [API] GET /admin/packages/1 - 1:39:52 AM
+2025-10-05T01:39:53: [API] GET /admin/payments - 1:39:53 AM
+2025-10-05T01:39:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:40:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:40:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:40:29: [API] GET /admin/resellers - 1:40:29 AM
+2025-10-05T01:40:29: [API] GET /admin/packages/1 - 1:40:29 AM
+2025-10-05T01:40:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:40:30: [API] GET /admin/panels - 1:40:30 AM
+2025-10-05T01:40:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:40:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:40:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:41:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:41:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:41:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:41:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:41:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:41:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:42:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:42:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:42:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:42:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:42:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:42:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:43:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:43:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:43:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:43:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:43:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:43:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:44:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:44:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:44:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:44:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:44:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:44:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:45:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:45:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:45:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:45:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:45:49: [API] GET /admin/resellers - 1:45:49 AM
+2025-10-05T01:45:49: [API] GET /admin/packages/1 - 1:45:49 AM
+2025-10-05T01:45:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:45:50: [API] GET /admin/panels - 1:45:50 AM
+2025-10-05T01:45:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:46:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:46:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:46:24: [API] GET /admin/config - 1:46:24 AM
+2025-10-05T01:46:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:46:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:46:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:46:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:47:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:47:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:47:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:47:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:47:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:47:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:48:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:48:11: [API] GET /admin/panels - 1:48:11 AM
+2025-10-05T01:48:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:48:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:48:34: [API] GET /admin/resellers - 1:48:34 AM
+2025-10-05T01:48:34: [API] GET /admin/packages/1 - 1:48:34 AM
+2025-10-05T01:48:37: [API] GET /admin/panels - 1:48:37 AM
+2025-10-05T01:48:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:48:47: [API] GET /admin/panels - 1:48:47 AM
+2025-10-05T01:48:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:48:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:49:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:49:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:49:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:49:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:49:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:49:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:50:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:50:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:50:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:50:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:50:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:50:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:51:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:51:17: [API] GET /admin/resellers - 1:51:17 AM
+2025-10-05T01:51:17: [API] GET /admin/packages/1 - 1:51:17 AM
+2025-10-05T01:51:19: [API] GET /admin/panels - 1:51:19 AM
+2025-10-05T01:51:20: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:51:30: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:51:40: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:51:50: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:52:00: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:52:10: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:52:20: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:52:30: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:52:40: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:52:50: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:53:00: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:53:10: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:53:20: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:53:30: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:53:40: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:53:50: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:54:00: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:54:10: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:54:20: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:54:30: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:54:40: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:54:50: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:55:00: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:55:10: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:55:20: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:55:30: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T01:56:18: [API] GET /admin/packages/1 - 1:56:18 AM
+2025-10-05T01:56:24: [API] GET /admin/panels - 1:56:24 AM
+2025-10-05T01:56:29: [API] POST /admin/resellers - 1:56:29 AM
+2025-10-05T01:56:29: [API] GET /admin/resellers - 1:56:29 AM
+2025-10-05T01:56:30: [API] GET /admin/packages/2 - 1:56:30 AM
+2025-10-05T01:56:30: [API] GET /admin/packages/1 - 1:56:30 AM
+2025-10-05T01:56:31: [API] GET /admin/packages/2 - 1:56:31 AM
+2025-10-05T02:27:24: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T02:27:24: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T02:27:26: Criando/verificando tabelas...
+2025-10-05T02:27:26: 
+2025-10-05T02:27:26: ============================================================
+2025-10-05T02:27:26: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T02:27:26: ============================================================
+2025-10-05T02:27:26: Servidor: http://localhost:3010
+2025-10-05T02:27:26: Porta: 3010
+2025-10-05T02:27:26: Versao: 2.0.0-modular
+2025-10-05T02:27:26: ============================================================
+2025-10-05T02:27:26: Estrutura:
+2025-10-05T02:27:26:   - models/Database.js
+2025-10-05T02:27:26:   - services/SigmaService.js
+2025-10-05T02:27:26:   - services/PaymentService.js
+2025-10-05T02:27:26:   - services/MonitorService.js
+2025-10-05T02:27:26:   - routes/public.js
+2025-10-05T02:27:26:   - routes/admin.js
+2025-10-05T02:27:26: ============================================================
+2025-10-05T02:27:26: 
+2025-10-05T02:27:26: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T02:27:26: Conectado ao banco de dados SQLite
+2025-10-05T02:27:29: [API] GET /admin/verify-session - 2:27:29 AM
+2025-10-05T02:27:34: [API] POST /admin/login - 2:27:34 AM
+2025-10-05T02:27:34: [Auth] Login: admin
+2025-10-05T02:27:34: [API] GET /admin/stats - 2:27:34 AM
+2025-10-05T02:27:34: [API] GET /admin/transactions - 2:27:34 AM
+2025-10-05T02:27:45: [API] GET /admin/stats - 2:27:45 AM
+2025-10-05T02:27:45: [API] GET /admin/transactions - 2:27:45 AM
+2025-10-05T02:27:49: [API] GET /public/packages/1 - 2:27:49 AM
+2025-10-05T02:27:49: [API] GET /public/access-question - 2:27:49 AM
+2025-10-05T02:27:56: [API] GET /admin/panels - 2:27:56 AM
+2025-10-05T02:28:00: [API] GET /admin/resellers - 2:28:00 AM
+2025-10-05T02:28:01: [API] GET /admin/packages/2 - 2:28:01 AM
+2025-10-05T02:28:01: [API] GET /admin/packages/1 - 2:28:01 AM
+2025-10-05T02:28:03: [API] GET /admin/packages/2 - 2:28:03 AM
+2025-10-05T02:28:10: [API] POST /admin/packages - 2:28:10 AM
+2025-10-05T02:28:10: [API] GET /admin/packages/2 - 2:28:10 AM
+2025-10-05T02:28:15: [API] GET /admin/verify-session - 2:28:15 AM
+2025-10-05T02:28:15: [API] GET /admin/stats - 2:28:15 AM
+2025-10-05T02:28:15: [API] GET /admin/transactions - 2:28:15 AM
+2025-10-05T02:28:17: [API] GET /admin/panels - 2:28:17 AM
+2025-10-05T02:28:18: [API] GET /admin/resellers - 2:28:18 AM
+2025-10-05T02:28:18: [API] GET /admin/packages/2 - 2:28:18 AM
+2025-10-05T02:28:18: [API] GET /admin/packages/1 - 2:28:18 AM
+2025-10-05T02:31:43: [API] GET /admin/verify-session - 2:31:43 AM
+2025-10-05T02:31:43: [API] GET /admin/stats - 2:31:43 AM
+2025-10-05T02:31:43: [API] GET /admin/transactions - 2:31:43 AM
+2025-10-05T02:31:44: [API] GET /admin/panels - 2:31:44 AM
+2025-10-05T02:31:45: [API] GET /admin/resellers - 2:31:45 AM
+2025-10-05T02:31:45: [API] GET /admin/packages/2 - 2:31:45 AM
+2025-10-05T02:31:46: [API] GET /admin/packages/1 - 2:31:46 AM
+2025-10-05T02:33:07: [API] GET /admin/verify-session - 2:33:07 AM
+2025-10-05T02:33:07: [API] GET /admin/stats - 2:33:07 AM
+2025-10-05T02:33:07: [API] GET /admin/transactions - 2:33:07 AM
+2025-10-05T02:33:09: [API] GET /admin/resellers - 2:33:09 AM
+2025-10-05T02:33:09: [API] GET /admin/packages/2 - 2:33:09 AM
+2025-10-05T02:33:09: [API] GET /admin/packages/1 - 2:33:09 AM
+2025-10-05T02:33:17: [API] GET /admin/verify-session - 2:33:17 AM
+2025-10-05T02:33:17: [API] GET /admin/stats - 2:33:17 AM
+2025-10-05T02:33:17: [API] GET /admin/transactions - 2:33:17 AM
+2025-10-05T02:33:23: [API] GET /admin/config - 2:33:23 AM
+2025-10-05T02:33:46: [API] GET /admin/panels - 2:33:46 AM
+2025-10-05T02:33:47: [API] GET /admin/resellers - 2:33:47 AM
+2025-10-05T02:33:47: [API] GET /admin/packages/2 - 2:33:47 AM
+2025-10-05T02:33:47: [API] GET /admin/packages/1 - 2:33:47 AM
+2025-10-05T02:34:08: [API] POST /public/verify-access - 2:34:08 AM
+2025-10-05T02:34:10: [API] POST /public/login - 2:34:10 AM
+2025-10-05T02:34:10: [Login] ostenes (sigma)
+2025-10-05T02:34:10: [API] GET /public/packages/1 - 2:34:10 AM
+2025-10-05T02:43:45: [API] GET /admin/verify-session - 2:43:45 AM
+2025-10-05T02:43:45: [API] GET /admin/stats - 2:43:45 AM
+2025-10-05T02:43:45: [API] GET /admin/transactions - 2:43:45 AM
+2025-10-05T02:43:46: [API] GET /admin/config - 2:43:46 AM
+2025-10-05T02:43:50: [API] GET /admin/panels - 2:43:50 AM
+2025-10-05T02:43:51: [API] GET /admin/resellers - 2:43:51 AM
+2025-10-05T02:43:51: [API] GET /admin/packages/2 - 2:43:51 AM
+2025-10-05T02:43:51: [API] GET /admin/packages/1 - 2:43:51 AM
+2025-10-05T02:46:01: [API] GET /admin/verify-session - 2:46:01 AM
+2025-10-05T02:46:01: [API] GET /admin/stats - 2:46:01 AM
+2025-10-05T02:46:01: [API] GET /admin/transactions - 2:46:01 AM
+2025-10-05T02:51:23: 
+2025-10-05T02:51:23: Encerrando servidor...
+2025-10-05T02:51:23: [Monitor] Parado
+2025-10-05T02:51:23: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T02:51:23: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T02:51:24: Criando/verificando tabelas...
+2025-10-05T02:51:24: 
+2025-10-05T02:51:24: ============================================================
+2025-10-05T02:51:24: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T02:51:24: ============================================================
+2025-10-05T02:51:24: Servidor: http://localhost:3010
+2025-10-05T02:51:24: Porta: 3010
+2025-10-05T02:51:24: Versao: 2.0.0-modular
+2025-10-05T02:51:24: ============================================================
+2025-10-05T02:51:24: Estrutura:
+2025-10-05T02:51:24:   - models/Database.js
+2025-10-05T02:51:24:   - services/SigmaService.js
+2025-10-05T02:51:24:   - services/PaymentService.js
+2025-10-05T02:51:24:   - services/MonitorService.js
+2025-10-05T02:51:24:   - routes/public.js
+2025-10-05T02:51:24:   - routes/admin.js
+2025-10-05T02:51:24: ============================================================
+2025-10-05T02:51:24: 
+2025-10-05T02:51:24: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T02:51:24: Conectado ao banco de dados SQLite
+2025-10-05T02:51:26: [API] GET /admin/verify-session - 2:51:26 AM
+2025-10-05T02:51:30: [API] POST /admin/login - 2:51:30 AM
+2025-10-05T02:51:30: [Auth] Login: admin
+2025-10-05T02:51:30: [API] GET /admin/stats - 2:51:30 AM
+2025-10-05T02:51:31: [API] GET /admin/transactions - 2:51:31 AM
+2025-10-05T02:51:35: [API] GET /admin/resellers - 2:51:35 AM
+2025-10-05T02:51:35: [API] GET /admin/packages/2 - 2:51:35 AM
+2025-10-05T02:51:35: [API] GET /admin/packages/1 - 2:51:35 AM
+2025-10-05T02:51:36: [API] GET /admin/koffice-panels - 2:51:36 AM
+2025-10-05T02:52:56: [API] POST /admin/koffice-panels - 2:52:56 AM
+2025-10-05T02:52:56: [Koffice] admin criou painel Koffice: family
+2025-10-05T02:52:56: [API] GET /admin/koffice-panels - 2:52:56 AM
+2025-10-05T02:53:00: [API] GET /admin/koffice-resellers - 2:53:00 AM
+2025-10-05T02:53:03: [API] GET /admin/koffice-panels - 2:53:03 AM
+2025-10-05T02:53:52: [API] POST /admin/koffice-resellers - 2:53:52 AM
+2025-10-05T02:53:52: [Koffice] admin criou revendedor: teste123 (ID: 1673)
+2025-10-05T02:53:52: [API] GET /admin/koffice-resellers - 2:53:52 AM
+2025-10-05T02:53:53: [API] GET /admin/packages/1 - 2:53:53 AM
+2025-10-05T02:54:06: [API] POST /public/verify-access - 2:54:06 AM
+2025-10-05T02:54:09: [API] POST /public/login - 2:54:09 AM
+2025-10-05T02:54:09: [Login] teste123 (sigma)
+2025-10-05T02:54:09: [API] GET /public/packages/2 - 2:54:09 AM
+2025-10-05T02:54:18: [API] GET /admin/packages/1 - 2:54:18 AM
+2025-10-05T02:54:22: [API] POST /admin/packages - 2:54:22 AM
+2025-10-05T02:54:22: [API] GET /admin/packages/1 - 2:54:22 AM
+2025-10-05T02:54:28: [API] GET /admin/packages/1 - 2:54:28 AM
+2025-10-05T02:54:32: [API] DELETE /admin/packages/2 - 2:54:32 AM
+2025-10-05T02:54:32: [API] GET /admin/packages/1 - 2:54:32 AM
+2025-10-05T02:54:39: [API] POST /admin/packages - 2:54:39 AM
+2025-10-05T02:54:39: [API] GET /admin/packages/1 - 2:54:39 AM
+2025-10-05T02:54:42: [API] GET /public/packages/2 - 2:54:42 AM
+2025-10-05T02:54:42: [API] GET /public/access-question - 2:54:42 AM
+2025-10-05T02:54:56: [API] GET /admin/koffice-panels - 2:54:56 AM
+2025-10-05T02:54:58: [API] GET /admin/resellers - 2:54:58 AM
+2025-10-05T02:54:58: [API] GET /admin/packages/2 - 2:54:58 AM
+2025-10-05T02:54:58: [API] GET /admin/packages/1 - 2:54:58 AM
+2025-10-05T02:55:01: [API] DELETE /admin/resellers/2 - 2:55:01 AM
+2025-10-05T02:55:01: [API] GET /admin/resellers - 2:55:01 AM
+2025-10-05T02:55:03: [API] GET /admin/packages/1 - 2:55:03 AM
+2025-10-05T02:55:05: [API] GET /public/dashboard/2 - 2:55:05 AM
+2025-10-05T02:55:09: [API] POST /public/verify-access - 2:55:09 AM
+2025-10-05T02:55:13: [API] POST /public/login - 2:55:13 AM
+2025-10-05T02:55:13: [Login] teste123 (koffice)
+2025-10-05T02:55:13: [API] GET /public/packages/1 - 2:55:13 AM
+2025-10-05T02:55:16: [API] POST /public/create-payment - 2:55:16 AM
+2025-10-05T02:55:26: [Payment] Criado para teste123 (koffice): 5 créditos
+2025-10-05T02:55:34: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T02:55:36: [API] GET /public/payment-status/10 - 2:55:36 AM
+2025-10-05T02:55:44: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T02:55:46: [API] GET /public/payment-status/10 - 2:55:46 AM
+2025-10-05T02:55:47: [Monitor] Pagamento 10 (koffice) aprovado!
+2025-10-05T02:55:47: [Koffice] Tentativa 1/3
+2025-10-05T02:55:47: [Koffice ...] Acessando página de login...
+2025-10-05T02:55:53: [Koffice ✗] Erro no login: Client network socket disconnected before secure TLS connection was established
+2025-10-05T02:55:53: [Koffice ✗] Tentativa 1 falhou: Client network socket disconnected before secure TLS connection was established
+2025-10-05T02:55:54: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T02:55:56: [API] GET /public/payment-status/10 - 2:55:56 AM
+2025-10-05T02:56:03: [Koffice] Tentativa 2/3
+2025-10-05T02:56:03: [Koffice ...] Acessando página de login...
+2025-10-05T02:56:04: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T02:56:06: [API] GET /public/payment-status/10 - 2:56:06 AM
+2025-10-05T02:56:10: [Koffice ✗] Erro no login: Client network socket disconnected before secure TLS connection was established
+2025-10-05T02:56:10: [Koffice ✗] Tentativa 2 falhou: Client network socket disconnected before secure TLS connection was established
+2025-10-05T02:56:14: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T02:56:16: [API] GET /public/payment-status/10 - 2:56:16 AM
+2025-10-05T02:56:20: [Koffice] Tentativa 3/3
+2025-10-05T02:56:20: [Koffice ...] Acessando página de login...
+2025-10-05T02:56:24: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T02:56:26: [API] GET /public/payment-status/10 - 2:56:26 AM
+2025-10-05T02:56:27: [Koffice ✗] Erro no login: Client network socket disconnected before secure TLS connection was established
+2025-10-05T02:56:27: [Koffice ✗] Tentativa 3 falhou: Client network socket disconnected before secure TLS connection was established
+2025-10-05T02:56:27: [Monitor] Erro ao processar recarga (koffice): Client network socket disconnected before secure TLS connection was established
+2025-10-05T02:56:36: [API] GET /public/payment-status/10 - 2:56:36 AM
+2025-10-05T02:56:37: [API] GET /public/packages/1 - 2:56:37 AM
+2025-10-05T02:56:37: [API] GET /public/access-question - 2:56:37 AM
+2025-10-05T02:56:39: [API] GET /public/dashboard/1 - 2:56:39 AM
+2025-10-05T03:01:17: 
+2025-10-05T03:01:17: Encerrando servidor...
+2025-10-05T03:01:17: [Monitor] Parado
+2025-10-05T03:01:17: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T03:01:17: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T03:01:18: Criando/verificando tabelas...
+2025-10-05T03:01:18: 
+2025-10-05T03:01:18: ============================================================
+2025-10-05T03:01:18: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T03:01:18: ============================================================
+2025-10-05T03:01:18: Servidor: http://localhost:3010
+2025-10-05T03:01:18: Porta: 3010
+2025-10-05T03:01:18: Versao: 2.0.0-modular
+2025-10-05T03:01:18: ============================================================
+2025-10-05T03:01:18: Estrutura:
+2025-10-05T03:01:18:   - models/Database.js
+2025-10-05T03:01:18:   - services/SigmaService.js
+2025-10-05T03:01:18:   - services/PaymentService.js
+2025-10-05T03:01:18:   - services/MonitorService.js
+2025-10-05T03:01:18:   - routes/public.js
+2025-10-05T03:01:18:   - routes/admin.js
+2025-10-05T03:01:18: ============================================================
+2025-10-05T03:01:18: 
+2025-10-05T03:01:18: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T03:01:18: Conectado ao banco de dados SQLite
+2025-10-05T03:01:25: [API] GET /public/access-question - 3:01:25 AM
+2025-10-05T03:01:25: [API] GET /public/packages/1 - 3:01:25 AM
+2025-10-05T03:01:27: [API] GET /public/dashboard/1 - 3:01:27 AM
+2025-10-05T03:01:30: [API] POST /public/retry-all-errors/1 - 3:01:30 AM
+2025-10-05T03:01:30: [Retry] Tentando reprocessar pagamento 10 (koffice)
+2025-10-05T03:01:30: [Koffice] Tentativa 1/3
+2025-10-05T03:01:30: [Koffice ...] Acessando página de login...
+2025-10-05T03:01:41: [Koffice ✗] Erro no login: Client network socket disconnected before secure TLS connection was established
+2025-10-05T03:01:41: [Koffice ✗] Tentativa 1 falhou: Client network socket disconnected before secure TLS connection was established
+2025-10-05T03:01:51: [Koffice] Tentativa 2/3
+2025-10-05T03:01:51: [Koffice ...] Acessando página de login...
+2025-10-05T03:01:58: [Koffice ✗] Erro no login: Client network socket disconnected before secure TLS connection was established
+2025-10-05T03:01:58: [Koffice ✗] Tentativa 2 falhou: Client network socket disconnected before secure TLS connection was established
+2025-10-05T03:02:08: [Koffice] Tentativa 3/3
+2025-10-05T03:02:08: [Koffice ...] Acessando página de login...
+2025-10-05T03:02:15: [Koffice ✗] Erro no login: Client network socket disconnected before secure TLS connection was established
+2025-10-05T03:02:15: [Koffice ✗] Tentativa 3 falhou: Client network socket disconnected before secure TLS connection was established
+2025-10-05T03:02:15: [Monitor] Erro ao processar recarga (koffice): Client network socket disconnected before secure TLS connection was established
+2025-10-05T03:02:17: [API] GET /public/dashboard/1 - 3:02:17 AM
+2025-10-05T03:07:48: 
+2025-10-05T03:07:48: Encerrando servidor...
+2025-10-05T03:07:48: [Monitor] Parado
+2025-10-05T03:07:48: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T03:07:48: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T03:07:49: Criando/verificando tabelas...
+2025-10-05T03:07:49: 
+2025-10-05T03:07:49: ============================================================
+2025-10-05T03:07:49: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T03:07:49: ============================================================
+2025-10-05T03:07:49: Servidor: http://localhost:3010
+2025-10-05T03:07:49: Porta: 3010
+2025-10-05T03:07:49: Versao: 2.0.0-modular
+2025-10-05T03:07:49: ============================================================
+2025-10-05T03:07:49: Estrutura:
+2025-10-05T03:07:49:   - models/Database.js
+2025-10-05T03:07:49:   - services/SigmaService.js
+2025-10-05T03:07:49:   - services/PaymentService.js
+2025-10-05T03:07:49:   - services/MonitorService.js
+2025-10-05T03:07:49:   - routes/public.js
+2025-10-05T03:07:49:   - routes/admin.js
+2025-10-05T03:07:49: ============================================================
+2025-10-05T03:07:49: 
+2025-10-05T03:07:49: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T03:07:49: Conectado ao banco de dados SQLite
+2025-10-05T03:07:52: [API] GET /public/packages/1 - 3:07:52 AM
+2025-10-05T03:07:52: [API] GET /public/access-question - 3:07:52 AM
+2025-10-05T03:07:55: [API] GET /public/dashboard/1 - 3:07:55 AM
+2025-10-05T03:08:02: [API] POST /public/retry-recharge/10 - 3:08:02 AM
+2025-10-05T03:08:02: [Retry] Tentando reprocessar pagamento 10 (koffice)
+2025-10-05T03:08:02: [Koffice] Tentativa 1/3
+2025-10-05T03:08:02: [Koffice ...] Acessando página de login...
+2025-10-05T03:08:14: [Koffice ✗] Erro no login: Client network socket disconnected before secure TLS connection was established
+2025-10-05T03:08:14: [Koffice ✗] Tentativa 1 falhou: Client network socket disconnected before secure TLS connection was established
+2025-10-05T03:08:24: [Koffice] Tentativa 2/3
+2025-10-05T03:08:24: [Koffice ...] Acessando página de login...
+2025-10-05T03:08:31: [Koffice ✗] Erro no login: Client network socket disconnected before secure TLS connection was established
+2025-10-05T03:08:31: [Koffice ✗] Tentativa 2 falhou: Client network socket disconnected before secure TLS connection was established
+2025-10-05T03:08:41: [Koffice] Tentativa 3/3
+2025-10-05T03:08:41: [Koffice ...] Acessando página de login...
+2025-10-05T03:08:47: [Koffice ✗] Erro no login: Client network socket disconnected before secure TLS connection was established
+2025-10-05T03:08:47: [Koffice ✗] Tentativa 3 falhou: Client network socket disconnected before secure TLS connection was established
+2025-10-05T03:08:47: [Monitor] Erro ao processar recarga (koffice): Client network socket disconnected before secure TLS connection was established
+2025-10-05T03:13:28: 
+2025-10-05T03:13:28: Encerrando servidor...
+2025-10-05T03:13:28: [Monitor] Parado
+2025-10-05T03:13:28: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T03:13:28: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T03:13:29: Criando/verificando tabelas...
+2025-10-05T03:13:29: 
+2025-10-05T03:13:29: ============================================================
+2025-10-05T03:13:29: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T03:13:29: ============================================================
+2025-10-05T03:13:29: Servidor: http://localhost:3010
+2025-10-05T03:13:29: Porta: 3010
+2025-10-05T03:13:29: Versao: 2.0.0-modular
+2025-10-05T03:13:29: ============================================================
+2025-10-05T03:13:29: Estrutura:
+2025-10-05T03:13:29:   - models/Database.js
+2025-10-05T03:13:29:   - services/SigmaService.js
+2025-10-05T03:13:29:   - services/PaymentService.js
+2025-10-05T03:13:29:   - services/MonitorService.js
+2025-10-05T03:13:29:   - routes/public.js
+2025-10-05T03:13:29:   - routes/admin.js
+2025-10-05T03:13:29: ============================================================
+2025-10-05T03:13:29: 
+2025-10-05T03:13:29: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T03:13:29: Conectado ao banco de dados SQLite
+2025-10-05T03:13:37: [API] POST /public/retry-recharge/10 - 3:13:37 AM
+2025-10-05T03:13:37: [Retry] Tentando reprocessar pagamento 10 (koffice)
+2025-10-05T03:13:37: [Koffice] Usando proxy: 15.235.35.31:5000
+2025-10-05T03:13:37: [Koffice] Tentativa 1/3
+2025-10-05T03:13:37: [Koffice] Usando proxy: 15.235.35.31:5000
+2025-10-05T03:13:37: [Koffice ...] Acessando página de login...
+2025-10-05T03:13:42: [Koffice ✗] Erro no login: connect ECONNREFUSED 15.235.35.31:5000
+2025-10-05T03:13:42: [Koffice ✗] Tentativa 1 falhou: connect ECONNREFUSED 15.235.35.31:5000
+2025-10-05T03:13:52: [Koffice] Tentativa 2/3
+2025-10-05T03:13:52: [Koffice] Usando proxy: 15.235.35.31:5000
+2025-10-05T03:13:52: [Koffice ...] Acessando página de login...
+2025-10-05T03:13:52: [Koffice ✗] Erro no login: connect ECONNREFUSED 15.235.35.31:5000
+2025-10-05T03:13:52: [Koffice ✗] Tentativa 2 falhou: connect ECONNREFUSED 15.235.35.31:5000
+2025-10-05T03:14:02: [Koffice] Tentativa 3/3
+2025-10-05T03:14:02: [Koffice] Usando proxy: 15.235.35.31:5000
+2025-10-05T03:14:02: [Koffice ...] Acessando página de login...
+2025-10-05T03:14:03: [Koffice ✗] Erro no login: connect ECONNREFUSED 15.235.35.31:5000
+2025-10-05T03:14:03: [Koffice ✗] Tentativa 3 falhou: connect ECONNREFUSED 15.235.35.31:5000
+2025-10-05T03:14:03: [Monitor] Erro ao processar recarga (koffice): connect ECONNREFUSED 15.235.35.31:5000
+2025-10-05T03:17:17: 
+2025-10-05T03:17:17: Encerrando servidor...
+2025-10-05T03:17:17: [Monitor] Parado
+2025-10-05T03:17:17: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T03:17:17: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T03:17:18: Criando/verificando tabelas...
+2025-10-05T03:17:18: 
+2025-10-05T03:17:18: ============================================================
+2025-10-05T03:17:18: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T03:17:18: ============================================================
+2025-10-05T03:17:18: Servidor: http://localhost:3010
+2025-10-05T03:17:18: Porta: 3010
+2025-10-05T03:17:18: Versao: 2.0.0-modular
+2025-10-05T03:17:18: ============================================================
+2025-10-05T03:17:18: Estrutura:
+2025-10-05T03:17:18:   - models/Database.js
+2025-10-05T03:17:18:   - services/SigmaService.js
+2025-10-05T03:17:18:   - services/PaymentService.js
+2025-10-05T03:17:18:   - services/MonitorService.js
+2025-10-05T03:17:18:   - routes/public.js
+2025-10-05T03:17:18:   - routes/admin.js
+2025-10-05T03:17:18: ============================================================
+2025-10-05T03:17:18: 
+2025-10-05T03:17:18: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T03:17:18: Conectado ao banco de dados SQLite
+2025-10-05T03:17:23: [API] POST /public/retry-recharge/10 - 3:17:23 AM
+2025-10-05T03:17:23: [Retry] Tentando reprocessar pagamento 10 (koffice)
+2025-10-05T03:17:23: [Koffice] Tentativa 1/3
+2025-10-05T03:17:23: [Koffice] Proxychains detectado - usando conexão direta
+2025-10-05T03:17:23: [Koffice ...] Acessando página de login...
+2025-10-05T03:17:31: [Koffice ✓] CSRF Token obtido
+2025-10-05T03:17:31: [Koffice ...] Fazendo login...
+2025-10-05T03:17:34: [Koffice ✓] Login bem-sucedido!
+2025-10-05T03:17:34: [Koffice ...] Adicionando 5 créditos para ID 1673...
+2025-10-05T03:17:38: [Koffice ✗] Tentativa 1 falhou: Resposta inesperada do servidor
+2025-10-05T03:17:48: [Koffice] Tentativa 2/3
+2025-10-05T03:17:48: [Koffice] Proxychains detectado - usando conexão direta
+2025-10-05T03:17:48: [Koffice ...] Acessando página de login...
+2025-10-05T03:17:50: [Koffice ✓] CSRF Token obtido
+2025-10-05T03:17:50: [Koffice ...] Fazendo login...
+2025-10-05T03:17:53: [Koffice ✓] Login bem-sucedido!
+2025-10-05T03:17:53: [Koffice ...] Adicionando 5 créditos para ID 1673...
+2025-10-05T03:17:57: [Koffice ✗] Tentativa 2 falhou: Resposta inesperada do servidor
+2025-10-05T03:18:07: [Koffice] Tentativa 3/3
+2025-10-05T03:18:07: [Koffice] Proxychains detectado - usando conexão direta
+2025-10-05T03:18:07: [Koffice ...] Acessando página de login...
+2025-10-05T03:18:09: [Koffice ✓] CSRF Token obtido
+2025-10-05T03:18:09: [Koffice ...] Fazendo login...
+2025-10-05T03:18:12: [Koffice ✓] Login bem-sucedido!
+2025-10-05T03:18:12: [Koffice ...] Adicionando 5 créditos para ID 1673...
+2025-10-05T03:18:16: [Koffice ✗] Tentativa 3 falhou: Resposta inesperada do servidor
+2025-10-05T03:18:16: [Monitor] Erro ao processar recarga (koffice): Resposta inesperada do servidor
+2025-10-05T03:19:04: [API] GET /admin/koffice-panels - 3:19:04 AM
+2025-10-05T03:19:04: [API] POST /admin/logout - 3:19:04 AM
+2025-10-05T03:19:08: [API] POST /admin/login - 3:19:08 AM
+2025-10-05T03:19:08: [Auth] Login: admin
+2025-10-05T03:19:08: [API] GET /admin/stats - 3:19:08 AM
+2025-10-05T03:19:08: [API] GET /admin/transactions - 3:19:08 AM
+2025-10-05T03:19:11: [API] GET /admin/koffice-resellers - 3:19:11 AM
+2025-10-05T03:19:11: [API] GET /admin/packages/1 - 3:19:11 AM
+2025-10-05T03:19:13: [API] GET /admin/packages/1 - 3:19:13 AM
+2025-10-05T03:19:18: [API] DELETE /admin/packages/3 - 3:19:18 AM
+2025-10-05T03:19:18: [API] GET /admin/packages/1 - 3:19:18 AM
+2025-10-05T03:19:25: [API] POST /admin/packages - 3:19:25 AM
+2025-10-05T03:19:25: [API] GET /admin/packages/1 - 3:19:25 AM
+2025-10-05T03:19:29: [API] GET /public/packages/1 - 3:19:29 AM
+2025-10-05T03:19:29: [API] GET /public/access-question - 3:19:29 AM
+2025-10-05T03:19:33: [API] POST /public/create-payment - 3:19:33 AM
+2025-10-05T03:19:35: [Payment] Criado para teste123 (koffice): 10 créditos
+2025-10-05T03:19:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T03:19:46: [API] GET /public/payment-status/11 - 3:19:46 AM
+2025-10-05T03:19:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T03:19:55: [API] GET /public/payment-status/11 - 3:19:55 AM
+2025-10-05T03:19:59: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T03:20:05: [API] GET /public/payment-status/11 - 3:20:05 AM
+2025-10-05T03:20:09: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T03:20:11: [Monitor] Pagamento 11 (koffice) aprovado!
+2025-10-05T03:20:11: [Koffice] Tentativa 1/3
+2025-10-05T03:20:11: [Koffice] Proxychains detectado - usando conexão direta
+2025-10-05T03:20:11: [Koffice ...] Acessando página de login...
+2025-10-05T03:20:13: [Koffice ✓] CSRF Token obtido
+2025-10-05T03:20:13: [Koffice ...] Fazendo login...
+2025-10-05T03:20:15: [API] GET /public/payment-status/11 - 3:20:15 AM
+2025-10-05T03:20:16: [Koffice ✓] Login bem-sucedido!
+2025-10-05T03:20:16: [Koffice ...] Adicionando 10 créditos para ID 1673...
+2025-10-05T03:20:19: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T03:20:20: [Koffice ✗] Tentativa 1 falhou: Resposta inesperada do servidor
+2025-10-05T03:20:25: [API] GET /public/payment-status/11 - 3:20:25 AM
+2025-10-05T03:20:29: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T03:20:30: [Koffice] Tentativa 2/3
+2025-10-05T03:20:30: [Koffice] Proxychains detectado - usando conexão direta
+2025-10-05T03:20:30: [Koffice ...] Acessando página de login...
+2025-10-05T03:20:32: [Koffice ✓] CSRF Token obtido
+2025-10-05T03:20:32: [Koffice ...] Fazendo login...
+2025-10-05T03:20:35: [Koffice ✓] Login bem-sucedido!
+2025-10-05T03:20:35: [Koffice ...] Adicionando 10 créditos para ID 1673...
+2025-10-05T03:20:36: [API] GET /public/payment-status/11 - 3:20:36 AM
+2025-10-05T03:20:39: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T03:20:40: [Koffice ✗] Tentativa 2 falhou: Resposta inesperada do servidor
+2025-10-05T03:20:46: [API] GET /public/payment-status/11 - 3:20:46 AM
+2025-10-05T03:20:49: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T03:20:50: [Koffice] Tentativa 3/3
+2025-10-05T03:20:50: [Koffice] Proxychains detectado - usando conexão direta
+2025-10-05T03:20:50: [Koffice ...] Acessando página de login...
+2025-10-05T03:20:52: [Koffice ✓] CSRF Token obtido
+2025-10-05T03:20:52: [Koffice ...] Fazendo login...
+2025-10-05T03:20:55: [Koffice ✓] Login bem-sucedido!
+2025-10-05T03:20:55: [Koffice ...] Adicionando 10 créditos para ID 1673...
+2025-10-05T03:20:55: [API] GET /public/payment-status/11 - 3:20:55 AM
+2025-10-05T03:20:58: [Koffice ✗] Tentativa 3 falhou: Resposta inesperada do servidor
+2025-10-05T03:20:58: [Monitor] Erro ao processar recarga (koffice): Resposta inesperada do servidor
+2025-10-05T03:21:06: [API] GET /public/payment-status/11 - 3:21:06 AM
+2025-10-05T03:21:16: [API] GET /public/payment-status/11 - 3:21:16 AM
+2025-10-05T03:22:25: [API] GET /public/payment-status/11 - 3:22:25 AM
+2025-10-05T03:23:25: [API] GET /public/payment-status/11 - 3:23:25 AM
+2025-10-05T06:17:04: [API] GET /public/payment-status/11 - 6:17:04 AM
+2025-10-05T14:05:32: [API] GET /public/payment-status/11 - 2:05:32 PM
+2025-10-05T14:18:38: [API] GET /public/payment-status/11 - 2:18:38 PM
+2025-10-05T14:18:46: [API] GET /public/payment-status/11 - 2:18:46 PM
+2025-10-05T14:18:56: [API] GET /public/payment-status/11 - 2:18:56 PM
+2025-10-05T14:19:06: [API] GET /public/payment-status/11 - 2:19:06 PM
+2025-10-05T14:19:16: [API] GET /public/payment-status/11 - 2:19:16 PM
+2025-10-05T14:19:26: [API] GET /public/payment-status/11 - 2:19:26 PM
+2025-10-05T14:19:36: [API] GET /public/payment-status/11 - 2:19:36 PM
+2025-10-05T14:19:46: [API] GET /public/payment-status/11 - 2:19:46 PM
+2025-10-05T14:19:56: [API] GET /public/payment-status/11 - 2:19:56 PM
+2025-10-05T14:20:06: [API] GET /public/payment-status/11 - 2:20:06 PM
+2025-10-05T14:20:16: [API] GET /public/payment-status/11 - 2:20:16 PM
+2025-10-05T14:20:26: [API] GET /public/payment-status/11 - 2:20:26 PM
+2025-10-05T14:20:36: [API] GET /public/payment-status/11 - 2:20:36 PM
+2025-10-05T14:20:46: [API] GET /public/payment-status/11 - 2:20:46 PM
+2025-10-05T14:20:56: [API] GET /public/payment-status/11 - 2:20:56 PM
+2025-10-05T14:21:06: [API] GET /public/payment-status/11 - 2:21:06 PM
+2025-10-05T14:21:16: [API] GET /public/payment-status/11 - 2:21:16 PM
+2025-10-05T14:21:26: [API] GET /public/payment-status/11 - 2:21:26 PM
+2025-10-05T14:21:36: [API] GET /public/payment-status/11 - 2:21:36 PM
+2025-10-05T14:21:46: [API] GET /public/payment-status/11 - 2:21:46 PM
+2025-10-05T14:21:56: [API] GET /public/payment-status/11 - 2:21:56 PM
+2025-10-05T14:22:06: [API] GET /public/payment-status/11 - 2:22:06 PM
+2025-10-05T14:22:16: [API] GET /public/payment-status/11 - 2:22:16 PM
+2025-10-05T14:22:26: [API] GET /public/payment-status/11 - 2:22:26 PM
+2025-10-05T14:22:36: [API] GET /public/payment-status/11 - 2:22:36 PM
+2025-10-05T14:22:47: [API] GET /public/payment-status/11 - 2:22:47 PM
+2025-10-05T14:22:56: [API] GET /public/payment-status/11 - 2:22:56 PM
+2025-10-05T14:23:07: [API] GET /public/payment-status/11 - 2:23:07 PM
+2025-10-05T14:23:17: [API] GET /public/payment-status/11 - 2:23:17 PM
+2025-10-05T14:23:26: [API] GET /public/payment-status/11 - 2:23:26 PM
+2025-10-05T14:24:26: [API] GET /public/payment-status/11 - 2:24:26 PM
+2025-10-05T14:25:26: [API] GET /public/payment-status/11 - 2:25:26 PM
+2025-10-05T14:34:31: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T14:34:31: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T14:34:32: Criando/verificando tabelas...
+2025-10-05T14:34:32: 
+2025-10-05T14:34:32: ============================================================
+2025-10-05T14:34:32: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T14:34:32: ============================================================
+2025-10-05T14:34:32: Servidor: http://localhost:3010
+2025-10-05T14:34:32: Porta: 3010
+2025-10-05T14:34:32: Versao: 2.0.0-modular
+2025-10-05T14:34:32: ============================================================
+2025-10-05T14:34:32: Estrutura:
+2025-10-05T14:34:32:   - models/Database.js
+2025-10-05T14:34:32:   - services/SigmaService.js
+2025-10-05T14:34:32:   - services/PaymentService.js
+2025-10-05T14:34:32:   - services/MonitorService.js
+2025-10-05T14:34:32:   - routes/public.js
+2025-10-05T14:34:32:   - routes/admin.js
+2025-10-05T14:34:32: ============================================================
+2025-10-05T14:34:32: 
+2025-10-05T14:34:32: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T14:34:32: Conectado ao banco de dados SQLite
+2025-10-05T14:35:01: [API] GET /admin/verify-session - 2:35:01 PM
+2025-10-05T14:35:26: [API] GET /public/payment-status/11 - 2:35:26 PM
+2025-10-05T14:36:26: [API] GET /public/payment-status/11 - 2:36:26 PM
+2025-10-05T14:37:26: [API] GET /public/payment-status/11 - 2:37:26 PM
+2025-10-05T14:38:26: [API] GET /public/payment-status/11 - 2:38:26 PM
+2025-10-05T14:39:26: [API] GET /public/payment-status/11 - 2:39:26 PM
+2025-10-05T14:40:26: [API] GET /public/payment-status/11 - 2:40:26 PM
+2025-10-05T14:41:26: [API] GET /public/payment-status/11 - 2:41:26 PM
+2025-10-05T14:41:27: 
+2025-10-05T14:41:27: Encerrando servidor...
+2025-10-05T14:41:27: [Monitor] Parado
+2025-10-05T14:41:27: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T14:41:27: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T14:41:28: Criando/verificando tabelas...
+2025-10-05T14:41:28: 
+2025-10-05T14:41:28: ============================================================
+2025-10-05T14:41:28: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T14:41:28: ============================================================
+2025-10-05T14:41:28: Servidor: http://localhost:3010
+2025-10-05T14:41:28: Porta: 3010
+2025-10-05T14:41:28: Versao: 2.0.0-modular
+2025-10-05T14:41:28: ============================================================
+2025-10-05T14:41:28: Estrutura:
+2025-10-05T14:41:28:   - models/Database.js
+2025-10-05T14:41:28:   - services/SigmaService.js
+2025-10-05T14:41:28:   - services/PaymentService.js
+2025-10-05T14:41:28:   - services/MonitorService.js
+2025-10-05T14:41:28:   - routes/public.js
+2025-10-05T14:41:28:   - routes/admin.js
+2025-10-05T14:41:28: ============================================================
+2025-10-05T14:41:28: 
+2025-10-05T14:41:28: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T14:41:28: Conectado ao banco de dados SQLite
+2025-10-05T14:42:26: [API] GET /public/payment-status/11 - 2:42:26 PM
+2025-10-05T14:43:08: [API] POST /admin/login - 2:43:08 PM
+2025-10-05T14:43:08: [Auth] Login: admin
+2025-10-05T14:43:08: [API] GET /admin/stats - 2:43:08 PM
+2025-10-05T14:43:08: [API] GET /admin/transactions - 2:43:08 PM
+2025-10-05T14:43:12: [API] GET /admin/config - 2:43:12 PM
+2025-10-05T14:43:18: [API] GET /admin/panels - 2:43:18 PM
+2025-10-05T14:43:21: [API] GET /admin/resellers - 2:43:21 PM
+2025-10-05T14:43:21: [API] GET /admin/packages/1 - 2:43:21 PM
+2025-10-05T14:43:25: [API] GET /public/payment-status/11 - 2:43:25 PM
+2025-10-05T14:44:14: [API] GET /admin/packages/1 - 2:44:14 PM
+2025-10-05T14:44:20: [API] POST /admin/packages - 2:44:20 PM
+2025-10-05T14:44:20: [API] GET /admin/packages/1 - 2:44:20 PM
+2025-10-05T14:44:25: [API] GET /admin/verify-session - 2:44:25 PM
+2025-10-05T14:44:25: [API] GET /admin/stats - 2:44:25 PM
+2025-10-05T14:44:25: [API] GET /admin/transactions - 2:44:25 PM
+2025-10-05T14:44:25: [API] GET /public/payment-status/11 - 2:44:25 PM
+2025-10-05T14:44:28: [API] GET /admin/resellers - 2:44:28 PM
+2025-10-05T14:44:28: [API] GET /admin/packages/1 - 2:44:28 PM
+2025-10-05T14:44:29: [API] GET /admin/packages/1 - 2:44:29 PM
+2025-10-05T14:44:39: [API] DELETE /admin/resellers/1 - 2:44:39 PM
+2025-10-05T14:44:39: [API] GET /admin/resellers - 2:44:39 PM
+2025-10-05T14:44:42: [API] GET /admin/panels - 2:44:42 PM
+2025-10-05T14:44:43: [API] GET /admin/config - 2:44:43 PM
+2025-10-05T14:44:43: [API] GET /admin/panels - 2:44:43 PM
+2025-10-05T14:44:44: [API] GET /admin/resellers - 2:44:44 PM
+2025-10-05T14:44:45: [API] GET /admin/panels - 2:44:45 PM
+2025-10-05T14:44:47: [API] POST /admin/resellers - 2:44:47 PM
+2025-10-05T14:44:47: [API] GET /admin/resellers - 2:44:47 PM
+2025-10-05T14:44:48: [API] GET /admin/packages/3 - 2:44:48 PM
+2025-10-05T14:44:52: [API] GET /admin/packages/3 - 2:44:52 PM
+2025-10-05T14:44:54: [API] POST /admin/packages - 2:44:54 PM
+2025-10-05T14:44:54: [API] GET /admin/packages/3 - 2:44:54 PM
+2025-10-05T14:45:01: [API] GET /admin/packages/3 - 2:45:01 PM
+2025-10-05T14:45:04: [API] GET /admin/koffice-resellers - 2:45:04 PM
+2025-10-05T14:45:04: [API] GET /admin/packages/1 - 2:45:04 PM
+2025-10-05T14:45:06: [API] GET /admin/packages/1 - 2:45:06 PM
+2025-10-05T14:45:09: [API] POST /admin/packages - 2:45:09 PM
+2025-10-05T14:45:09: [API] GET /admin/packages/1 - 2:45:09 PM
+2025-10-05T14:45:16: [API] GET /admin/verify-session - 2:45:16 PM
+2025-10-05T14:45:16: [API] GET /admin/stats - 2:45:16 PM
+2025-10-05T14:45:16: [API] GET /admin/transactions - 2:45:16 PM
+2025-10-05T14:45:17: [API] GET /admin/koffice-resellers - 2:45:17 PM
+2025-10-05T14:45:17: [API] GET /admin/packages/1 - 2:45:17 PM
+2025-10-05T14:45:19: [API] GET /admin/packages/1 - 2:45:19 PM
+2025-10-05T14:45:23: [API] GET /admin/resellers - 2:45:23 PM
+2025-10-05T14:45:23: [API] GET /admin/packages/3 - 2:45:23 PM
+2025-10-05T14:45:25: [API] GET /public/payment-status/11 - 2:45:25 PM
+2025-10-05T14:46:26: [API] GET /public/payment-status/11 - 2:46:26 PM
+2025-10-05T14:47:26: [API] GET /public/payment-status/11 - 2:47:26 PM
+2025-10-05T14:48:26: [API] GET /public/payment-status/11 - 2:48:26 PM
+2025-10-05T14:49:26: [API] GET /public/payment-status/11 - 2:49:26 PM
+2025-10-05T14:50:26: [API] GET /public/payment-status/11 - 2:50:26 PM
+2025-10-05T14:51:26: [API] GET /public/payment-status/11 - 2:51:26 PM
+2025-10-05T14:52:11: [API] GET /admin/verify-session - 2:52:11 PM
+2025-10-05T14:52:11: [API] GET /admin/stats - 2:52:11 PM
+2025-10-05T14:52:11: [API] GET /admin/transactions - 2:52:11 PM
+2025-10-05T14:52:13: [API] GET /admin/panels - 2:52:13 PM
+2025-10-05T14:52:15: [API] GET /admin/resellers - 2:52:15 PM
+2025-10-05T14:52:15: [API] GET /admin/packages/3 - 2:52:15 PM
+2025-10-05T14:52:17: [API] GET /admin/packages/3 - 2:52:17 PM
+2025-10-05T14:52:20: [API] POST /admin/packages - 2:52:20 PM
+2025-10-05T14:52:20: [API] GET /admin/packages/3 - 2:52:20 PM
+2025-10-05T14:52:25: [API] GET /public/payment-status/11 - 2:52:25 PM
+2025-10-05T14:52:26: [API] GET /admin/verify-session - 2:52:26 PM
+2025-10-05T14:52:26: [API] GET /admin/stats - 2:52:26 PM
+2025-10-05T14:52:26: [API] GET /admin/transactions - 2:52:26 PM
+2025-10-05T14:52:27: [API] GET /admin/koffice-panels - 2:52:27 PM
+2025-10-05T14:52:28: [API] GET /admin/resellers - 2:52:28 PM
+2025-10-05T14:52:28: [API] GET /admin/packages/3 - 2:52:28 PM
+2025-10-05T14:53:26: [API] GET /public/payment-status/11 - 2:53:26 PM
+2025-10-05T14:54:26: [API] GET /public/payment-status/11 - 2:54:26 PM
+2025-10-05T14:55:26: [API] GET /public/payment-status/11 - 2:55:26 PM
+2025-10-05T14:56:21: 
+2025-10-05T14:56:21: Encerrando servidor...
+2025-10-05T14:56:21: [Monitor] Parado
+2025-10-05T14:56:21: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T14:56:21: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T14:56:22: Criando/verificando tabelas...
+2025-10-05T14:56:22: 
+2025-10-05T14:56:22: ============================================================
+2025-10-05T14:56:22: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T14:56:22: ============================================================
+2025-10-05T14:56:22: Servidor: http://localhost:3010
+2025-10-05T14:56:22: Porta: 3010
+2025-10-05T14:56:22: Versao: 2.0.0-modular
+2025-10-05T14:56:22: ============================================================
+2025-10-05T14:56:22: Estrutura:
+2025-10-05T14:56:22:   - models/Database.js
+2025-10-05T14:56:22:   - services/SigmaService.js
+2025-10-05T14:56:22:   - services/PaymentService.js
+2025-10-05T14:56:22:   - services/MonitorService.js
+2025-10-05T14:56:22:   - routes/public.js
+2025-10-05T14:56:22:   - routes/admin.js
+2025-10-05T14:56:22: ============================================================
+2025-10-05T14:56:22: 
+2025-10-05T14:56:22: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T14:56:22: Conectado ao banco de dados SQLite
+2025-10-05T14:56:25: [API] GET /admin/verify-session - 2:56:24 PM
+2025-10-05T14:56:25: [API] GET /public/payment-status/11 - 2:56:25 PM
+2025-10-05T14:56:30: [API] POST /admin/login - 2:56:30 PM
+2025-10-05T14:56:30: [Auth] Login: admin
+2025-10-05T14:56:30: [API] GET /admin/stats - 2:56:30 PM
+2025-10-05T14:56:31: [API] GET /admin/transactions - 2:56:31 PM
+2025-10-05T14:56:34: [API] GET /admin/panels - 2:56:34 PM
+2025-10-05T14:56:36: [API] GET /admin/resellers - 2:56:36 PM
+2025-10-05T14:56:36: [API] GET /admin/packages/3 - 2:56:36 PM
+2025-10-05T14:56:40: [API] GET /admin/koffice-resellers - 2:56:40 PM
+2025-10-05T14:56:41: [API] GET /admin/packages/1 - 2:56:41 PM
+2025-10-05T14:56:42: [API] GET /admin/resellers - 2:56:42 PM
+2025-10-05T14:56:42: [API] GET /admin/packages/3 - 2:56:42 PM
+2025-10-05T14:56:45: [API] DELETE /admin/resellers/3 - 2:56:45 PM
+2025-10-05T14:56:45: [API] GET /admin/resellers - 2:56:45 PM
+2025-10-05T14:56:48: [API] GET /admin/panels - 2:56:48 PM
+2025-10-05T14:56:53: [API] POST /admin/resellers - 2:56:53 PM
+2025-10-05T14:56:53: [API] GET /admin/resellers - 2:56:53 PM
+2025-10-05T14:56:55: [API] GET /admin/packages/4 - 2:56:55 PM
+2025-10-05T14:56:57: [API] GET /admin/packages/4 - 2:56:57 PM
+2025-10-05T14:57:03: [API] POST /admin/packages - 2:57:03 PM
+2025-10-05T14:57:03: [API] GET /admin/packages/4 - 2:57:03 PM
+2025-10-05T14:57:09: [API] GET /admin/verify-session - 2:57:09 PM
+2025-10-05T14:57:09: [API] GET /admin/stats - 2:57:09 PM
+2025-10-05T14:57:09: [API] GET /admin/transactions - 2:57:09 PM
+2025-10-05T14:57:10: [API] GET /admin/resellers - 2:57:10 PM
+2025-10-05T14:57:10: [API] GET /admin/packages/4 - 2:57:10 PM
+2025-10-05T14:57:12: [API] GET /admin/koffice-resellers - 2:57:12 PM
+2025-10-05T14:57:12: [API] GET /admin/packages/1 - 2:57:12 PM
+2025-10-05T14:57:16: [API] GET /admin/koffice-panels - 2:57:16 PM
+2025-10-05T14:57:25: [API] POST /admin/koffice-resellers - 2:57:25 PM
+2025-10-05T14:57:25: [Koffice] admin criou revendedor: TESTE1234 (ID: 3234)
+2025-10-05T14:57:25: [API] GET /admin/koffice-resellers - 2:57:25 PM
+2025-10-05T14:57:25: [API] GET /public/payment-status/11 - 2:57:25 PM
+2025-10-05T14:57:26: [API] GET /admin/packages/2 - 2:57:26 PM
+2025-10-05T14:57:26: [API] GET /admin/packages/1 - 2:57:26 PM
+2025-10-05T14:57:28: [API] GET /admin/packages/2 - 2:57:28 PM
+2025-10-05T14:57:30: [API] POST /admin/packages - 2:57:30 PM
+2025-10-05T14:57:30: [API] GET /admin/packages/2 - 2:57:30 PM
+2025-10-05T14:57:39: [API] GET /admin/verify-session - 2:57:39 PM
+2025-10-05T14:57:39: [API] GET /admin/stats - 2:57:39 PM
+2025-10-05T14:57:39: [API] GET /admin/transactions - 2:57:39 PM
+2025-10-05T14:57:40: [API] GET /admin/koffice-resellers - 2:57:40 PM
+2025-10-05T14:57:40: [API] GET /admin/packages/2 - 2:57:40 PM
+2025-10-05T14:57:40: [API] GET /admin/packages/1 - 2:57:40 PM
+2025-10-05T14:57:43: [API] GET /admin/resellers - 2:57:43 PM
+2025-10-05T14:57:43: [API] GET /admin/packages/4 - 2:57:43 PM
+2025-10-05T14:57:46: [API] GET /admin/koffice-resellers - 2:57:46 PM
+2025-10-05T14:57:46: [API] GET /admin/packages/2 - 2:57:46 PM
+2025-10-05T14:57:46: [API] GET /admin/packages/1 - 2:57:46 PM
+2025-10-05T14:57:48: [API] GET /admin/resellers - 2:57:48 PM
+2025-10-05T14:57:48: [API] GET /admin/packages/4 - 2:57:48 PM
+2025-10-05T14:57:51: [API] GET /admin/packages/4 - 2:57:51 PM
+2025-10-05T14:57:56: [API] GET /public/payment-status/11 - 2:57:56 PM
+2025-10-05T14:57:58: [API] GET /public/access-question - 2:57:58 PM
+2025-10-05T14:57:58: [API] GET /public/packages/1 - 2:57:58 PM
+2025-10-05T14:58:10: [API] POST /public/verify-access - 2:58:10 PM
+2025-10-05T14:58:12: [API] POST /public/login - 2:58:12 PM
+2025-10-05T14:58:12: [Login] ostenes (sigma)
+2025-10-05T14:58:12: [API] GET /public/packages/4 - 2:58:12 PM
+2025-10-05T14:58:15: [API] POST /public/create-payment - 2:58:15 PM
+2025-10-05T14:58:23: [Payment] Criado para ostenes (sigma): 10 créditos
+2025-10-05T14:58:28: [API] GET /public/payment-status/12 - 2:58:28 PM
+2025-10-05T14:58:32: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T14:58:33: [API] GET /public/payment-status/12 - 2:58:33 PM
+2025-10-05T14:58:38: [API] GET /public/payment-status/12 - 2:58:38 PM
+2025-10-05T14:58:42: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T14:58:43: [API] GET /public/payment-status/12 - 2:58:43 PM
+2025-10-05T14:58:48: [API] GET /public/payment-status/12 - 2:58:48 PM
+2025-10-05T14:58:52: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T14:58:53: [API] GET /public/payment-status/12 - 2:58:53 PM
+2025-10-05T14:58:54: [Monitor] Pagamento 12 (sigma) aprovado!
+2025-10-05T14:58:54: [Sigma] Tentativa 1/3
+2025-10-05T14:58:54: [Sigma] Acessando: https://starpainel.site
+2025-10-05T14:58:58: [API] GET /public/payment-status/12 - 2:58:58 PM
+2025-10-05T14:58:59: [Sigma] Login: isaac2022
+2025-10-05T14:59:00: [Sigma] Login OK
+2025-10-05T14:59:02: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T14:59:03: [Sigma] Adicionando 10 créditos para KADdZ2X1lr
+2025-10-05T14:59:03: [API] GET /public/payment-status/12 - 2:59:03 PM
+2025-10-05T14:59:04: [Sigma] Créditos adicionados
+2025-10-05T14:59:04: [Monitor] Recarga OK (sigma): 10 créditos para ostenes
+2025-10-05T14:59:08: [API] GET /public/payment-status/12 - 2:59:08 PM
+2025-10-05T14:59:09: [API] GET /public/payment-status/12 - 2:59:09 PM
+2025-10-05T14:59:19: [API] GET /admin/panels - 2:59:19 PM
+2025-10-05T14:59:21: [API] GET /admin/panels - 2:59:21 PM
+2025-10-05T14:59:27: [API] PUT /admin/panels/1 - 2:59:27 PM
+2025-10-05T14:59:27: [API] GET /admin/panels - 2:59:27 PM
+2025-10-05T15:00:28: [API] GET /public/dashboard/4 - 3:00:28 PM
+2025-10-05T15:00:32: [API] POST /public/create-payment - 3:00:32 PM
+2025-10-05T15:00:36: [Payment] Criado para ostenes (sigma): 10 créditos
+2025-10-05T15:00:41: [API] GET /public/payment-status/13 - 3:00:41 PM
+2025-10-05T15:00:42: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:00:46: [API] GET /public/payment-status/13 - 3:00:46 PM
+2025-10-05T15:00:51: [API] GET /public/payment-status/13 - 3:00:51 PM
+2025-10-05T15:00:52: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:00:56: [API] GET /public/payment-status/13 - 3:00:56 PM
+2025-10-05T15:00:58: [API] GET /public/packages/4 - 3:00:58 PM
+2025-10-05T15:00:58: [API] GET /public/access-question - 3:00:58 PM
+2025-10-05T15:01:02: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:01:11: [API] POST /public/create-payment - 3:01:11 PM
+2025-10-05T15:01:12: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:01:14: [Payment] Criado para ostenes (sigma): 10 créditos
+2025-10-05T15:01:19: [API] GET /public/payment-status/14 - 3:01:19 PM
+2025-10-05T15:01:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:01:24: [API] GET /public/payment-status/14 - 3:01:24 PM
+2025-10-05T15:01:25: [Monitor] Pagamento 14 (sigma) aprovado!
+2025-10-05T15:01:25: [Sigma] Tentativa 1/3
+2025-10-05T15:01:25: [Sigma] Acessando: https://starplay.sigma.st
+2025-10-05T15:01:29: [API] GET /public/payment-status/14 - 3:01:29 PM
+2025-10-05T15:01:31: [Sigma] Erro no login: Client network socket disconnected before secure TLS connection was established
+2025-10-05T15:01:31: [Sigma] Tentativa 1 falhou: Client network socket disconnected before secure TLS connection was established
+2025-10-05T15:01:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:01:34: [API] GET /public/payment-status/14 - 3:01:34 PM
+2025-10-05T15:01:39: [API] GET /public/payment-status/14 - 3:01:39 PM
+2025-10-05T15:01:41: [Sigma] Tentativa 2/3
+2025-10-05T15:01:41: [Sigma] Acessando: https://starplay.sigma.st
+2025-10-05T15:01:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:01:44: [API] GET /public/payment-status/14 - 3:01:44 PM
+2025-10-05T15:01:47: [Sigma] Erro no login: Client network socket disconnected before secure TLS connection was established
+2025-10-05T15:01:47: [Sigma] Tentativa 2 falhou: Client network socket disconnected before secure TLS connection was established
+2025-10-05T15:01:49: [API] GET /public/payment-status/14 - 3:01:49 PM
+2025-10-05T15:01:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:01:54: [API] GET /public/payment-status/14 - 3:01:54 PM
+2025-10-05T15:01:57: [Sigma] Tentativa 3/3
+2025-10-05T15:01:57: [Sigma] Acessando: https://starplay.sigma.st
+2025-10-05T15:01:59: [API] GET /public/payment-status/14 - 3:01:59 PM
+2025-10-05T15:02:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:02:03: [Sigma] Erro no login: Client network socket disconnected before secure TLS connection was established
+2025-10-05T15:02:03: [Sigma] Tentativa 3 falhou: Client network socket disconnected before secure TLS connection was established
+2025-10-05T15:02:03: [Monitor] Erro ao processar recarga (sigma): Client network socket disconnected before secure TLS connection was established
+2025-10-05T15:02:04: [API] GET /public/payment-status/14 - 3:02:04 PM
+2025-10-05T15:02:11: [API] GET /public/dashboard/4 - 3:02:11 PM
+2025-10-05T15:02:12: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:02:15: [API] GET /admin/panels - 3:02:15 PM
+2025-10-05T15:02:22: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:02:26: [API] PUT /admin/panels/1 - 3:02:26 PM
+2025-10-05T15:02:26: [API] GET /admin/panels - 3:02:26 PM
+2025-10-05T15:02:32: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:02:42: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:02:45: [API] POST /public/verify-access - 3:02:45 PM
+2025-10-05T15:02:46: [API] POST /public/login - 3:02:46 PM
+2025-10-05T15:02:46: [Login] teste123 (koffice)
+2025-10-05T15:02:46: [API] GET /public/packages/1 - 3:02:46 PM
+2025-10-05T15:02:52: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:03:02: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:03:12: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:03:22: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:03:27: [API] POST /public/create-payment - 3:03:27 PM
+2025-10-05T15:03:28: [Payment] Criado para teste123 (koffice): 10 créditos
+2025-10-05T15:03:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:03:33: [API] GET /public/payment-status/15 - 3:03:33 PM
+2025-10-05T15:03:38: [API] GET /public/payment-status/15 - 3:03:38 PM
+2025-10-05T15:03:39: [API] GET /public/packages/1 - 3:03:39 PM
+2025-10-05T15:03:39: [API] GET /public/access-question - 3:03:39 PM
+2025-10-05T15:03:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:03:43: [API] GET /public/dashboard/1 - 3:03:43 PM
+2025-10-05T15:03:48: [API] POST /public/create-payment - 3:03:48 PM
+2025-10-05T15:03:50: [Payment] Criado para teste123 (koffice): 10 créditos
+2025-10-05T15:03:52: [Monitor] Verificando 3 pagamento(s) pendente(s)
+2025-10-05T15:03:55: [API] GET /public/payment-status/16 - 3:03:55 PM
+2025-10-05T15:04:00: [API] GET /public/payment-status/16 - 3:04:00 PM
+2025-10-05T15:04:02: [Monitor] Verificando 3 pagamento(s) pendente(s)
+2025-10-05T15:04:05: [API] GET /public/payment-status/16 - 3:04:05 PM
+2025-10-05T15:04:10: [API] GET /public/payment-status/16 - 3:04:10 PM
+2025-10-05T15:04:12: [Monitor] Verificando 3 pagamento(s) pendente(s)
+2025-10-05T15:04:15: [API] GET /public/payment-status/16 - 3:04:15 PM
+2025-10-05T15:04:16: [Monitor] Pagamento 16 (koffice) aprovado!
+2025-10-05T15:04:16: [Koffice] Tentativa 1/3
+2025-10-05T15:04:16: [Koffice] Proxychains detectado - usando conexão direta
+2025-10-05T15:04:16: [Koffice ...] Acessando página de login...
+2025-10-05T15:04:19: [Koffice ✓] CSRF Token obtido
+2025-10-05T15:04:19: [Koffice ...] Fazendo login...
+2025-10-05T15:04:20: [API] GET /public/payment-status/16 - 3:04:20 PM
+2025-10-05T15:04:22: [Monitor] Verificando 3 pagamento(s) pendente(s)
+2025-10-05T15:04:23: [Koffice ✓] Login bem-sucedido!
+2025-10-05T15:04:23: [Koffice ...] Adicionando 10 créditos para ID 1673...
+2025-10-05T15:04:25: [API] GET /public/payment-status/16 - 3:04:25 PM
+2025-10-05T15:04:28: [Koffice ✓] Créditos adicionados com sucesso!
+2025-10-05T15:04:28: [Monitor] Recarga OK (koffice): 10 créditos para teste123
+2025-10-05T15:04:30: [API] GET /public/payment-status/16 - 3:04:30 PM
+2025-10-05T15:04:31: [API] GET /public/payment-status/16 - 3:04:31 PM
+2025-10-05T15:04:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:04:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:04:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:05:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:05:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:05:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:05:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:05:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:05:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:06:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:06:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:06:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:06:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:06:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:06:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:07:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:07:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:07:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:07:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:07:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:07:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:08:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:08:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:08:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:08:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:08:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:08:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:09:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:09:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:09:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:09:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:09:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:09:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:10:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:10:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:10:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:10:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:10:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:10:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:11:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:11:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:11:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:11:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:11:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:11:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:12:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:12:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:12:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:12:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:12:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:12:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:13:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:13:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:13:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:13:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:13:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:13:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:13:59: [PaymentService] Erro ao verificar status: Client network socket disconnected before secure TLS connection was established
+2025-10-05T15:13:59: [Monitor] Erro ao verificar pagamento 13: Client network socket disconnected before secure TLS connection was established
+2025-10-05T15:14:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:14:06: [PaymentService] Erro ao verificar status: Client network socket disconnected before secure TLS connection was established
+2025-10-05T15:14:06: [Monitor] Erro ao verificar pagamento 15: Client network socket disconnected before secure TLS connection was established
+2025-10-05T15:14:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:14:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:14:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:14:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:14:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:15:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:15:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:15:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:15:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:15:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:15:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:16:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:16:04: [API] GET /admin/resellers - 3:16:04 PM
+2025-10-05T15:16:04: [API] GET /admin/packages/4 - 3:16:04 PM
+2025-10-05T15:16:08: [API] DELETE /admin/resellers/4 - 3:16:08 PM
+2025-10-05T15:16:08: [API] GET /admin/resellers - 3:16:08 PM
+2025-10-05T15:16:11: [API] GET /admin/koffice-resellers - 3:16:11 PM
+2025-10-05T15:16:11: [API] GET /admin/packages/2 - 3:16:11 PM
+2025-10-05T15:16:11: [API] GET /admin/packages/1 - 3:16:11 PM
+2025-10-05T15:16:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:16:14: [API] DELETE /admin/koffice-resellers/2 - 3:16:14 PM
+2025-10-05T15:16:14: [API] GET /admin/koffice-resellers - 3:16:14 PM
+2025-10-05T15:16:16: [API] GET /admin/packages/1 - 3:16:16 PM
+2025-10-05T15:16:18: [API] DELETE /admin/koffice-resellers/1 - 3:16:18 PM
+2025-10-05T15:16:18: [API] GET /admin/koffice-resellers - 3:16:18 PM
+2025-10-05T15:16:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:16:28: [API] GET /public/access-question - 3:16:28 PM
+2025-10-05T15:16:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:16:34: [API] POST /public/verify-access - 3:16:34 PM
+2025-10-05T15:16:38: [API] GET /admin/config - 3:16:38 PM
+2025-10-05T15:16:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:16:46: [API] GET /public/dashboard/1 - 3:16:46 PM
+2025-10-05T15:16:48: [API] GET /admin/verify-session - 3:16:48 PM
+2025-10-05T15:16:48: [API] GET /admin/stats - 3:16:48 PM
+2025-10-05T15:16:48: [API] GET /admin/transactions - 3:16:48 PM
+2025-10-05T15:16:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:16:57: [API] POST /public/verify-access - 3:16:57 PM
+2025-10-05T15:17:00: [API] POST /public/login - 3:17:00 PM
+2025-10-05T15:17:00: [API] GET /public/packages/undefined - 3:17:00 PM
+2025-10-05T15:17:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:17:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:17:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:17:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:17:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:17:49: [API] GET /public/access-question - 3:17:49 PM
+2025-10-05T15:17:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:18:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:18:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:18:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:18:31: [API] PUT /admin/config/access_question - 3:18:31 PM
+2025-10-05T15:18:31: [Config] admin atualizou: access_question
+2025-10-05T15:18:31: [API] PUT /admin/config/mp_access_token - 3:18:31 PM
+2025-10-05T15:18:31: [Config] admin atualizou: mp_access_token
+2025-10-05T15:18:31: [API] PUT /admin/config/anticaptcha_api_key - 3:18:31 PM
+2025-10-05T15:18:31: [Config] admin atualizou: anticaptcha_api_key
+2025-10-05T15:18:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:18:35: [API] GET /admin/stats - 3:18:35 PM
+2025-10-05T15:18:35: [API] GET /admin/transactions - 3:18:35 PM
+2025-10-05T15:18:37: [API] GET /admin/verify-session - 3:18:37 PM
+2025-10-05T15:18:37: [API] GET /admin/stats - 3:18:37 PM
+2025-10-05T15:18:37: [API] GET /admin/transactions - 3:18:37 PM
+2025-10-05T15:18:38: [API] GET /admin/config - 3:18:38 PM
+2025-10-05T15:18:41: [API] GET /admin/panels - 3:18:41 PM
+2025-10-05T15:18:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:18:43: [API] GET /admin/resellers - 3:18:43 PM
+2025-10-05T15:18:44: [API] GET /admin/panels - 3:18:44 PM
+2025-10-05T15:18:46: [API] GET /admin/koffice-panels - 3:18:46 PM
+2025-10-05T15:18:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:19:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:19:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:19:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:19:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:19:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:19:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:20:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:20:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:20:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:20:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:20:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:20:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:21:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:21:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:21:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:21:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:21:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:21:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:22:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:22:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:22:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:22:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:22:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:22:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:23:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:23:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:23:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:23:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:23:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:23:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:24:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:24:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:24:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:24:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:24:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:24:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:25:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:25:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:25:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:25:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:25:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:25:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:26:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:26:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:26:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:26:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:26:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:26:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:27:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:27:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:27:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:27:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:27:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:27:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:28:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:28:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:28:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:28:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:28:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:28:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:29:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:29:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:29:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:29:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:29:42: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:29:52: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:30:02: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:30:12: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:30:22: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:30:32: [Monitor] Verificando 2 pagamento(s) pendente(s)
+2025-10-05T15:30:42: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:30:52: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:31:02: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:31:12: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:31:22: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:31:32: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:31:42: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:31:52: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:32:02: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:32:12: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:32:22: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:32:32: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:32:42: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:32:52: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:33:02: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:33:12: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T15:33:22: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T16:41:19: [API] GET /public/access-question - 4:41:19 PM
+2025-10-05T16:41:35: [API] POST /admin/login - 4:41:35 PM
+2025-10-05T16:41:35: [Auth] Login: admin
+2025-10-05T16:41:36: [API] GET /admin/stats - 4:41:36 PM
+2025-10-05T16:41:36: [API] GET /admin/transactions - 4:41:36 PM
+2025-10-05T16:41:45: [API] GET /admin/koffice-panels - 4:41:45 PM
+2025-10-05T16:41:57: [API] GET /admin/koffice-resellers - 4:41:57 PM
+2025-10-05T16:41:58: [API] GET /admin/koffice-panels - 4:41:58 PM
+2025-10-05T16:42:04: [API] POST /admin/koffice-resellers - 4:42:04 PM
+2025-10-05T16:42:04: [Koffice] admin criou revendedor: henriquema1990 (ID: 11667)
+2025-10-05T16:42:04: [API] GET /admin/koffice-resellers - 4:42:04 PM
+2025-10-05T16:42:05: [API] GET /admin/packages/3 - 4:42:05 PM
+2025-10-05T16:42:07: [API] GET /admin/koffice-panels - 4:42:07 PM
+2025-10-05T16:42:49: [API] POST /admin/koffice-panels - 4:42:49 PM
+2025-10-05T16:42:49: [Koffice] admin criou painel Koffice: P2cine 
+2025-10-05T16:42:49: [API] GET /admin/koffice-panels - 4:42:49 PM
+2025-10-05T16:42:52: [API] GET /admin/koffice-resellers - 4:42:52 PM
+2025-10-05T16:42:52: [API] GET /admin/packages/3 - 4:42:52 PM
+2025-10-05T16:42:56: [API] GET /admin/verify-session - 4:42:56 PM
+2025-10-05T16:42:56: [API] GET /admin/stats - 4:42:56 PM
+2025-10-05T16:42:56: [API] GET /admin/transactions - 4:42:56 PM
+2025-10-05T16:42:57: [API] GET /admin/koffice-resellers - 4:42:57 PM
+2025-10-05T16:42:57: [API] GET /admin/packages/3 - 4:42:57 PM
+2025-10-05T16:43:05: [API] GET /admin/koffice-panels - 4:43:05 PM
+2025-10-05T16:43:06: [API] GET /admin/koffice-resellers - 4:43:06 PM
+2025-10-05T16:43:06: [API] GET /admin/packages/3 - 4:43:06 PM
+2025-10-05T16:43:10: [API] GET /admin/verify-session - 4:43:10 PM
+2025-10-05T16:43:10: [API] GET /admin/stats - 4:43:10 PM
+2025-10-05T16:43:10: [API] GET /admin/transactions - 4:43:10 PM
+2025-10-05T16:43:12: [API] GET /admin/koffice-resellers - 4:43:12 PM
+2025-10-05T16:43:12: [API] GET /admin/packages/3 - 4:43:12 PM
+2025-10-05T16:43:18: [API] GET /admin/koffice-resellers - 4:43:18 PM
+2025-10-05T16:43:19: [API] GET /admin/koffice-panels - 4:43:19 PM
+2025-10-05T16:43:22: [API] PUT /admin/koffice-resellers/3 - 4:43:22 PM
+2025-10-05T16:43:22: [API] GET /admin/koffice-resellers - 4:43:22 PM
+2025-10-05T16:43:23: [API] GET /admin/packages/3 - 4:43:23 PM
+2025-10-05T16:43:30: [API] GET /admin/verify-session - 4:43:30 PM
+2025-10-05T16:43:31: [API] GET /admin/stats - 4:43:31 PM
+2025-10-05T16:43:31: [API] GET /admin/transactions - 4:43:31 PM
+2025-10-05T16:43:35: [API] GET /public/access-question - 4:43:35 PM
+2025-10-05T16:43:39: [API] POST /public/verify-access - 4:43:39 PM
+2025-10-05T16:43:48: [API] GET /admin/verify-session - 4:43:48 PM
+2025-10-05T16:43:48: [API] GET /admin/stats - 4:43:48 PM
+2025-10-05T16:43:48: [API] GET /admin/transactions - 4:43:48 PM
+2025-10-05T16:43:50: [API] GET /admin/koffice-resellers - 4:43:50 PM
+2025-10-05T16:43:50: [API] GET /admin/packages/3 - 4:43:50 PM
+2025-10-05T16:43:51: [API] GET /admin/packages/3 - 4:43:51 PM
+2025-10-05T16:43:56: [API] POST /admin/packages - 4:43:56 PM
+2025-10-05T16:43:56: [API] GET /admin/packages/3 - 4:43:56 PM
+2025-10-05T16:44:01: [API] POST /public/login - 4:44:01 PM
+2025-10-05T16:44:01: [Login] henriquema1990 (koffice)
+2025-10-05T16:44:02: [API] GET /public/packages/3 - 4:44:02 PM
+2025-10-05T16:44:03: [API] POST /public/create-payment - 4:44:03 PM
+2025-10-05T16:44:06: [Payment] Criado para henriquema1990 (koffice): 10 créditos
+2025-10-05T16:44:12: [API] GET /public/payment-status/17 - 4:44:12 PM
+2025-10-05T16:44:15: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T16:44:17: [API] GET /public/payment-status/17 - 4:44:17 PM
+2025-10-05T16:44:22: [API] GET /public/payment-status/17 - 4:44:22 PM
+2025-10-05T16:44:25: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T16:44:26: [API] GET /public/payment-status/17 - 4:44:26 PM
+2025-10-05T16:44:27: [Monitor] Pagamento 17 (koffice) aprovado!
+2025-10-05T16:44:27: [Koffice] Tentativa 1/3
+2025-10-05T16:44:27: [Koffice] Proxychains detectado - usando conexão direta
+2025-10-05T16:44:27: [Koffice ...] Acessando página de login...
+2025-10-05T16:44:30: [Koffice ✓] CSRF Token obtido
+2025-10-05T16:44:30: [Koffice] hCaptcha detectado
+2025-10-05T16:44:30: [Koffice ...] Resolvendo hCaptcha...
+2025-10-05T16:44:31: [API] GET /public/payment-status/17 - 4:44:31 PM
+2025-10-05T16:44:32: [Koffice] Tarefa criada: 40974585
+2025-10-05T16:44:35: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T16:44:36: [API] GET /public/payment-status/17 - 4:44:36 PM
+2025-10-05T16:44:41: [API] GET /public/payment-status/17 - 4:44:41 PM
+2025-10-05T16:44:45: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T16:44:46: [API] GET /public/payment-status/17 - 4:44:46 PM
+2025-10-05T16:44:52: [API] GET /public/payment-status/17 - 4:44:52 PM
+2025-10-05T16:44:55: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T16:44:57: [API] GET /public/payment-status/17 - 4:44:57 PM
+2025-10-05T16:45:01: [API] GET /public/payment-status/17 - 4:45:01 PM
+2025-10-05T16:45:05: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T16:45:10: [Koffice ✓] Captcha resolvido!
+2025-10-05T16:45:10: [Koffice ...] Fazendo login...
+2025-10-05T16:45:13: [Koffice ✓] Login bem-sucedido!
+2025-10-05T16:45:13: [Koffice ...] Adicionando 10 créditos para ID 11667...
+2025-10-05T16:45:15: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-05T16:45:16: [Koffice ✓] Créditos adicionados com sucesso!
+2025-10-05T16:45:16: [Monitor] Recarga OK (koffice): 10 créditos para henriquema1990
+2025-10-05T16:45:18: [API] GET /public/payment-status/17 - 4:45:18 PM
+2025-10-05T16:45:20: [API] GET /public/payment-status/17 - 4:45:20 PM
+2025-10-05T17:24:30: [API] GET /public/dashboard/3 - 5:24:30 PM
+2025-10-05T17:24:32: [API] GET /public/packages/3 - 5:24:32 PM
+2025-10-05T17:24:32: [API] GET /public/access-question - 5:24:32 PM
+2025-10-05T19:06:46: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T19:06:46: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T19:06:47: Criando/verificando tabelas...
+2025-10-05T19:06:47: 
+2025-10-05T19:06:47: ============================================================
+2025-10-05T19:06:47: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T19:06:47: ============================================================
+2025-10-05T19:06:47: Servidor: http://localhost:3010
+2025-10-05T19:06:47: Porta: 3010
+2025-10-05T19:06:47: Versao: 2.0.0-modular
+2025-10-05T19:06:47: ============================================================
+2025-10-05T19:06:47: Estrutura:
+2025-10-05T19:06:47:   - models/Database.js
+2025-10-05T19:06:47:   - services/SigmaService.js
+2025-10-05T19:06:47:   - services/PaymentService.js
+2025-10-05T19:06:47:   - services/MonitorService.js
+2025-10-05T19:06:47:   - routes/public.js
+2025-10-05T19:06:47:   - routes/admin.js
+2025-10-05T19:06:47: ============================================================
+2025-10-05T19:06:47: 
+2025-10-05T19:06:47: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T19:06:47: Conectado ao banco de dados SQLite
+2025-10-05T19:06:54: [API] GET /admin/verify-session - 7:06:54 PM
+2025-10-05T19:06:57: [API] POST /admin/login - 7:06:57 PM
+2025-10-05T19:06:57: [Auth] Login: admin
+2025-10-05T19:06:58: [API] GET /admin/stats - 7:06:58 PM
+2025-10-05T19:06:58: [API] GET /admin/transactions - 7:06:58 PM
+2025-10-05T19:07:03: [API] GET /admin/panels - 7:07:03 PM
+2025-10-05T19:07:05: [API] GET /admin/resellers - 7:07:05 PM
+2025-10-05T19:07:07: [API] GET /admin/koffice-panels - 7:07:07 PM
+2025-10-05T19:07:10: [API] GET /admin/resellers - 7:07:10 PM
+2025-10-05T19:07:14: [API] GET /admin/koffice-panels - 7:07:14 PM
+2025-10-05T19:07:16: [API] GET /admin/koffice-resellers - 7:07:16 PM
+2025-10-05T19:07:16: [API] GET /admin/packages/3 - 7:07:16 PM
+2025-10-05T19:07:21: [API] GET /admin/koffice-resellers - 7:07:21 PM
+2025-10-05T19:07:22: [API] GET /admin/packages/3 - 7:07:22 PM
+2025-10-05T19:07:26: [API] GET /admin/resellers - 7:07:26 PM
+2025-10-05T19:07:27: [API] GET /admin/koffice-panels - 7:07:27 PM
+2025-10-05T19:07:28: [API] GET /admin/resellers - 7:07:28 PM
+2025-10-05T19:07:29: [API] GET /admin/panels - 7:07:29 PM
+2025-10-05T19:07:34: [API] POST /admin/resellers - 7:07:34 PM
+2025-10-05T19:07:34: [API] GET /admin/resellers - 7:07:34 PM
+2025-10-05T19:07:35: [API] GET /admin/packages/5 - 7:07:35 PM
+2025-10-05T19:07:39: [API] GET /admin/koffice-resellers - 7:07:39 PM
+2025-10-05T19:07:39: [API] GET /admin/packages/3 - 7:07:39 PM
+2025-10-05T19:07:41: [API] GET /admin/resellers - 7:07:41 PM
+2025-10-05T19:07:41: [API] GET /admin/packages/5 - 7:07:41 PM
+2025-10-05T19:07:51: [API] GET /admin/panels - 7:07:51 PM
+2025-10-05T19:07:52: [API] GET /admin/resellers - 7:07:52 PM
+2025-10-05T19:07:52: [API] GET /admin/packages/5 - 7:07:52 PM
+2025-10-05T19:07:53: [API] GET /admin/koffice-panels - 7:07:53 PM
+2025-10-05T19:07:55: [API] GET /admin/koffice-resellers - 7:07:55 PM
+2025-10-05T19:07:55: [API] GET /admin/packages/3 - 7:07:55 PM
+2025-10-05T19:08:46: [API] GET /admin/verify-session - 7:08:46 PM
+2025-10-05T19:08:46: [API] GET /admin/stats - 7:08:46 PM
+2025-10-05T19:08:46: [API] GET /admin/transactions - 7:08:46 PM
+2025-10-05T19:08:53: [API] GET /admin/verify-session - 7:08:53 PM
+2025-10-05T19:08:53: [API] GET /admin/stats - 7:08:53 PM
+2025-10-05T19:08:53: [API] GET /admin/transactions - 7:08:53 PM
+2025-10-05T19:08:58: [API] GET /admin/resellers - 7:08:58 PM
+2025-10-05T19:08:59: [API] GET /admin/packages/5 - 7:08:59 PM
+2025-10-05T19:08:59: [API] GET /admin/koffice-panels - 7:08:59 PM
+2025-10-05T19:09:02: [API] GET /admin/koffice-resellers - 7:09:02 PM
+2025-10-05T19:09:02: [API] GET /admin/packages/3 - 7:09:02 PM
+2025-10-05T19:09:04: [API] GET /admin/payments - 7:09:04 PM
+2025-10-05T19:15:09: 
+2025-10-05T19:15:09: Encerrando servidor...
+2025-10-05T19:15:09: [Monitor] Parado
+2025-10-05T19:15:09: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T19:15:09: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T19:15:10: Criando/verificando tabelas...
+2025-10-05T19:15:10: 
+2025-10-05T19:15:10: ============================================================
+2025-10-05T19:15:10: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T19:15:10: ============================================================
+2025-10-05T19:15:10: Servidor: http://localhost:3010
+2025-10-05T19:15:10: Porta: 3010
+2025-10-05T19:15:10: Versao: 2.0.0-modular
+2025-10-05T19:15:10: ============================================================
+2025-10-05T19:15:10: Estrutura:
+2025-10-05T19:15:10:   - models/Database.js
+2025-10-05T19:15:10:   - services/SigmaService.js
+2025-10-05T19:15:10:   - services/PaymentService.js
+2025-10-05T19:15:10:   - services/MonitorService.js
+2025-10-05T19:15:10:   - routes/public.js
+2025-10-05T19:15:10:   - routes/admin.js
+2025-10-05T19:15:10: ============================================================
+2025-10-05T19:15:10: 
+2025-10-05T19:15:10: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T19:15:10: Conectado ao banco de dados SQLite
+2025-10-05T19:15:20: [API] GET /admin/verify-session - 7:15:20 PM
+2025-10-05T19:15:31: [API] POST /admin/login - 7:15:31 PM
+2025-10-05T19:15:31: [Auth] Login: admin
+2025-10-05T19:15:31: [API] GET /admin/stats - 7:15:31 PM
+2025-10-05T19:15:31: [API] GET /admin/transactions - 7:15:31 PM
+2025-10-05T19:15:45: [API] GET /admin/verify-session - 7:15:45 PM
+2025-10-05T19:15:45: [API] GET /admin/stats - 7:15:45 PM
+2025-10-05T19:15:45: [API] GET /admin/transactions - 7:15:45 PM
+2025-10-05T19:19:45: [API] GET /admin/verify-session - 7:19:45 PM
+2025-10-05T19:19:45: [API] GET /admin/stats - 7:19:45 PM
+2025-10-05T19:19:45: [API] GET /admin/transactions - 7:19:45 PM
+2025-10-05T19:22:27: [API] GET /admin/verify-session - 7:22:27 PM
+2025-10-05T19:22:27: [API] GET /admin/stats - 7:22:27 PM
+2025-10-05T19:22:27: [API] GET /admin/transactions - 7:22:27 PM
+2025-10-05T19:27:13: 
+2025-10-05T19:27:13: Encerrando servidor...
+2025-10-05T19:27:13: [Monitor] Parado
+2025-10-05T19:27:14: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T19:27:14: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T19:27:15: Criando/verificando tabelas...
+2025-10-05T19:27:15: 
+2025-10-05T19:27:15: ============================================================
+2025-10-05T19:27:15: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T19:27:15: ============================================================
+2025-10-05T19:27:15: Servidor: http://localhost:3010
+2025-10-05T19:27:15: Porta: 3010
+2025-10-05T19:27:15: Versao: 2.0.0-modular
+2025-10-05T19:27:15: ============================================================
+2025-10-05T19:27:15: Estrutura:
+2025-10-05T19:27:15:   - models/Database.js
+2025-10-05T19:27:15:   - services/SigmaService.js
+2025-10-05T19:27:15:   - services/PaymentService.js
+2025-10-05T19:27:15:   - services/MonitorService.js
+2025-10-05T19:27:15:   - routes/public.js
+2025-10-05T19:27:15:   - routes/admin.js
+2025-10-05T19:27:15: ============================================================
+2025-10-05T19:27:15: 
+2025-10-05T19:27:15: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T19:27:15: Conectado ao banco de dados SQLite
+2025-10-05T19:27:19: [API] GET /admin/verify-session - 7:27:19 PM
+2025-10-05T19:27:22: [API] POST /admin/login - 7:27:22 PM
+2025-10-05T19:27:22: [Auth] Login: admin
+2025-10-05T19:27:22: [API] GET /admin/stats - 7:27:22 PM
+2025-10-05T19:27:22: [API] GET /admin/transactions - 7:27:22 PM
+2025-10-05T19:29:14: 
+2025-10-05T19:29:14: Encerrando servidor...
+2025-10-05T19:29:14: [Monitor] Parado
+2025-10-05T19:29:15: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T19:29:15: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T19:29:16: Criando/verificando tabelas...
+2025-10-05T19:29:16: 
+2025-10-05T19:29:16: ============================================================
+2025-10-05T19:29:16: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T19:29:16: ============================================================
+2025-10-05T19:29:16: Servidor: http://localhost:3010
+2025-10-05T19:29:16: Porta: 3010
+2025-10-05T19:29:16: Versao: 2.0.0-modular
+2025-10-05T19:29:16: ============================================================
+2025-10-05T19:29:16: Estrutura:
+2025-10-05T19:29:16:   - models/Database.js
+2025-10-05T19:29:16:   - services/SigmaService.js
+2025-10-05T19:29:16:   - services/PaymentService.js
+2025-10-05T19:29:16:   - services/MonitorService.js
+2025-10-05T19:29:16:   - routes/public.js
+2025-10-05T19:29:16:   - routes/admin.js
+2025-10-05T19:29:16: ============================================================
+2025-10-05T19:29:16: 
+2025-10-05T19:29:16: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T19:29:16: Conectado ao banco de dados SQLite
+2025-10-05T19:29:20: [API] GET /admin/verify-session - 7:29:20 PM
+2025-10-05T19:29:23: [API] POST /admin/login - 7:29:23 PM
+2025-10-05T19:29:23: [Auth] Login: admin
+2025-10-05T19:29:23: [API] GET /admin/stats - 7:29:23 PM
+2025-10-05T19:29:23: [API] GET /admin/transactions - 7:29:23 PM
+2025-10-05T19:31:44: [API] GET /public/packages/3 - 7:31:44 PM
+2025-10-05T19:31:44: [API] GET /public/access-question - 7:31:44 PM
+2025-10-05T19:31:49: [API] GET /admin/verify-session - 7:31:49 PM
+2025-10-05T19:31:50: [API] POST /admin/login - 7:31:50 PM
+2025-10-05T19:31:50: [Auth] Login: admin
+2025-10-05T19:31:50: [API] GET /admin/stats - 7:31:50 PM
+2025-10-05T19:31:51: [API] GET /admin/transactions - 7:31:51 PM
+2025-10-05T19:34:38: 
+2025-10-05T19:34:38: Encerrando servidor...
+2025-10-05T19:34:38: [Monitor] Parado
+2025-10-05T19:34:46: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T19:34:46: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T19:34:47: Criando/verificando tabelas...
+2025-10-05T19:34:47: 
+2025-10-05T19:34:47: ============================================================
+2025-10-05T19:34:47: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T19:34:47: ============================================================
+2025-10-05T19:34:47: Servidor: http://localhost:3010
+2025-10-05T19:34:47: Porta: 3010
+2025-10-05T19:34:47: Versao: 2.0.0-modular
+2025-10-05T19:34:47: ============================================================
+2025-10-05T19:34:47: Estrutura:
+2025-10-05T19:34:47:   - models/Database.js
+2025-10-05T19:34:47:   - services/SigmaService.js
+2025-10-05T19:34:47:   - services/PaymentService.js
+2025-10-05T19:34:47:   - services/MonitorService.js
+2025-10-05T19:34:47:   - routes/public.js
+2025-10-05T19:34:47:   - routes/admin.js
+2025-10-05T19:34:47: ============================================================
+2025-10-05T19:34:47: 
+2025-10-05T19:34:47: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T19:34:47: Conectado ao banco de dados SQLite
+2025-10-05T19:34:49: [API] GET /admin/verify-session - 7:34:49 PM
+2025-10-05T19:34:51: [API] POST /admin/login - 7:34:51 PM
+2025-10-05T19:34:51: [Auth] Login: admin
+2025-10-05T19:34:51: [API] GET /admin/stats - 7:34:51 PM
+2025-10-05T19:34:51: [API] GET /admin/transactions - 7:34:51 PM
+2025-10-05T19:38:01: 
+2025-10-05T19:38:01: Encerrando servidor...
+2025-10-05T19:38:01: [Monitor] Parado
+2025-10-05T19:38:01: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T19:38:01: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T19:38:03: Criando/verificando tabelas...
+2025-10-05T19:38:03: 
+2025-10-05T19:38:03: ============================================================
+2025-10-05T19:38:03: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T19:38:03: ============================================================
+2025-10-05T19:38:03: Servidor: http://localhost:3010
+2025-10-05T19:38:03: Porta: 3010
+2025-10-05T19:38:03: Versao: 2.0.0-modular
+2025-10-05T19:38:03: ============================================================
+2025-10-05T19:38:03: Estrutura:
+2025-10-05T19:38:03:   - models/Database.js
+2025-10-05T19:38:03:   - services/SigmaService.js
+2025-10-05T19:38:03:   - services/PaymentService.js
+2025-10-05T19:38:03:   - services/MonitorService.js
+2025-10-05T19:38:03:   - routes/public.js
+2025-10-05T19:38:03:   - routes/admin.js
+2025-10-05T19:38:03: ============================================================
+2025-10-05T19:38:03: 
+2025-10-05T19:38:03: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T19:38:03: Conectado ao banco de dados SQLite
+2025-10-05T19:39:27: [API] GET /admin/gesoffice-panels - 7:39:27 PM
+2025-10-05T19:39:42: [API] GET /admin/verify-session - 7:39:42 PM
+2025-10-05T19:39:47: [API] POST /admin/login - 7:39:47 PM
+2025-10-05T19:39:47: [Auth] Login: admin
+2025-10-05T19:39:48: [API] GET /admin/stats - 7:39:48 PM
+2025-10-05T19:39:48: [API] GET /admin/transactions - 7:39:48 PM
+2025-10-05T19:39:56: [API] GET /admin/gesoffice-panels - 7:39:56 PM
+2025-10-05T19:42:27: 
+2025-10-05T19:42:27: Encerrando servidor...
+2025-10-05T19:42:27: [Monitor] Parado
+2025-10-05T19:42:27: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T19:42:27: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T19:42:28: Criando/verificando tabelas...
+2025-10-05T19:42:28: 
+2025-10-05T19:42:28: ============================================================
+2025-10-05T19:42:28: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T19:42:28: ============================================================
+2025-10-05T19:42:28: Servidor: http://localhost:3010
+2025-10-05T19:42:28: Porta: 3010
+2025-10-05T19:42:28: Versao: 2.0.0-modular
+2025-10-05T19:42:28: ============================================================
+2025-10-05T19:42:28: Estrutura:
+2025-10-05T19:42:28:   - models/Database.js
+2025-10-05T19:42:28:   - services/SigmaService.js
+2025-10-05T19:42:28:   - services/PaymentService.js
+2025-10-05T19:42:28:   - services/MonitorService.js
+2025-10-05T19:42:28:   - routes/public.js
+2025-10-05T19:42:28:   - routes/admin.js
+2025-10-05T19:42:28: ============================================================
+2025-10-05T19:42:28: 
+2025-10-05T19:42:28: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T19:42:28: Conectado ao banco de dados SQLite
+2025-10-05T19:42:41: [API] GET /admin/verify-session - 7:42:41 PM
+2025-10-05T19:42:43: [API] POST /admin/login - 7:42:43 PM
+2025-10-05T19:42:43: [Auth] Login: admin
+2025-10-05T19:42:43: [API] GET /admin/stats - 7:42:43 PM
+2025-10-05T19:42:43: [API] GET /admin/transactions - 7:42:43 PM
+2025-10-05T19:43:08: [API] GET /admin/verify-session - 7:43:08 PM
+2025-10-05T19:43:08: [API] GET /admin/stats - 7:43:08 PM
+2025-10-05T19:43:08: [API] GET /admin/transactions - 7:43:08 PM
+2025-10-05T19:44:08: [API] GET /admin/verify-session - 7:44:08 PM
+2025-10-05T19:44:08: [API] GET /admin/stats - 7:44:08 PM
+2025-10-05T19:44:08: [API] GET /admin/transactions - 7:44:08 PM
+2025-10-05T19:44:12: [API] GET /admin/verify-session - 7:44:12 PM
+2025-10-05T19:44:12: [API] GET /admin/stats - 7:44:12 PM
+2025-10-05T19:44:12: [API] GET /admin/transactions - 7:44:12 PM
+2025-10-05T19:45:38: 
+2025-10-05T19:45:38: Encerrando servidor...
+2025-10-05T19:45:38: [Monitor] Parado
+2025-10-05T19:45:39: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T19:45:39: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T19:45:40: Criando/verificando tabelas...
+2025-10-05T19:45:40: 
+2025-10-05T19:45:40: ============================================================
+2025-10-05T19:45:40: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T19:45:40: ============================================================
+2025-10-05T19:45:40: Servidor: http://localhost:3010
+2025-10-05T19:45:40: Porta: 3010
+2025-10-05T19:45:40: Versao: 2.0.0-modular
+2025-10-05T19:45:40: ============================================================
+2025-10-05T19:45:40: Estrutura:
+2025-10-05T19:45:40:   - models/Database.js
+2025-10-05T19:45:40:   - services/SigmaService.js
+2025-10-05T19:45:40:   - services/PaymentService.js
+2025-10-05T19:45:40:   - services/MonitorService.js
+2025-10-05T19:45:40:   - routes/public.js
+2025-10-05T19:45:40:   - routes/admin.js
+2025-10-05T19:45:40: ============================================================
+2025-10-05T19:45:40: 
+2025-10-05T19:45:40: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T19:45:40: Conectado ao banco de dados SQLite
+2025-10-05T19:46:01: [API] GET /admin/verify-session - 7:46:01 PM
+2025-10-05T19:46:05: [API] POST /admin/login - 7:46:05 PM
+2025-10-05T19:46:05: [Auth] Login: admin
+2025-10-05T19:46:05: [API] GET /admin/stats - 7:46:05 PM
+2025-10-05T19:46:05: [API] GET /admin/transactions - 7:46:05 PM
+2025-10-05T19:46:32: 
+2025-10-05T19:46:32: Encerrando servidor...
+2025-10-05T19:46:32: [Monitor] Parado
+2025-10-05T19:46:33: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T19:46:33: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T19:46:34: Criando/verificando tabelas...
+2025-10-05T19:46:34: 
+2025-10-05T19:46:34: ============================================================
+2025-10-05T19:46:34: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T19:46:34: ============================================================
+2025-10-05T19:46:34: Servidor: http://localhost:3010
+2025-10-05T19:46:34: Porta: 3010
+2025-10-05T19:46:34: Versao: 2.0.0-modular
+2025-10-05T19:46:34: ============================================================
+2025-10-05T19:46:34: Estrutura:
+2025-10-05T19:46:34:   - models/Database.js
+2025-10-05T19:46:34:   - services/SigmaService.js
+2025-10-05T19:46:34:   - services/PaymentService.js
+2025-10-05T19:46:34:   - services/MonitorService.js
+2025-10-05T19:46:34:   - routes/public.js
+2025-10-05T19:46:34:   - routes/admin.js
+2025-10-05T19:46:34: ============================================================
+2025-10-05T19:46:34: 
+2025-10-05T19:46:34: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T19:46:34: Conectado ao banco de dados SQLite
+2025-10-05T19:46:56: [API] GET /admin/verify-session - 7:46:56 PM
+2025-10-05T19:46:59: [API] POST /admin/login - 7:46:59 PM
+2025-10-05T19:46:59: [Auth] Login: admin
+2025-10-05T19:46:59: [API] GET /admin/stats - 7:46:59 PM
+2025-10-05T19:46:59: [API] GET /admin/transactions - 7:46:59 PM
+2025-10-05T19:50:38: 
+2025-10-05T19:50:38: Encerrando servidor...
+2025-10-05T19:50:38: [Monitor] Parado
+2025-10-05T19:50:38: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T19:50:38: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T19:50:39: Criando/verificando tabelas...
+2025-10-05T19:50:39: 
+2025-10-05T19:50:39: ============================================================
+2025-10-05T19:50:39: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-05T19:50:39: ============================================================
+2025-10-05T19:50:39: Servidor: http://localhost:3010
+2025-10-05T19:50:39: Porta: 3010
+2025-10-05T19:50:39: Versao: 2.0.0-modular
+2025-10-05T19:50:39: ============================================================
+2025-10-05T19:50:39: Estrutura:
+2025-10-05T19:50:39:   - models/Database.js
+2025-10-05T19:50:39:   - services/SigmaService.js
+2025-10-05T19:50:39:   - services/PaymentService.js
+2025-10-05T19:50:39:   - services/MonitorService.js
+2025-10-05T19:50:39:   - routes/public.js
+2025-10-05T19:50:39:   - routes/admin.js
+2025-10-05T19:50:39: ============================================================
+2025-10-05T19:50:39: 
+2025-10-05T19:50:39: [Monitor] Iniciado - verificando a cada 10s
+2025-10-05T19:50:39: Conectado ao banco de dados SQLite
+2025-10-05T19:50:44: [API] GET /admin/verify-session - 7:50:44 PM
+2025-10-05T19:50:50: [API] POST /admin/login - 7:50:50 PM
+2025-10-05T19:50:50: [Auth] Login: admin
+2025-10-05T19:50:50: [API] GET /admin/stats - 7:50:50 PM
+2025-10-05T19:50:50: [API] GET /admin/transactions - 7:50:50 PM
+2025-10-05T19:51:01: [API] GET /admin/verify-session - 7:51:01 PM
+2025-10-05T19:51:01: [API] GET /admin/stats - 7:51:01 PM
+2025-10-05T19:51:01: [API] GET /admin/transactions - 7:51:01 PM
+2025-10-05T19:51:51: [API] POST /admin/login - 7:51:51 PM
+2025-10-05T19:51:51: [Auth] Login: admin
+2025-10-05T19:51:51: [API] GET /admin/stats - 7:51:51 PM
+2025-10-05T19:51:51: [API] GET /admin/transactions - 7:51:51 PM
+2025-10-05T19:51:53: [API] GET /admin/resellers - 7:51:53 PM
+2025-10-05T19:51:53: [API] GET /admin/packages/5 - 7:51:53 PM
+2025-10-06T00:22:59: 
+2025-10-06T00:22:59: Encerrando servidor...
+2025-10-06T00:22:59: [Monitor] Parado
+2025-10-06T00:22:59: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-06T00:22:59: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-06T00:23:01: Criando/verificando tabelas...
+2025-10-06T00:23:01: 
+2025-10-06T00:23:01: ============================================================
+2025-10-06T00:23:01: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-06T00:23:01: ============================================================
+2025-10-06T00:23:01: Servidor: http://localhost:3010
+2025-10-06T00:23:01: Porta: 3010
+2025-10-06T00:23:01: Versao: 2.0.0-modular
+2025-10-06T00:23:01: ============================================================
+2025-10-06T00:23:01: Estrutura:
+2025-10-06T00:23:01:   - models/Database.js
+2025-10-06T00:23:01:   - services/SigmaService.js
+2025-10-06T00:23:01:   - services/PaymentService.js
+2025-10-06T00:23:01:   - services/MonitorService.js
+2025-10-06T00:23:01:   - routes/public.js
+2025-10-06T00:23:01:   - routes/admin.js
+2025-10-06T00:23:01: ============================================================
+2025-10-06T00:23:01: 
+2025-10-06T00:23:01: [Monitor] Iniciado - verificando a cada 10s
+2025-10-06T00:23:01: Conectado ao banco de dados SQLite
+2025-10-06T00:23:02: [API] GET /admin/verify-session - 12:23:02 AM
+2025-10-06T00:23:05: [API] POST /admin/login - 12:23:05 AM
+2025-10-06T00:23:05: [Auth] Login: admin
+2025-10-06T00:23:05: [API] GET /admin/stats - 12:23:05 AM
+2025-10-06T00:23:05: [API] GET /admin/transactions - 12:23:05 AM
+2025-10-06T00:23:09: [API] GET /admin/gesoffice-panels - 12:23:09 AM
+2025-10-06T00:23:16: [API] GET /admin/verify-session - 12:23:16 AM
+2025-10-06T00:23:17: [API] GET /admin/stats - 12:23:17 AM
+2025-10-06T00:23:17: [API] GET /admin/transactions - 12:23:17 AM
+2025-10-06T00:23:18: [API] GET /admin/gesoffice-panels - 12:23:18 AM
+2025-10-06T00:23:32: [API] POST /admin/gesoffice-panels - 12:23:32 AM
+2025-10-06T00:24:38: 
+2025-10-06T00:24:38: Encerrando servidor...
+2025-10-06T00:24:38: [Monitor] Parado
+2025-10-06T00:24:38: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-06T00:24:38: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-06T00:24:39: Criando/verificando tabelas...
+2025-10-06T00:24:39: 
+2025-10-06T00:24:39: ============================================================
+2025-10-06T00:24:39: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-06T00:24:39: ============================================================
+2025-10-06T00:24:39: Servidor: http://localhost:3010
+2025-10-06T00:24:39: Porta: 3010
+2025-10-06T00:24:39: Versao: 2.0.0-modular
+2025-10-06T00:24:39: ============================================================
+2025-10-06T00:24:39: Estrutura:
+2025-10-06T00:24:39:   - models/Database.js
+2025-10-06T00:24:39:   - services/SigmaService.js
+2025-10-06T00:24:39:   - services/PaymentService.js
+2025-10-06T00:24:39:   - services/MonitorService.js
+2025-10-06T00:24:39:   - routes/public.js
+2025-10-06T00:24:39:   - routes/admin.js
+2025-10-06T00:24:39: ============================================================
+2025-10-06T00:24:39: 
+2025-10-06T00:24:39: [Monitor] Iniciado - verificando a cada 10s
+2025-10-06T00:24:39: Conectado ao banco de dados SQLite
+2025-10-06T00:24:41: [API] GET /admin/verify-session - 12:24:41 AM
+2025-10-06T00:24:44: [API] POST /admin/login - 12:24:44 AM
+2025-10-06T00:24:44: [Auth] Login: admin
+2025-10-06T00:24:44: [API] GET /admin/stats - 12:24:44 AM
+2025-10-06T00:24:44: [API] GET /admin/transactions - 12:24:44 AM
+2025-10-06T00:24:48: [API] GET /admin/gesoffice-panels - 12:24:48 AM
+2025-10-06T00:25:41: [API] POST /admin/gesoffice-panels - 12:25:41 AM
+2025-10-06T00:25:41: [GesOffice] admin criou painel GesOffice: uniplay
+2025-10-06T00:25:41: [API] GET /admin/gesoffice-panels - 12:25:41 AM
+2025-10-06T00:25:49: [API] GET /admin/gesoffice-resellers - 12:25:49 AM
+2025-10-06T00:27:25: [API] GET /admin/gesoffice-panels - 12:27:25 AM
+2025-10-06T00:27:36: [API] POST /admin/gesoffice-resellers - 12:27:36 AM
+2025-10-06T00:27:36: [GesOffice] admin criou revendedor: masterpipes (ID: 90284)
+2025-10-06T00:27:36: [API] GET /admin/gesoffice-resellers - 12:27:36 AM
+2025-10-06T00:27:37: [API] GET /admin/packages/1 - 12:27:37 AM
+2025-10-06T00:27:39: [API] GET /admin/packages/1 - 12:27:39 AM
+2025-10-06T00:27:41: [API] POST /admin/packages - 12:27:41 AM
+2025-10-06T00:27:41: [API] GET /admin/packages/1 - 12:27:41 AM
+2025-10-06T00:27:52: [API] POST /public/verify-access - 12:27:52 AM
+2025-10-06T00:27:54: [API] POST /public/login - 12:27:54 AM
+2025-10-06T00:27:54: [Login] masterpipes (gesoffice)
+2025-10-06T00:27:54: [API] GET /public/packages/1 - 12:27:54 AM
+2025-10-06T00:28:07: [API] POST /public/create-payment - 12:28:07 AM
+2025-10-06T00:28:07: Erro ao criar pagamento: TypeError: Cannot read properties of undefined (reading 'username')
+2025-10-06T00:28:07:     at /home/ubuntu/sigmarevenda7/routes/public.js:142:117
+2025-10-06T00:28:17: [API] POST /public/create-payment - 12:28:17 AM
+2025-10-06T00:28:17: Erro ao criar pagamento: TypeError: Cannot read properties of undefined (reading 'username')
+2025-10-06T00:28:17:     at /home/ubuntu/sigmarevenda7/routes/public.js:142:117
+2025-10-06T00:28:22: [API] POST /public/create-payment - 12:28:22 AM
+2025-10-06T00:28:22: Erro ao criar pagamento: TypeError: Cannot read properties of undefined (reading 'username')
+2025-10-06T00:28:22:     at /home/ubuntu/sigmarevenda7/routes/public.js:142:117
+2025-10-06T00:30:00: [API] GET /admin/gesoffice-resellers - 12:30:00 AM
+2025-10-06T00:30:00: [API] GET /admin/gesoffice-panels - 12:30:00 AM
+2025-10-06T00:30:07: [API] GET /admin/verify-session - 12:30:07 AM
+2025-10-06T00:30:07: [API] GET /admin/stats - 12:30:07 AM
+2025-10-06T00:30:07: [API] GET /admin/transactions - 12:30:07 AM
+2025-10-06T00:30:09: [API] GET /admin/gesoffice-panels - 12:30:09 AM
+2025-10-06T00:30:11: [API] GET /admin/koffice-resellers - 12:30:11 AM
+2025-10-06T00:30:11: [API] GET /admin/packages/3 - 12:30:11 AM
+2025-10-06T00:30:12: [API] GET /admin/gesoffice-resellers - 12:30:12 AM
+2025-10-06T00:30:12: [API] GET /admin/packages/1 - 12:30:12 AM
+2025-10-06T00:33:12: 
+2025-10-06T00:33:12: Encerrando servidor...
+2025-10-06T00:33:12: [Monitor] Parado
+2025-10-06T00:33:12: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-06T00:33:12: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-06T00:33:13: Criando/verificando tabelas...
+2025-10-06T00:33:13: 
+2025-10-06T00:33:13: ============================================================
+2025-10-06T00:33:13: SIGMA RECHARGE - SISTEMA MODULAR
+2025-10-06T00:33:13: ============================================================
+2025-10-06T00:33:13: Servidor: http://localhost:3010
+2025-10-06T00:33:13: Porta: 3010
+2025-10-06T00:33:13: Versao: 2.0.0-modular
+2025-10-06T00:33:13: ============================================================
+2025-10-06T00:33:13: Estrutura:
+2025-10-06T00:33:13:   - models/Database.js
+2025-10-06T00:33:13:   - services/SigmaService.js
+2025-10-06T00:33:13:   - services/PaymentService.js
+2025-10-06T00:33:13:   - services/MonitorService.js
+2025-10-06T00:33:13:   - routes/public.js
+2025-10-06T00:33:13:   - routes/admin.js
+2025-10-06T00:33:13: ============================================================
+2025-10-06T00:33:13: 
+2025-10-06T00:33:13: [Monitor] Iniciado - verificando a cada 10s
+2025-10-06T00:33:13: Conectado ao banco de dados SQLite
+2025-10-06T00:33:33: [API] GET /public/packages/1 - 12:33:33 AM
+2025-10-06T00:33:33: [API] GET /public/access-question - 12:33:33 AM
+2025-10-06T00:33:34: [API] GET /public/access-question - 12:33:34 AM
+2025-10-06T00:33:34: [API] GET /public/packages/1 - 12:33:34 AM
+2025-10-06T00:33:38: [API] POST /public/create-payment - 12:33:38 AM
+2025-10-06T00:33:45: [Payment] Criado para masterpipes (gesoffice): 10 créditos
+2025-10-06T00:33:51: [API] GET /public/payment-status/18 - 12:33:51 AM
+2025-10-06T00:33:53: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-06T00:33:56: [API] GET /public/payment-status/18 - 12:33:56 AM
+2025-10-06T00:34:01: [API] GET /public/payment-status/18 - 12:34:01 AM
+2025-10-06T00:34:03: [Monitor] Verificando 1 pagamento(s) pendente(s)
+2025-10-06T00:34:05: [Monitor] Pagamento 18 (gesoffice) aprovado!
+2025-10-06T00:34:05: [GesOffice] Tentativa 1/3
+2025-10-06T00:34:05: [GesOffice] Proxychains detectado - usando conexão direta
+2025-10-06T00:34:05: [GesOffice ...] Fazendo login...
+2025-10-06T00:34:06: [API] GET /public/payment-status/18 - 12:34:06 AM
+2025-10-06T00:34:08: [GesOffice ✓] Login bem-sucedido!
+2025-10-06T00:34:08: [GesOffice ...] Adicionando 10 créditos para ID 90284...
+2025-10-06T00:34:10: [GesOffice ✓] Créditos adicionados com sucesso!
+2025-10-06T00:34:10: [Monitor] Recarga OK (gesoffice): 10 créditos para masterpipes
+2025-10-06T00:34:11: [API] GET /public/payment-status/18 - 12:34:11 AM
+2025-10-06T00:34:12: [API] GET /public/payment-status/18 - 12:34:12 AM

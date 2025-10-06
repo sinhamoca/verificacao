@@ -1,0 +1,150 @@
+2025-10-04T11:38:53: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-04T11:38:53: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-04T12:45:52: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-04T12:45:52: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-04T12:55:48: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-04T12:55:48: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-04T12:58:20: [Sigma] Erro no login: Invalid URL
+2025-10-04T12:58:20: [Sigma] Tentativa 1 falhou: Invalid URL
+2025-10-04T12:58:30: [Sigma] Erro no login: Invalid URL
+2025-10-04T12:58:30: [Sigma] Tentativa 2 falhou: Invalid URL
+2025-10-04T12:58:40: [Sigma] Erro no login: Invalid URL
+2025-10-04T12:58:40: [Sigma] Tentativa 3 falhou: Invalid URL
+2025-10-04T12:58:40: [Monitor] Erro ao processar recarga: Invalid URL
+2025-10-04T13:00:47: [Sigma] Erro no login: Client network socket disconnected before secure TLS connection was established
+2025-10-04T13:00:47: [Sigma] Tentativa 1 falhou: Client network socket disconnected before secure TLS connection was established
+2025-10-04T13:01:02: [Sigma] Erro no login: Client network socket disconnected before secure TLS connection was established
+2025-10-04T13:01:02: [Sigma] Tentativa 2 falhou: Client network socket disconnected before secure TLS connection was established
+2025-10-04T13:01:18: [Sigma] Erro no login: Client network socket disconnected before secure TLS connection was established
+2025-10-04T13:01:18: [Sigma] Tentativa 3 falhou: Client network socket disconnected before secure TLS connection was established
+2025-10-04T13:01:18: [Monitor] Erro ao processar recarga: Client network socket disconnected before secure TLS connection was established
+2025-10-04T22:57:53: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-04T22:57:53: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-04T23:06:06: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-04T23:06:06: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-04T23:49:02: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-04T23:49:02: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-04T23:50:47: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-04T23:50:47: [Sigma] Tentativa 1 falhou: Página inicial falhou: 403
+2025-10-04T23:50:59: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-04T23:50:59: [Sigma] Tentativa 2 falhou: Página inicial falhou: 403
+2025-10-04T23:51:11: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-04T23:51:11: [Sigma] Tentativa 3 falhou: Página inicial falhou: 403
+2025-10-04T23:51:11: [Monitor] Erro ao processar recarga: Página inicial falhou: 403
+2025-10-04T23:52:12: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-04T23:52:12: [Sigma] Tentativa 1 falhou: Página inicial falhou: 403
+2025-10-04T23:52:24: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-04T23:52:24: [Sigma] Tentativa 2 falhou: Página inicial falhou: 403
+2025-10-04T23:52:36: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-04T23:52:36: [Sigma] Tentativa 3 falhou: Página inicial falhou: 403
+2025-10-04T23:52:36: [Monitor] Erro ao processar recarga: Página inicial falhou: 403
+2025-10-05T00:04:00: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T00:04:00: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T00:19:03: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T00:19:03: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T00:21:08: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-05T00:21:08: [Sigma] Tentativa 1 falhou: Página inicial falhou: 403
+2025-10-05T00:21:20: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-05T00:21:20: [Sigma] Tentativa 2 falhou: Página inicial falhou: 403
+2025-10-05T00:21:32: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-05T00:21:32: [Sigma] Tentativa 3 falhou: Página inicial falhou: 403
+2025-10-05T00:21:32: [Monitor] Erro ao processar recarga: Página inicial falhou: 403
+2025-10-05T00:26:41: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T00:26:41: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T00:33:06: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T00:33:06: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T00:40:32: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T00:40:32: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T00:48:41: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T00:48:41: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T00:59:14: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T00:59:14: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T01:07:33: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T01:07:33: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T01:13:08: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T01:13:08: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T01:16:39: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T01:16:39: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T01:21:48: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T01:21:48: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T01:24:05: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-05T01:24:05: [Sigma] Tentativa 1 falhou: Página inicial falhou: 403
+2025-10-05T01:24:17: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-05T01:24:17: [Sigma] Tentativa 2 falhou: Página inicial falhou: 403
+2025-10-05T01:24:29: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-05T01:24:29: [Sigma] Tentativa 3 falhou: Página inicial falhou: 403
+2025-10-05T01:24:29: [Monitor] Erro ao processar recarga: Página inicial falhou: 403
+2025-10-05T01:32:12: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-05T01:32:12: [Sigma] Tentativa 1 falhou: Página inicial falhou: 403
+2025-10-05T01:32:24: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-05T01:32:24: [Sigma] Tentativa 2 falhou: Página inicial falhou: 403
+2025-10-05T01:32:36: [Sigma] Erro no login: Página inicial falhou: 403
+2025-10-05T01:32:36: [Sigma] Tentativa 3 falhou: Página inicial falhou: 403
+2025-10-05T01:32:36: [Monitor] Erro ao processar recarga: Página inicial falhou: 403
+2025-10-05T02:27:24: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T02:27:24: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T02:51:23: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T02:51:23: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T02:56:27: [Monitor] Erro ao processar recarga (koffice): Client network socket disconnected before secure TLS connection was established
+2025-10-05T03:01:17: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T03:01:17: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T03:02:15: [Monitor] Erro ao processar recarga (koffice): Client network socket disconnected before secure TLS connection was established
+2025-10-05T03:07:48: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T03:07:48: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T03:08:47: [Monitor] Erro ao processar recarga (koffice): Client network socket disconnected before secure TLS connection was established
+2025-10-05T03:13:28: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T03:13:28: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T03:14:03: [Monitor] Erro ao processar recarga (koffice): connect ECONNREFUSED 15.235.35.31:5000
+2025-10-05T03:17:17: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T03:17:17: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T03:18:16: [Monitor] Erro ao processar recarga (koffice): Resposta inesperada do servidor
+2025-10-05T03:20:58: [Monitor] Erro ao processar recarga (koffice): Resposta inesperada do servidor
+2025-10-05T14:34:31: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T14:34:31: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T14:41:27: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T14:41:27: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T14:56:21: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T14:56:21: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T15:01:31: [Sigma] Erro no login: Client network socket disconnected before secure TLS connection was established
+2025-10-05T15:01:31: [Sigma] Tentativa 1 falhou: Client network socket disconnected before secure TLS connection was established
+2025-10-05T15:01:47: [Sigma] Erro no login: Client network socket disconnected before secure TLS connection was established
+2025-10-05T15:01:47: [Sigma] Tentativa 2 falhou: Client network socket disconnected before secure TLS connection was established
+2025-10-05T15:02:03: [Sigma] Erro no login: Client network socket disconnected before secure TLS connection was established
+2025-10-05T15:02:03: [Sigma] Tentativa 3 falhou: Client network socket disconnected before secure TLS connection was established
+2025-10-05T15:02:03: [Monitor] Erro ao processar recarga (sigma): Client network socket disconnected before secure TLS connection was established
+2025-10-05T15:13:59: [PaymentService] Erro ao verificar status: Client network socket disconnected before secure TLS connection was established
+2025-10-05T15:13:59: [Monitor] Erro ao verificar pagamento 13: Client network socket disconnected before secure TLS connection was established
+2025-10-05T15:14:06: [PaymentService] Erro ao verificar status: Client network socket disconnected before secure TLS connection was established
+2025-10-05T15:14:06: [Monitor] Erro ao verificar pagamento 15: Client network socket disconnected before secure TLS connection was established
+2025-10-05T19:06:46: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T19:06:46: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T19:15:09: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T19:15:09: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T19:27:14: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T19:27:14: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T19:29:15: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T19:29:15: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T19:34:46: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T19:34:46: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T19:38:01: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T19:38:01: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T19:42:27: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T19:42:27: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T19:45:39: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T19:45:39: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T19:46:33: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T19:46:33: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-05T19:50:38: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-05T19:50:38: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-06T00:22:59: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-06T00:22:59: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-06T00:24:38: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-06T00:24:38: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+2025-10-06T00:28:07: Erro ao criar pagamento: TypeError: Cannot read properties of undefined (reading 'username')
+2025-10-06T00:28:07:     at /home/ubuntu/sigmarevenda7/routes/public.js:142:117
+2025-10-06T00:28:17: Erro ao criar pagamento: TypeError: Cannot read properties of undefined (reading 'username')
+2025-10-06T00:28:17:     at /home/ubuntu/sigmarevenda7/routes/public.js:142:117
+2025-10-06T00:28:22: Erro ao criar pagamento: TypeError: Cannot read properties of undefined (reading 'username')
+2025-10-06T00:28:22:     at /home/ubuntu/sigmarevenda7/routes/public.js:142:117
+2025-10-06T00:33:12: [proxychains] config file found: /etc/proxychains4.conf
+2025-10-06T00:33:12: [proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
