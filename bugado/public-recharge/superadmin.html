@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superadmin - Gerenciamento de Usuários</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: white;
+            padding: 20px 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            color: #667eea;
+            font-size: 28px;
+        }
+
+        .header .user-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .badge {
+            background: #667eea;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #5568d3;
+        }
+
+        .btn-danger {
+            background: #f44336;
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background: #da190b;
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #545b62;
+        }
+
+        .btn-success {
+            background: #4caf50;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #45a049;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        .card h2 {
+            color: #333;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table thead {
+            background: #f8f9fa;
+        }
+
+        table th {
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            color: #333;
+            border-bottom: 2px solid #dee2e6;
+        }
+
+        table td {
+            padding: 15px;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        table tbody tr:hover {
+            background: #f8f9fa;
+        }
+
+        .status-badge {
+            padding: 5px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .status-active {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .status-inactive {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .actions button {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 500px;
+            width: 90%;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .modal-content h3 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .modal-actions {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+            margin-top: 25px;
+        }
+
+        .alert {
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .alert-success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .alert-error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #dee2e6;
+        }
+
+        .tab {
+            padding: 12px 24px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            border-bottom: 3px solid transparent;
+            color: #666;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+
+        .tab:hover {
+            color: #667eea;
+        }
+
+        .tab.active {
+            color: #667eea;
+            border-bottom-color: #667eea;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+        }
+
+        .empty-state svg {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div>
+                <h1>🔐 Painel Superadmin</h1>
+                <small style="color: #666;">Gerenciamento de Usuários Multi-Tenant</small>
+            </div>
+            <div class="user-info">
+                <span class="badge">SUPERADMIN</span>
+                <span id="currentUser">admin</span>
+                <button class="btn btn-secondary" onclick="logout()">Sair</button>
+            </div>
+        </div>
+
+        <!-- Alerts -->
+        <div id="alertContainer"></div>
+
+        <!-- Tabs -->
+        <div class="tabs">
+            <button class="tab active" data-tab="users">👥 Usuários</button>
+            <button class="tab" data-tab="admin">⚙️ Painel Admin Normal</button>
+        </div>
+
+        <!-- Tab: Usuários -->
+        <div id="tabUsers" class="tab-content active">
+            <div class="card">
+                <h2>
+                    <span>👥 Gerenciar Usuários</span>
+                    <button class="btn btn-success" onclick="openCreateUserModal()">
+                        + Criar Novo Usuário
+                    </button>
+                </h2>
+
+                <table id="usersTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Username</th>
+                            <th>Nome Completo</th>
+                            <th>Email</th>
+                            <th>Status</th>
+                            <th>Data Criação</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="usersTableBody">
+                        <tr>
+                            <td colspan="7" class="empty-state">
+                                <div>
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                        <circle cx="12" cy="7" r="4"></circle>
+                                    </svg>
+                                    <p>Carregando usuários...</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Tab: Admin Normal -->
+        <div id="tabAdmin" class="tab-content">
+            <div class="card">
+                <h2>⚙️ Painel de Administração Normal</h2>
+                <p style="margin-bottom: 20px; color: #666;">
+                    Acesse o painel admin normal para gerenciar painéis, revendedores e configurações.
+                </p>
+                <button class="btn btn-primary" onclick="goToAdmin()">
+                    Ir para Painel Admin →
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Criar/Editar Usuário -->
+    <div id="userModal" class="modal">
+        <div class="modal-content">
+            <h3 id="modalTitle">Criar Novo Usuário</h3>
+            
+            <form id="userForm" onsubmit="saveUser(event)">
+                <input type="hidden" id="userId">
+                
+                <div class="form-group">
+                    <label>Username *</label>
+                    <input type="text" id="username" required placeholder="ex: rogerio">
+                </div>
+
+                <div class="form-group">
+                    <label>Nome Completo</label>
+                    <input type="text" id="fullName" placeholder="ex: Rogério Silva">
+                </div>
+
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" id="email" placeholder="ex: rogerio@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label>Senha *</label>
+                    <input type="password" id="password" placeholder="Mínimo 6 caracteres">
+                    <small style="color: #999;">Deixe em branco para não alterar (ao editar)</small>
+                </div>
+
+                <div class="form-group">
+                    <label>Status</label>
+                    <select id="status">
+                        <option value="active">Ativo</option>
+                        <option value="inactive">Inativo</option>
+                    </select>
+                </div>
+
+                <div class="modal-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeUserModal()">
+                        Cancelar
+                    </button>
+                    <button type="submit" class="btn btn-success">
+                        Salvar Usuário
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // ========================================
+        // CONFIGURAÇÃO DA API
+        // ========================================
+        const API_BASE = '';
+        let authToken = localStorage.getItem('adminToken');
+
+        const API = {
+            async request(url, options = {}) {
+                const headers = {
+                    'Content-Type': 'application/json',
+                    ...(authToken ? { 'Authorization': `Bearer ${authToken}` } : {})
+                };
+
+                const response = await fetch(url, {
+                    ...options,
+                    headers: { ...headers, ...options.headers }
+                });
+
+                if (response.status === 401) {
+                    localStorage.removeItem('adminToken');
+                    window.location.href = '/admin';
+                    return;
+                }
+
+                const data = await response.json();
+                
+                if (!response.ok) {
+                    throw new Error(data.error || 'Erro na requisição');
+                }
+
+                return data;
+            },
+
+            // Users
+            getUsers: () => API.request('/api/admin/users'),
+            createUser: (data) => API.request('/api/admin/users', {
+                method: 'POST',
+                body: JSON.stringify(data)
+            }),
+            updateUser: (userId, data) => API.request(`/api/admin/users/${userId}`, {
+                method: 'PUT',
+                body: JSON.stringify(data)
+            }),
+            deleteUser: (userId) => API.request(`/api/admin/users/${userId}`, {
+                method: 'DELETE'
+            })
+        };
+
+        // ========================================
+        // VERIFICAR PERMISSÃO
+        // ========================================
+        async function checkAuth() {
+            // Verificar se tem token
+            if (!authToken) {
+                console.log('Sem token - redirecionando para login');
+                window.location.href = '/admin';
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/admin/verify-session', {
+                    headers: { 'Authorization': `Bearer ${authToken}` }
+                });
+
+                if (!response.ok) {
+                    console.log('Sessão inválida - redirecionando para login');
+                    localStorage.removeItem('adminToken');
+                    window.location.href = '/admin';
+                    return;
+                }
+
+                const data = await response.json();
+                console.log('Sessão verificada:', data);
+                
+                // Verificar role
+                if (!data.admin.role || data.admin.role !== 'superadmin') {
+                    console.warn('Usuário não é superadmin:', data.admin.role);
+                    alert('Acesso negado. Esta área é restrita a superadmins.');
+                    window.location.href = '/admin';
+                    return;
+                }
+
+                console.log('✅ Acesso autorizado como superadmin');
+                document.getElementById('currentUser').textContent = data.admin.username;
+                loadUsers();
+
+            } catch (error) {
+                console.error('Erro na autenticação:', error);
+                localStorage.removeItem('adminToken');
+                window.location.href = '/admin';
+            }
+        }
+
+        // ========================================
+        // CARREGAR USUÁRIOS
+        // ========================================
+        async function loadUsers() {
+            try {
+                const users = await API.getUsers();
+                const tbody = document.getElementById('usersTableBody');
+                
+                if (users.length === 0) {
+                    tbody.innerHTML = `
+                        <tr>
+                            <td colspan="7" class="empty-state">
+                                <p>Nenhum usuário cadastrado ainda.</p>
+                                <button class="btn btn-success" onclick="openCreateUserModal()">
+                                    Criar Primeiro Usuário
+                                </button>
+                            </td>
+                        </tr>
+                    `;
+                    return;
+                }
+
+                tbody.innerHTML = users.map(user => `
+                    <tr>
+                        <td>${user.id}</td>
+                        <td><strong>${user.username}</strong></td>
+                        <td>${user.full_name || '-'}</td>
+                        <td>${user.email || '-'}</td>
+                        <td>
+                            <span class="status-badge status-${user.status}">
+                                ${user.status === 'active' ? 'Ativo' : 'Inativo'}
+                            </span>
+                        </td>
+                        <td>${new Date(user.created_at).toLocaleDateString('pt-BR')}</td>
+                        <td>
+                            <div class="actions">
+                                <button class="btn btn-primary" onclick="editUser(${user.id})">
+                                    Editar
+                                </button>
+                                <button class="btn btn-danger" onclick="deleteUser(${user.id}, '${user.username}')">
+                                    Excluir
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                `).join('');
+
+            } catch (error) {
+                console.error('Erro ao carregar usuários:', error);
+                showAlert('Erro ao carregar usuários: ' + error.message, 'error');
+            }
+        }
+
+        // ========================================
+        // MODAL DE USUÁRIO
+        // ========================================
+        function openCreateUserModal() {
+            document.getElementById('modalTitle').textContent = 'Criar Novo Usuário';
+            document.getElementById('userForm').reset();
+            document.getElementById('userId').value = '';
+            document.getElementById('password').required = true;
+            document.getElementById('userModal').classList.add('active');
+        }
+
+        function closeUserModal() {
+            document.getElementById('userModal').classList.remove('active');
+        }
+
+        async function editUser(userId) {
+            try {
+                const users = await API.getUsers();
+                const user = users.find(u => u.id === userId);
+                
+                if (!user) return;
+
+                document.getElementById('modalTitle').textContent = 'Editar Usuário';
+                document.getElementById('userId').value = user.id;
+                document.getElementById('username').value = user.username;
+                document.getElementById('fullName').value = user.full_name || '';
+                document.getElementById('email').value = user.email || '';
+                document.getElementById('password').value = '';
+                document.getElementById('password').required = false;
+                document.getElementById('status').value = user.status;
+                document.getElementById('userModal').classList.add('active');
+
+            } catch (error) {
+                console.error('Erro ao carregar usuário:', error);
+                showAlert('Erro ao carregar usuário', 'error');
+            }
+        }
+
+        async function saveUser(event) {
+            event.preventDefault();
+
+            const userId = document.getElementById('userId').value;
+            const username = document.getElementById('username').value;
+            const fullName = document.getElementById('fullName').value;
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            const status = document.getElementById('status').value;
+
+            try {
+                const userData = {
+                    username,
+                    full_name: fullName,
+                    email,
+                    status
+                };
+
+                if (password) {
+                    userData.password = password;
+                }
+
+                if (userId) {
+                    // Editar
+                    await API.updateUser(userId, userData);
+                    showAlert('Usuário atualizado com sucesso!', 'success');
+                } else {
+                    // Criar
+                    if (!password) {
+                        showAlert('Senha é obrigatória para novos usuários', 'error');
+                        return;
+                    }
+                    userData.password = password;
+                    await API.createUser(userData);
+                    showAlert('Usuário criado com sucesso!', 'success');
+                }
+
+                closeUserModal();
+                loadUsers();
+
+            } catch (error) {
+                console.error('Erro ao salvar usuário:', error);
+                showAlert('Erro ao salvar: ' + error.message, 'error');
+            }
+        }
+
+        async function deleteUser(userId, username) {
+            if (!confirm(`Tem certeza que deseja excluir o usuário "${username}"?\n\nTodos os dados associados (painéis, revendedores, etc) serão mantidos.`)) {
+                return;
+            }
+
+            try {
+                await API.deleteUser(userId);
+                showAlert('Usuário excluído com sucesso!', 'success');
+                loadUsers();
+            } catch (error) {
+                console.error('Erro ao excluir usuário:', error);
+                showAlert('Erro ao excluir: ' + error.message, 'error');
+            }
+        }
+
+        // ========================================
+        // NAVEGAÇÃO
+        // ========================================
+        function goToAdmin() {
+            window.location.href = '/admin';
+        }
+
+        function logout() {
+            if (confirm('Deseja realmente sair?')) {
+                localStorage.removeItem('adminToken');
+                window.location.href = '/admin';
+            }
+        }
+
+        // ========================================
+        // TABS
+        // ========================================
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', (e) => {
+                const tabName = e.target.dataset.tab;
+                
+                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+                
+                e.target.classList.add('active');
+                document.getElementById(`tab${tabName.charAt(0).toUpperCase() + tabName.slice(1)}`).classList.add('active');
+            });
+        });
+
+        // ========================================
+        // ALERTAS
+        // ========================================
+        function showAlert(message, type = 'success') {
+            const container = document.getElementById('alertContainer');
+            const alert = document.createElement('div');
+            alert.className = `alert alert-${type}`;
+            alert.textContent = message;
+            container.appendChild(alert);
+
+            setTimeout(() => {
+                alert.remove();
+            }, 5000);
+        }
+
+        // ========================================
+        // INICIALIZAR
+        // ========================================
+        window.addEventListener('DOMContentLoaded', () => {
+            checkAuth();
+        });
+    </script>
+</body>
+</html>
