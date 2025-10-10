@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔍 Debug - API Inspector</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background: #1e1e1e;
+            color: #d4d4d4;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #4ec9b0;
+            border-bottom: 2px solid #4ec9b0;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #569cd6;
+            margin-top: 30px;
+        }
+        .section {
+            background: #252526;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+            border-left: 4px solid #007acc;
+        }
+        .success {
+            border-left-color: #4ec9b0;
+        }
+        .error {
+            border-left-color: #f48771;
+        }
+        .warning {
+            border-left-color: #dcdcaa;
+        }
+        pre {
+            background: #1e1e1e;
+            padding: 10px;
+            border-radius: 3px;
+            overflow-x: auto;
+            border: 1px solid #3c3c3c;
+        }
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .badge-success {
+            background: #4ec9b0;
+            color: #000;
+        }
+        .badge-error {
+            background: #f48771;
+            color: #000;
+        }
+        .badge-warning {
+            background: #dcdcaa;
+            color: #000;
+        }
+        button {
+            background: #007acc;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 14px;
+            margin: 5px;
+        }
+        button:hover {
+            background: #005a9e;
+        }
+        .code {
+            color: #ce9178;
+        }
+        .key {
+            color: #9cdcfe;
+        }
+        .value {
+            color: #b5cea8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 API Inspector - Debug GesOffice</h1>
+        
+        <div id="results"></div>
+        
+        <button onclick="runInspection()">🔄 Executar Inspeção Completa</button>
+        <button onclick="testApiCalls()">🧪 Testar Chamadas API</button>
+    </div>
+
+    <!-- Importar o api.js do projeto -->
+    <script src="/js/shared/api.js"></script>
+
+    <script>
+        function log(title, content, type = 'section') {
+            const results = document.getElementById('results');
+            const section = document.createElement('div');
+            section.className = `section ${type}`;
+            
+            let badge = '';
+            if (type === 'success') badge = '<span class="badge badge-success">✓ OK</span>';
+            if (type === 'error') badge = '<span class="badge badge-error">✗ ERRO</span>';
+            if (type === 'warning') badge = '<span class="badge badge-warning">⚠ AVISO</span>';
+            
+            section.innerHTML = `<h2>${title} ${badge}</h2><pre>${content}</pre>`;
+            results.appendChild(section);
+        }
+
+        function runInspection() {
+            document.getElementById('results').innerHTML = '';
+            
+            console.log('🔍 Iniciando inspeção...');
+            
+            // ============================================
+            // 1. VERIFICAR SE API EXISTE
+            // ============================================
+            if (typeof API === 'undefined') {
+                log('1. Objeto API', '❌ ERRO: Objeto API não está definido!\n\nO arquivo api.js não foi carregado ou tem erro de sintaxe.', 'error');
+                return;
+            } else {
+                log('1. Objeto API', '✅ Objeto API existe\nTipo: ' + typeof API, 'success');
+            }
+            
+            // ============================================
+            // 2. VERIFICAR API.admin
+            // ============================================
+            if (typeof API.admin === 'undefined') {
+                log('2. API.admin', '❌ ERRO: API.admin não está definido!', 'error');
+                return;
+            } else {
+                log('2. API.admin', '✅ API.admin existe\nTipo: ' + typeof API.admin, 'success');
+            }
+            
+            // ============================================
+            // 3. LISTAR TODOS OS MÉTODOS DE API.admin
+            // ============================================
+            const adminMethods = Object.keys(API.admin).sort();
+            
+            let methodsList = `Total de métodos: ${adminMethods.length}\n\n`;
+            
+            // Agrupar por categoria
+            const sigma = adminMethods.filter(m => m.includes('Panel') && !m.includes('Koffice') && !m.includes('GesOffice'));
+            const koffice = adminMethods.filter(m => m.includes('Koffice'));
+            const gesoffice = adminMethods.filter(m => m.includes('GesOffice'));
+            const others = adminMethods.filter(m => !sigma.includes(m) && !koffice.includes(m) && !gesoffice.includes(m));
+            
+            methodsList += '📊 Métodos Sigma:\n';
+            sigma.forEach(m => methodsList += `  - ${m}\n`);
+            
+            methodsList += '\n📊 Métodos Koffice:\n';
+            koffice.forEach(m => methodsList += `  - ${m}\n`);
+            
+            methodsList += '\n📊 Métodos GesOffice:\n';
+            if (gesoffice.length === 0) {
+                methodsList += '  ❌ NENHUM MÉTODO GESOFFICE ENCONTRADO!\n';
+            } else {
+                gesoffice.forEach(m => methodsList += `  - ${m}\n`);
+            }
+            
+            methodsList += '\n📊 Outros métodos:\n';
+            others.forEach(m => methodsList += `  - ${m}\n`);
+            
+            log('3. Métodos de API.admin', methodsList, gesoffice.length === 0 ? 'error' : 'success');
+            
+            // ============================================
+            // 4. VERIFICAR MÉTODOS ESPECÍFICOS GESOFFICE
+            // ============================================
+            const requiredMethods = [
+                'getGesOfficePanels',
+                'createGesOfficePanel',
+                'updateGesOfficePanel',
+                'deleteGesOfficePanel',
+                'getGesOfficeResellers',
+                'createGesOfficeReseller',
+                'updateGesOfficeReseller',
+                'deleteGesOfficeReseller'
+            ];
+            
+            let methodCheck = '';
+            let allPresent = true;
+            
+            requiredMethods.forEach(method => {
+                const exists = typeof API.admin[method] === 'function';
+                methodCheck += `${exists ? '✅' : '❌'} ${method}: ${exists ? 'function' : 'undefined'}\n`;
+                if (!exists) allPresent = false;
+            });
+            
+            log('4. Métodos GesOffice Necessários', methodCheck, allPresent ? 'success' : 'error');
+            
+            // ============================================
+            // 5. VERIFICAR ESTRUTURA DE UM MÉTODO
+            // ============================================
+            if (typeof API.admin.getGesOfficePanels === 'function') {
+                const fnString = API.admin.getGesOfficePanels.toString();
+                log('5. Estrutura de getGesOfficePanels', fnString, 'success');
+            } else {
+                log('5. Estrutura de getGesOfficePanels', '❌ Método não é uma função!', 'error');
+            }
+            
+            // ============================================
+            // 6. VERIFICAR SE HÁ ERROS DE SINTAXE
+            // ============================================
+            try {
+                const test = JSON.stringify(API.admin, null, 2);
+                log('6. Teste de Sintaxe', '✅ Sem erros de sintaxe no objeto API.admin', 'success');
+            } catch (e) {
+                log('6. Teste de Sintaxe', `❌ ERRO: ${e.message}`, 'error');
+            }
+            
+            // ============================================
+            // 7. VERIFICAR ORDEM DE CARREGAMENTO
+            // ============================================
+            const scripts = Array.from(document.scripts).map(s => s.src || s.innerHTML.substring(0, 50));
+            let scriptsInfo = 'Scripts carregados:\n\n';
+            scripts.forEach((s, i) => {
+                scriptsInfo += `${i + 1}. ${s}\n`;
+            });
+            log('7. Scripts Carregados', scriptsInfo, 'section');
+            
+            // ============================================
+            // 8. VERIFICAR CONSOLE ERRORS
+            // ============================================
+            console.log('✅ Inspeção concluída! Verifique os resultados acima.');
+        }
+
+        async function testApiCalls() {
+            if (typeof API === 'undefined' || typeof API.admin === 'undefined') {
+                log('Teste de API', '❌ API não está disponível', 'error');
+                return;
+            }
+            
+            // Testar se getGesOfficePanels está disponível
+            if (typeof API.admin.getGesOfficePanels !== 'function') {
+                log('Teste de Chamada', '❌ getGesOfficePanels não é uma função!', 'error');
+                return;
+            }
+            
+            log('Teste de Chamada', '🔄 Tentando chamar API.admin.getGesOfficePanels()...', 'section');
+            
+            try {
+                const result = await API.admin.getGesOfficePanels();
+                log('Resultado da Chamada', 
+                    `✅ SUCESSO!\n\nResposta:\n${JSON.stringify(result, null, 2)}`, 
+                    'success'
+                );
+            } catch (error) {
+                log('Resultado da Chamada', 
+                    `❌ ERRO AO CHAMAR API:\n\n${error.message}\n\nStack:\n${error.stack}`, 
+                    'error'
+                );
+            }
+        }
+        
+        // Executar automaticamente ao carregar
+        window.addEventListener('load', () => {
+            console.log('🔍 Debug API Inspector carregado');
+            console.log('Digite runInspection() no console ou clique no botão para começar');
+        });
+    </script>
+</body>
+</html>
