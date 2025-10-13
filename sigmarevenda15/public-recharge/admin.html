@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Sigma Recharge</title>
+    
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/admin.css">
+    <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+    <!-- Login -->
+    <div id="loginContainer" class="login-container">
+        <div class="login-box">
+            <h1>Admin Login</h1>
+            <div id="loginAlert"></div>
+            <div class="form-group">
+                <label>Usuário</label>
+                <input type="text" id="adminUsername" placeholder="Digite o usuário">
+            </div>
+            <div class="form-group">
+                <label>Senha</label>
+                <input type="password" id="adminPassword" placeholder="Digite a senha">
+            </div>
+            <button id="adminLoginBtn">Entrar</button>
+        </div>
+    </div>
+
+    <!-- Painel Admin -->
+    <div id="adminPanel" class="admin-panel">
+        <!-- DESKTOP: Sidebar -->
+        <aside class="sidebar desktop-only">
+            <div class="sidebar-header">
+                <h1>🔄 Sigma Recharge</h1>
+                <p>Painel Administrativo</p>
+            </div>
+
+            <nav class="sidebar-menu">
+                <!-- Dashboard -->
+                <div class="single-item active" data-tab="dashboard">
+                    <span class="single-item-icon">📊</span>
+                    <span>Dashboard</span>
+                </div>
+
+                <!-- Painéis -->
+                <div class="menu-group expanded">
+                    <div class="group-header">
+                        <div class="group-title">
+                            <span class="group-icon">📱</span>
+                            <span>Painéis</span>
+                        </div>
+                        <span class="group-arrow">▼</span>
+                    </div>
+                    <div class="group-items">
+                        <div class="menu-item" data-tab="panels">
+                            <span class="item-icon">📱</span>
+                            <span>Painéis Sigma</span>
+                        </div>
+                        <div class="menu-item" data-tab="koffice-panels">
+                            <span class="item-icon">🟣</span>
+                            <span>Painéis Koffice</span>
+                        </div>
+                        <div class="menu-item" data-tab="gesoffice-panels">
+                            <span class="item-icon">🔵</span>
+                            <span>Painéis UNIPLAY</span>
+                        </div>
+                        <div class="menu-item" data-tab="p2bras-panels">
+                            <span class="item-icon">🟠</span>
+                            <span>Painéis P2BRAS</span>
+                        </div>
+                        <div class="menu-item" data-tab="rushplay-panels">
+                            <span class="item-icon">🟡</span>
+                            <span>Painéis RushPlay</span>
+                        </div>
+                        <div class="menu-item" data-tab="painelfoda-panels">
+                            <span class="item-icon">🟢</span>
+                            <span>Painéis PainelFoda</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Revendedores -->
+                <div class="menu-group">
+                    <div class="group-header">
+                        <div class="group-title">
+                            <span class="group-icon">👥</span>
+                            <span>Revendedores</span>
+                        </div>
+                        <span class="group-arrow">▼</span>
+                    </div>
+                    <div class="group-items">
+                        <div class="menu-item" data-tab="resellers">
+                            <span class="item-icon">👥</span>
+                            <span>Revendedores Sigma</span>
+                        </div>
+                        <div class="menu-item" data-tab="koffice-resellers">
+                            <span class="item-icon">🟣</span>
+                            <span>Revendedores Koffice</span>
+                        </div>
+                        <div class="menu-item" data-tab="gesoffice-resellers">
+                            <span class="item-icon">🔵</span>
+                            <span>Revendedores UNIPLAY</span>
+                        </div>
+                        <div class="menu-item" data-tab="p2bras-resellers">
+                            <span class="item-icon">🟠</span>
+                            <span>Revendedores P2BRAS</span>
+                        </div>
+                        <div class="menu-item" data-tab="rushplay-resellers">
+                            <span class="item-icon">🟡</span>
+                            <span>Revendedores RushPlay</span>
+                        </div>
+                        <div class="menu-item" data-tab="painelfoda-resellers">
+                            <span class="item-icon">🟢</span>
+                            <span>Revendedores PainelFoda</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Financeiro -->
+                <div class="menu-group">
+                    <div class="group-header">
+                        <div class="group-title">
+                            <span class="group-icon">💰</span>
+                            <span>Financeiro</span>
+                        </div>
+                        <span class="group-arrow">▼</span>
+                    </div>
+                    <div class="group-items">
+                        <div class="menu-item" data-tab="payments">
+                            <span class="item-icon">🛒</span>
+                            <span>Compras</span>
+                        </div>
+                        <div class="menu-item" data-tab="transactions">
+                            <span class="item-icon">💸</span>
+                            <span>Transações</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sistema -->
+                <div class="menu-group">
+                    <div class="group-header">
+                        <div class="group-title">
+                            <span class="group-icon">⚙️</span>
+                            <span>Sistema</span>
+                        </div>
+                        <span class="group-arrow">▼</span>
+                    </div>
+                    <div class="group-items">
+                        <div class="menu-item" data-tab="config">
+                            <span class="item-icon">⚙️</span>
+                            <span>Configurações</span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </aside>
+
+        <!-- Main Container -->
+        <div class="main-container">
+            <!-- Top Bar -->
+            <div class="top-bar">
+                <div class="top-bar-left">
+                    <h1 class="mobile-only">🔄 Sigma Recharge</h1>
+                </div>
+                <div class="top-bar-right">
+                    <button class="theme-toggle" id="themeToggle" title="Alternar Tema">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                    <button class="logout-btn" id="adminLogoutBtn">Sair</button>
+                </div>
+            </div>
+
+            <!-- MOBILE: Navigation Dropdown -->
+            <div class="mobile-nav mobile-only">
+                <label class="nav-label">Selecione a seção:</label>
+                <div class="nav-select-wrapper">
+                    <select class="nav-select" id="mobileNavSelect">
+                        <option value="dashboard">📊 Dashboard</option>
+                        <optgroup label="📱 Painéis">
+                            <option value="panels">📱 Painéis Sigma</option>
+                            <option value="koffice-panels">🟣 Painéis Koffice</option>
+                            <option value="gesoffice-panels">🔵 Painéis UNIPLAY</option>
+                            <option value="p2bras-panels">🟠 Painéis P2BRAS</option>
+                            <option value="rushplay-panels">🟡 Painéis RushPlay</option>
+                            <option value="painelfoda-panels">🟢 Painéis PainelFoda</option>
+                        </optgroup>
+                        <optgroup label="👥 Revendedores">
+                            <option value="resellers">👥 Revendedores Sigma</option>
+                            <option value="koffice-resellers">🟣 Revendedores Koffice</option>
+                            <option value="gesoffice-resellers">🔵 Revendedores UNIPLAY</option>
+                            <option value="p2bras-resellers">🟠 Revendedores P2BRAS</option>
+                            <option value="rushplay-resellers">🟡 Revendedores RushPlay</option>
+                            <option value="painelfoda-resellers">🟢 Revendedores PainelFoda</option>
+                        </optgroup>
+                        <optgroup label="💰 Financeiro">
+                            <option value="payments">🛒 Compras</option>
+                            <option value="transactions">💸 Transações</option>
+                        </optgroup>
+                        <optgroup label="⚙️ Sistema">
+                            <option value="config">⚙️ Configurações</option>
+                        </optgroup>
+                    </select>
+                    <span class="nav-select-icon">▼</span>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <main class="main-content">
+                <!-- Dashboard -->
+                <div id="tabDashboard" class="tab-content active">
+                    <div class="card">
+                        <h2>📊 Dashboard</h2>
+                        <div id="statsGrid"></div>
+                        <h3 style="margin-top: 30px;">Transações Recentes</h3>
+                        <div id="recentTransactions"></div>
+                    </div>
+                </div>
+
+                <!-- Configurações -->
+                <div id="tabConfig" class="tab-content">
+                    <div class="card">
+                        <h2>⚙️ Configurações do Sistema</h2>
+                        <div id="configForm">
+                            <div class="form-group">
+                                <label>Pergunta de Acesso</label>
+                                <input type="text" id="accessQuestion" placeholder="Ex: Com quantos paus se faz uma canoa?">
+                            </div>
+                            <div class="form-group">
+                                <label>Resposta de Acesso</label>
+                                <input type="text" id="accessAnswer" placeholder="Digite nova resposta (deixe vazio para não alterar)">
+                            </div>
+                            <div class="form-group">
+                                <label>Access Token Mercado Pago</label>
+                                <textarea id="mpAccessToken" rows="3" placeholder="Cole aqui seu Access Token"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label>🔑 API Key Anti-Captcha (para painéis Koffice)</label>
+                                <input type="text" id="anticaptchaApiKey" placeholder="Cole aqui sua API Key do Anti-Captcha">
+                                <small>
+                                    Necessário apenas para painéis Koffice com Captcha.
+                                    <a href="https://anti-captcha.com" target="_blank">Obter chave</a>
+                                </small>
+                            </div>
+
+                            <!-- ⭐ ADICIONAR ESTE CAMPO NOVO -->
+                            <div class="form-group">
+                                <label>🔑 API Key 2Captcha (para painéis P2BRAS)</label>
+                                <input type="text" id="captcha2ApiKey" placeholder="Cole aqui sua API Key do 2Captcha">
+                                <small>
+                                    Necessário para painéis P2BRAS (Controle.VIP).
+                                    <a href="https://2captcha.com" target="_blank">Obter API Key →</a>
+                                </small>
+                            </div>
+                            <button id="saveConfigBtn">Salvar Configurações</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Painéis Sigma -->
+                <div id="tabPanels" class="tab-content">
+                    <div class="card">
+                        <h2>
+                            📱 Painéis Sigma
+                            <button class="btn-success" id="addPanelBtn">Adicionar Painel</button>
+                        </h2>
+                        <div class="table-container">
+                            <table id="panelsTable">
+                                <thead>
+                                    <tr>
+                                        <th>Nome</th>
+                                        <th>URL</th>
+                                        <th>Usuário Admin</th>
+                                        <th>Status</th>
+                                        <th>Ações</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="panelsTableBody"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Revendedores Sigma -->
+                <div id="tabResellers" class="tab-content">
+                    <div class="card">
+                        <h2>
+                            👥 Revendedores Sigma
+                            <button class="btn-success" id="addResellerBtn">Adicionar Revendedor</button>
+                        </h2>
+                        <table id="resellersTable">
+                            <thead>
+                                <tr>
+                                    <th>Username</th>
+                                    <th>Painel</th>
+                                    <th>Pacotes</th>
+                                    <th>Status</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody id="resellersTableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Painéis Koffice -->
+                <div id="tabKoffice-panels" class="tab-content">
+                    <div class="card">
+                        <h2>
+                            🟣 Painéis Koffice
+                            <button class="btn-success" id="addKofficePanelBtn">Adicionar Painel Koffice</button>
+                        </h2>
+                        <table id="kofficePanelsTable">
+                            <thead>
+                                <tr>
+                                    <th>Nome</th>
+                                    <th>URL</th>
+                                    <th>Usuário Admin</th>
+                                    <th>Captcha</th>
+                                    <th>Status</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody id="kofficePanelsTableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Painéis UNIPLAY -->
+                <div id="tabGesoffice-panels" class="tab-content">
+                    <div class="card">
+                        <h2>
+                            🔵 Painéis UNIPLAY
+                            <button class="btn-success" id="addGesOfficePanelBtn">Adicionar Painel UNIPLAY</button>
+                        </h2>
+                        <table id="gesofficePanelsTable">
+                            <thead>
+                                <tr>
+                                    <th>Nome</th>
+                                    <th>URL</th>
+                                    <th>Usuário Admin</th>
+                                    <th>Status</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody id="gesofficePanelsTableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Revendedores Koffice -->
+                <div id="tabKoffice-resellers" class="tab-content">
+                    <div class="card">
+                        <h2>
+                            🟣 Revendedores Koffice
+                            <button class="btn-success" id="addKofficeResellerBtn">Adicionar Revendedor Koffice</button>
+                        </h2>
+                        <table id="kofficeResellersTable">
+                            <thead>
+                                <tr>
+                                    <th>Username</th>
+                                    <th>ID Koffice</th>
+                                    <th>Painel Koffice</th>
+                                    <th>Pacotes</th>
+                                    <th>Status</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody id="kofficeResellersTableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Revendedores UNIPLAY -->
+                <div id="tabGesoffice-resellers" class="tab-content">
+                    <div class="card">
+                        <h2>
+                            🔵 Revendedores UNIPLAY
+                            <button class="btn-success" id="addGesOfficeResellerBtn">Adicionar Revendedor UNIPLAY</button>
+                        </h2>
+                        <table id="gesofficeResellersTable">
+                            <thead>
+                                <tr>
+                                    <th>Username</th>
+                                    <th>Painel UNIPLAY</th>
+                                    <th>Pacotes</th>
+                                    <th>Status</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody id="gesofficeResellersTableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Painéis P2BRAS -->
+                <div id="tabP2bras-panels" class="tab-content">
+                    <div class="card">
+                        <h2>
+                            🟠 Painéis P2BRAS (Controle.VIP)
+                            <button class="btn-success" id="addP2brasPanelBtn">Adicionar Painel P2BRAS</button>
+                        </h2>
+                        <table id="p2brasPanelsTable">
+                            <thead>
+                                <tr>
+                                    <th>Nome</th>
+                                    <th>URL</th>
+                                    <th>Usuário Admin</th>
+                                    <th>Status</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody id="p2brasPanelsTableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Revendedores P2BRAS -->
+                <div id="tabP2bras-resellers" class="tab-content">
+                    <div class="card">
+                        <h2>
+                            🟠 Revendedores P2BRAS
+                            <button class="btn-success" id="addP2brasResellerBtn">Adicionar Revendedor P2BRAS</button>
+                        </h2>
+                        <table id="p2brasResellersTable">
+                            <thead>
+                                <tr>
+                                    <th>Username</th>
+                                    <th>ID P2BRAS</th>
+                                    <th>Painel P2BRAS</th>
+                                    <th>Pacotes</th>
+                                    <th>Status</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody id="p2brasResellersTableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Painéis RushPlay -->
+                <div id="tabRushplay-panels" class="tab-content">
+                    <div class="card">
+                        <h2>
+                            🟡 Painéis RushPlay
+                            <button class="btn-success" id="addRushPlayPanelBtn">Adicionar Painel RushPlay</button>
+                        </h2>
+                        <table id="rushplayPanelsTable">
+                            <thead>
+                                <tr>
+                                    <th>Nome</th>
+                                    <th>URL</th>
+                                    <th>Usuário Admin</th>
+                                    <th>Status</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody id="rushplayPanelsTableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Revendedores RushPlay -->
+                <div id="tabRushplay-resellers" class="tab-content">
+                    <div class="card">
+                        <h2>
+                            🟡 Revendedores RushPlay
+                            <button class="btn-success" id="addRushPlayResellerBtn">Adicionar Revendedor RushPlay</button>
+                        </h2>
+                        <table id="rushplayResellersTable">
+                            <thead>
+                                <tr>
+                                    <th>Username</th>
+                                    <th>ID RushPlay</th>
+                                    <th>Painel</th>
+                                    <th>Pacotes</th>
+                                    <th>Status</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody id="rushplayResellersTableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Painéis PainelFoda -->
+                <div id="tabPainelfoda-panels" class="tab-content">
+                    <div class="card">
+                        <h2>
+                            🟢 Painéis PainelFoda
+                            <button class="btn-success" id="addPainelFodaPanelBtn">Adicionar Painel PainelFoda</button>
+                        </h2>
+                        <table id="painelfodaPanelsTable">
+                            <thead>
+                                <tr>
+                                    <th>Nome</th>
+                                    <th>URL</th>
+                                    <th>Usuário Admin</th>
+                                    <th>Status</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody id="painelfodaPanelsTableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Revendedores PainelFoda -->
+                <div id="tabPainelfoda-resellers" class="tab-content">
+                    <div class="card">
+                        <h2>
+                            🟢 Revendedores PainelFoda
+                            <button class="btn-success" id="addPainelFodaResellerBtn">Adicionar Revendedor PainelFoda</button>
+                        </h2>
+                        <table id="painelfodaResellersTable">
+                            <thead>
+                                <tr>
+                                    <th>Username</th>
+                                    <th>ID PainelFoda</th>
+                                    <th>Painel</th>
+                                    <th>Pacotes</th>
+                                    <th>Status</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody id="painelfodaResellersTableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <!-- Compras -->
+                <div id="tabPayments" class="tab-content">
+                    <div class="card">
+                        <h2>
+                            🛒 Gerenciar Pagamentos
+                            <button class="btn-danger" id="deleteAllPendingBtn">Excluir Todos Pendentes</button>
+                        </h2>
+                        <table id="paymentsTable">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Revendedor</th>
+                                    <th>Tipo</th>
+                                    <th>Créditos</th>
+                                    <th>Valor</th>
+                                    <th>Status</th>
+                                    <th>Data</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody id="paymentsTableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Transações -->
+                <div id="tabTransactions" class="tab-content">
+                    <div class="card">
+                        <h2>💸 Histórico de Transações</h2>
+                        <table id="transactionsTable">
+                            <thead>
+                                <tr>
+                                    <th>Data</th>
+                                    <th>Revendedor</th>
+                                    <th>Tipo</th>
+                                    <th>Créditos</th>
+                                    <th>Valor</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="transactionsTableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Modals -->
+    <div id="panelModal" class="modal"></div>
+    <div id="resellerModal" class="modal"></div>
+    <div id="packagesModal" class="modal"></div>
+    <div id="kofficePanelModal" class="modal"></div>
+    <div id="kofficeResellerModal" class="modal"></div>
+    <div id="kofficePackagesModal" class="modal"></div>
+    <div id="gesofficePanelModal" class="modal"></div>
+    <div id="gesofficeResellerModal" class="modal"></div>
+    <div id="gesofficePackagesModal" class="modal"></div>
+    <div id="p2brasPanelModal" class="modal"></div>
+    <div id="p2brasResellerModal" class="modal"></div>
+    <div id="p2brasPackagesModal" class="modal"></div>
+    <div id="rushplayPanelModal" class="modal"></div>
+    <div id="rushplayResellerModal" class="modal"></div>
+    <div id="rushplayPackagesModal" class="modal"></div>
+
+    <!-- Scripts -->
+    <!-- Core -->
+    <script src="/js/shared/utils.js"></script>
+    <script src="/js/shared/api.js?v=1759694000"></script>
+    <script src="/js/shared/components.js"></script>
+    
+    <!-- Admin Core -->
+    <script src="/js/admin/auth.js"></script>
+    <script src="/js/admin/dashboard.js"></script>
+    
+    <!-- Sigma -->
+    <script src="/js/admin/panels.js"></script>
+    <script src="/js/admin/resellers.js"></script>
+    <script src="/js/admin/packages.js"></script>
+    
+    <!-- Koffice -->
+    <script src="/js/admin/koffice-panels.js"></script>
+    <script src="/js/admin/koffice-resellers.js"></script>
+    <script src="/js/admin/koffice-packages.js"></script>
+    
+    <!-- GesOffice (UNIPLAY) -->
+    <script src="/js/admin/gesoffice-panels.js"></script>
+    <script src="/js/admin/gesoffice-resellers.js"></script>
+    <script src="/js/admin/gesoffice-packages.js"></script>
+    
+    <!-- P2BRAS -->
+    <script src="/js/admin/p2bras-panels.js"></script>
+    <script src="/js/admin/p2bras-resellers.js"></script>
+    <script src="/js/admin/p2bras-packages.js"></script>
+    
+    <!-- RushPlay -->
+    <script src="/js/admin/rushplay-panels.js"></script>
+    <script src="/js/admin/rushplay-resellers.js"></script>
+    <script src="/js/admin/rushplay-packages.js"></script>
+    
+    <!-- PainelFoda -->
+    <script src="/js/admin/painelfoda-panels.js"></script>
+    <script src="/js/admin/painelfoda-resellers.js"></script>
+    <script src="/js/admin/painelfoda-packages.js"></script>
+
+    <!-- Payments & Transactions -->
+    <script src="/js/admin/payments.js"></script>
+    
+    <!-- ⭐ ORDEM IMPORTANTE: app.js ANTES de admin-navigation.js -->
+    <script src="/js/admin/app.js"></script>
+    <script src="/js/admin/admin-navigation.js"></script>
+    
+    <script>
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = themeToggle.querySelector('.theme-icon');
+        
+        // Carregar tema salvo
+        const savedTheme = localStorage.getItem('adminTheme') || 'light';
+        document.body.setAttribute('data-theme', savedTheme);
+        themeIcon.textContent = savedTheme === 'dark' ? '☀️' : '🌙';
+        
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = document.body.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            document.body.setAttribute('data-theme', newTheme);
+            localStorage.setItem('adminTheme', newTheme);
+            themeIcon.textContent = newTheme === 'dark' ? '☀️' : '🌙';
+        });
+
+        // Desktop: Sidebar navigation
+        document.querySelectorAll('.sidebar .single-item, .sidebar .menu-item').forEach(item => {
+            item.addEventListener('click', function() {
+                const tabName = this.getAttribute('data-tab');
+                if (tabName) {
+                    showTab(tabName);
+                    
+                    // Update active state
+                    document.querySelectorAll('.sidebar .single-item, .sidebar .menu-item').forEach(i => {
+                        i.classList.remove('active');
+                    });
+                    this.classList.add('active');
+                }
+            });
+        });
+
+        // Desktop: Group toggle
+        document.querySelectorAll('.group-header').forEach(header => {
+            header.addEventListener('click', function() {
+                const group = this.parentElement;
+                group.classList.toggle('expanded');
+            });
+        });
+
+        // Mobile: Dropdown navigation
+        document.getElementById('mobileNavSelect')?.addEventListener('change', function() {
+            showTab(this.value);
+        });
+    </script>
+</body>
+</html>
