@@ -1,0 +1,1 @@
+criar senha admin nova node change-admin-password.js admin MinhaNovaSenh@Forte123
